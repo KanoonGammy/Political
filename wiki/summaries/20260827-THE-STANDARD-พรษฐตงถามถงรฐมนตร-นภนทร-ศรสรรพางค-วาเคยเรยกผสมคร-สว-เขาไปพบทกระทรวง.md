@@ -1,0 +1,14 @@
+# Summary: THE STANDARD. . พริษฐ์ตั้งถามถึงรัฐมนตรี นภินทร ศรีสรรพางค์ ว่าเคยเรียกผู้สมัคร สว. เข้าไปพบที่กระทรวงและให้เซ็นใบลาออกจริงหรือไม่ . #TheStandardNewsMoments - facebook.com
+
+- **Source**: [Google News Peoples Party](https://news.google.com/rss/articles/CBMi_AdBVV95cUxOZ1RHTFg1X2RNb2pIREMyWE5qRnMteXJQbkhWelJEUEtPNnhRZUdrUGJKa2VyVWpFTlBqMXRqZ1hhVmY5RGhRYXZTdUUyVEVhUlVfYXoxcUhuYWlhQzd2WUZaN2hyQlRmUXdRb21MYzJTeGwyWG9GU3pzQzZPbW5rWWxvM1gwMDRLUGZZVTVzVUpWT2ZaOHllUU5FWWw2WkhtWnotbHpaWkk5SVRFektlM3NSRENSX0VwRTRYZmVZUzhtejdXcTFGVUJ1VWJDX1Azdnd0bm0wTTI0TXJ6a0laSE1zd1NOOG85cm1Hb0FTWHpxaUp1eXhFOU9aeExTbFZRTHF0ajlNWGVLcloyd05paklYelRQc3ZuNmU4MDVNUGktM0tBVVJzeFdDS1lEcW9MRFlCLUU4RzhnUWNra2tfVzZwOHhBWnl2aGJiUlBPZ3gwYVBEUGx2bjJVQkwzeEdxbEZDQWxsSGh4YnIybUVZZW50cm5MSldFZW5UTW5LY09TejZMN2IxNmhmVXZ5dlR0eWJUc0Z3LXBvSVNJQUM2c0o0b1NVdWFzQVUtdE1ncjdFWWxDcnlaYWdKNV9uVVdmcl9iUmhCbHJIOXZ0Zzc4T1dISXBvak9ySVItZ3JhMVk3WnNHZjcxRklIdnYzTXBCQjg1cXRsVlYyMHBnbGQ0UVhXT2JoUTk0T1ZFZmYwdXZlWGFxcmc0NjJENlI2SzJRbEc4TmlDYXc1SzZZZWU3OWVsRTAxX0tYVnJJTzE2SXlTaldUbl80cElqNmptUUZCM1NNT2hpb3EwVmVVUGlzZnozQl9GTDM4S0ZOSUR6cHZsOGJtWERqX3NQbjdhUDUzLVIxUGhIN0JVTUx3cnpvM0hDYmR0SEhwdWlLcElES0VXVzVTcnpvSmRRT1g2WGNQYlNURUNmTHZLV3hDVGw2ODNfSVp1ZWkza3hnbUY2RlV5NmFnYVU4VjZCNjVoY2tCQ0h0U213YnQ2ZmU2MUVtX1U1Wld3RVpWSlZXTy05TW8td0VlQ3NYdG42SWd1UXctLWdBQ3laVWZnYzNWdDVKTVhpVmF4RlJkMDdPbEpVT3I3dFFIZFBWaW5PeGhkZGMzNUZub2lIbk9RMEVmbGFramRWQmpYN2VfejNBRnNxRlJoSzI1cVkxbXFxcHpVWGc3YkliZTFia2dESDBEWEpOZGJRX2czWTgyWmQwVndNeW1faW1BZkRvRnVPSFc2NUtZMjh0cGtITzd4b1dzLWFXaC05cU5teHR0bVNjOFUtSUx3WlcxenhGcXhmTkl1ZzNFUlJZNW5FU0h3cGRHTS1mWXFrMXJ0U05pQmg5Y3JiVVJ3ajVtWW9nSldfalE?oc=5)
+- **Date**: 2026-08-27
+- **Raw File**: `[[raw/articles/20260827-THE-STANDARD-พรษฐตงถามถงรฐมนตร-นภนทร-ศรสรรพางค-วาเคยเรยกผสมคร-สว-เขาไปพบทกระทรวง]]`
+
+## Executive Summary
+THE STANDARD. . พริษฐ์ตั้งถามถึงรัฐมนตรี นภินทร ศรีสรรพางค์ ว่าเคยเรียกผู้สมัคร สว. เข้าไปพบที่กระทรวงและให้เซ็นใบลาออกจริงหรือไม่ . #TheStandardNewsMoments
+
+facebook.com
+
+## Key Political Implications
+- **Context**: ความเคลื่อนไหวทางการเมืองในรอบ 30 วัน
+- **Relevance**: เชื่อมโยงกับนโยบาย ขั้วอำนาจ และท่าทีของตัวละครทางการเมืองที่เกี่ยวข้อง

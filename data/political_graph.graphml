@@ -1,0 +1,836 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d12" for="edge" attr.name="evidence" attr.type="string"/>
+<key id="d11" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d10" for="edge" attr.name="date" attr.type="string"/>
+<key id="d9" for="edge" attr.name="sentiment" attr.type="double"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="relation_type" attr.type="string"/>
+<key id="d6" for="edge" attr.name="id" attr.type="string"/>
+<key id="d5" for="node" attr.name="mentions" attr.type="long"/>
+<key id="d4" for="node" attr.name="coalition" attr.type="string"/>
+<key id="d3" for="node" attr.name="role" attr.type="string"/>
+<key id="d2" for="node" attr.name="party" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="senate_thailand">
+  <data key="d0">วุฒิสภา (สว.)</data>
+  <data key="d1">INSTITUTION</data>
+  <data key="d2">สถาบันนิติบัญญัติ</data>
+  <data key="d3">สภาสูง / กลั่นกรองกฎหมายและแต่งตั้งองค์กรอิสระ</data>
+  <data key="d4">Independent</data>
+  <data key="d5">34</data>
+</node>
+<node id="paetongtarn_shinawatra">
+  <data key="d0">แพทองธาร ชินวัตร</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">พรรคเพื่อไทย</data>
+  <data key="d3">นายกรัฐมนตรี</data>
+  <data key="d4">Government</data>
+  <data key="d5">40</data>
+</node>
+<node id="anutin_charnvirakul">
+  <data key="d0">อนุทิน ชาญวีรกูล</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">พรรคภูมิใจไทย</data>
+  <data key="d3">รองนายกรัฐมนตรี และ รมว.มหาดไทย</data>
+  <data key="d4">Government</data>
+  <data key="d5">35</data>
+</node>
+<node id="raknok_srinork">
+  <data key="d0">รักชนก ศรีนอก</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">พรรคประชาชน</data>
+  <data key="d3">สส.กทม. พรรคประชาชน</data>
+  <data key="d4">Opposition</data>
+  <data key="d5">5</data>
+</node>
+<node id="parit_wacharasindhu">
+  <data key="d0">พริษฐ์ วัชรสินธุ</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">พรรคประชาชน</data>
+  <data key="d3">โฆษกพรรคประชาชน</data>
+  <data key="d4">Opposition</data>
+  <data key="d5">8</data>
+</node>
+<node id="peoples_party">
+  <data key="d0">พรรคประชาชน</data>
+  <data key="d1">PARTY</data>
+  <data key="d2">พรรคประชาชน</data>
+  <data key="d3">พรรคแกนนำฝ่ายค้าน</data>
+  <data key="d4">Opposition</data>
+  <data key="d5">125</data>
+</node>
+<node id="election_commission">
+  <data key="d0">คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d1">INSTITUTION</data>
+  <data key="d2">องค์กรอิสระ</data>
+  <data key="d3">องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง</data>
+  <data key="d4">Independent</data>
+  <data key="d5">26</data>
+</node>
+<node id="bhumjaithai_party">
+  <data key="d0">พรรคภูมิใจไทย</data>
+  <data key="d1">PARTY</data>
+  <data key="d2">พรรคภูมิใจไทย</data>
+  <data key="d3">พรรคร่วมรัฐบาล</data>
+  <data key="d4">Government</data>
+  <data key="d5">30</data>
+</node>
+<node id="pheu_thai_party">
+  <data key="d0">พรรคเพื่อไทย</data>
+  <data key="d1">PARTY</data>
+  <data key="d2">พรรคเพื่อไทย</data>
+  <data key="d3">แกนนำพรรคร่วมรัฐบาล</data>
+  <data key="d4">Government</data>
+  <data key="d5">15</data>
+</node>
+<node id="democrat_party">
+  <data key="d0">พรรคประชาธิปัตย์</data>
+  <data key="d1">PARTY</data>
+  <data key="d2">พรรคประชาธิปัตย์</data>
+  <data key="d3">พรรคร่วมรัฐบาล</data>
+  <data key="d4">Government</data>
+  <data key="d5">7</data>
+</node>
+<node id="nacc">
+  <data key="d0">คณะกรรมการ ป.ป.ช.</data>
+  <data key="d1">INSTITUTION</data>
+  <data key="d2">องค์กรอิสระ</data>
+  <data key="d3">องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ</data>
+  <data key="d4">Independent</data>
+  <data key="d5">13</data>
+</node>
+<node id="sirikanya_tansakun">
+  <data key="d0">ศิริกัญญา ตันสกุล</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">พรรคประชาชน</data>
+  <data key="d3">รองหัวหน้าพรรคประชาชน</data>
+  <data key="d4">Opposition</data>
+  <data key="d5">1</data>
+</node>
+<node id="natthaphong_ruengpanyawut">
+  <data key="d0">ณัฐพงษ์ เรืองปัญญาวุฒิ</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">พรรคประชาชน</data>
+  <data key="d3">ผู้นำฝ่ายค้านในสภาฯ / หัวหน้าพรรคประชาชน</data>
+  <data key="d4">Opposition</data>
+  <data key="d5">27</data>
+</node>
+<node id="thaksin_shinawatra">
+  <data key="d0">ทักษิณ ชินวัตร</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">พรรคเพื่อไทย</data>
+  <data key="d3">อดีตนายกรัฐมนตรี</data>
+  <data key="d4">Government</data>
+  <data key="d5">1</data>
+</node>
+<node id="constitution_amendment">
+  <data key="d0">การแก้ไขรัฐธรรมนูญ</data>
+  <data key="d1">POLICY</data>
+  <data key="d2">รัฐสภา</data>
+  <data key="d3">วาระการปฏิรูปกติกาการเมืองและหมวดจริยธรรม</data>
+  <data key="d4">Cross-Party</data>
+  <data key="d5">5</data>
+</node>
+<node id="constitutional_court">
+  <data key="d0">ศาลรัฐธรรมนูญ</data>
+  <data key="d1">INSTITUTION</data>
+  <data key="d2">ตุลาการ</data>
+  <data key="d3">ศาลสูงสุดด้านรัฐธรรมนูญ</data>
+  <data key="d4">Judicial</data>
+  <data key="d5">2</data>
+</node>
+<edge source="senate_thailand" target="constitution_amendment">
+  <data key="d6">senate_thailand__constitution_amendment__6ca88c</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">วุฒิสภา (สว.) และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">วิชา อัดองค์กรอิสระ ต้องยึดโยงประชาชน ชม ‘ยิ่งชีพ’ เปิดข้อมูลโกง ส.ว.</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="anutin_charnvirakul">
+  <data key="d6">paetongtarn_shinawatra__anutin_charnvirakul__26855a</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">แพทองธาร ชินวัตร วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ อนุทิน ชาญวีรกูล</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">2569 วงเงินไม่เกิน 400,000 ล้านบาท โดยเฉพาะในส่วนของแผนงานที่ 2 กรอบวงเงิน 200,000 ล้านบาท เพื่อปรับโครงสร้างและสร้างการเปลี่ยนผ่านด้านพลังงานของประเทศว่า ยืนยันว่ารัฐบาลภายใต้การนำของนายอนุทิน ชาญวีรกูล นายกรัฐมนตรี พร้อมเดินหน้าตามกรอบกฎหมาย รัฐบาล</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="sirikanya_tansakun">
+  <data key="d6">paetongtarn_shinawatra__sirikanya_tansakun__140bb4</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แพทองธาร ชินวัตร และ ศิริกัญญา ตันสกุล มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-09</data>
+  <data key="d11">1</data>
+  <data key="d12">POLITICS: ‘อนุทิน’ โพสต์ “ถ้ายังวิ่งชนกำแพงอยู่ มันก็เจ็บหัวอีก” หลัง ‘ศิริกัญญา’ เปิดใจสู้ปัญหาในพรรคเหมือนสู้กับกำแพง วันนี้ (9 ส.ค. 69) นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี และรัฐมนตรีว่าการกระทรวงมหาดไทย โพสต์ข้อความผ่านเฟสบุ๊คระบุว่า “วิ่งหัวชนกำแพง</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="natthaphong_ruengpanyawut">
+  <data key="d6">paetongtarn_shinawatra__natthaphong_ruengpanyawut__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">แพทองธาร ชินวัตร วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ณัฐพงษ์ เรืองปัญญาวุฒิ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="peoples_party">
+  <data key="d6">paetongtarn_shinawatra__peoples_party__4cbd32</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">แพทองธาร ชินวัตร และ พรรคประชาชน ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล</data>
+  <data key="d9">0.8</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">รัฐบาลจับมือ OpenAI ปั้น 10 สตาร์ทอัพการแพทย์-การศึกษา ต่อยอดงานวิจัยสู่การใช้งานจริง ดันไทยขึ้นแท่น AI Hub อาเซียน</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="pheu_thai_party">
+  <data key="d6">paetongtarn_shinawatra__pheu_thai_party__b5ad14</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">แพทองธาร ชินวัตร และ พรรคเพื่อไทย ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล</data>
+  <data key="d9">0.8</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">นายกฯ นัดครม.พรรคร่วมกินข้าวสัปดาห์หน้า ยังไม่เคาะวัน-สถานที่ ยิ้มไม่ตอบปมปรับครม.</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="bhumjaithai_party">
+  <data key="d6">paetongtarn_shinawatra__bhumjaithai_party__46c480</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">แพทองธาร ชินวัตร และ พรรคภูมิใจไทย ในขั้วการเมืองเดียวกัน (Government)</data>
+  <data key="d9">0.4</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">4</data>
+  <data key="d12">ธนกร หนุนนายกฯช่วยลดค่าไฟฟ้า ชูโซลาร์รูฟท็อป เหน็บฝ่ายค้านดีแต่พูด</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="senate_thailand">
+  <data key="d6">paetongtarn_shinawatra__senate_thailand__cbd9a7</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง แพทองธาร ชินวัตร และ วุฒิสภา (สว.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">วัส ชี้ กกต.ต้องส่งศาลฟันฮั้ว สว. อย่างต่ำ 120 คน ท้าฟ้องพร้อมแฉหลักฐาน ‘อภิสิทธิ์’ เตือนฮั้ว สสร.</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="democrat_party">
+  <data key="d6">paetongtarn_shinawatra__democrat_party__72cf15</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">แพทองธาร ชินวัตร และ พรรคประชาธิปัตย์ ในขั้วการเมืองเดียวกัน (Government)</data>
+  <data key="d9">0.4</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="parit_wacharasindhu">
+  <data key="d6">paetongtarn_shinawatra__parit_wacharasindhu__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">แพทองธาร ชินวัตร วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ พริษฐ์ วัชรสินธุ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="election_commission">
+  <data key="d6">paetongtarn_shinawatra__election_commission__cbd9a7</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง แพทองธาร ชินวัตร และ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">วัส ชี้ กกต.ต้องส่งศาลฟันฮั้ว สว. อย่างต่ำ 120 คน ท้าฟ้องพร้อมแฉหลักฐาน ‘อภิสิทธิ์’ เตือนฮั้ว สสร.</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="nacc">
+  <data key="d6">paetongtarn_shinawatra__nacc__0953a2</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แพทองธาร ชินวัตร และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">6</data>
+  <data key="d12">อดีตกรรมการกฤษฎีกา และอดีตรองนายกรัฐมนตรี, นายวิชา มหาคุณ อดีตประธานคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ (ป</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="constitution_amendment">
+  <data key="d6">paetongtarn_shinawatra__constitution_amendment__6ca88c</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แพทองธาร ชินวัตร และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">วิชา อัดองค์กรอิสระ ต้องยึดโยงประชาชน ชม ‘ยิ่งชีพ’ เปิดข้อมูลโกง ส.ว.</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="constitutional_court">
+  <data key="d6">paetongtarn_shinawatra__constitutional_court__72cf15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แพทองธาร ชินวัตร และ ศาลรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="anutin_charnvirakul" target="raknok_srinork">
+  <data key="d6">anutin_charnvirakul__raknok_srinork__f2c331</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ รักชนก ศรีนอก มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-02</data>
+  <data key="d11">1</data>
+  <data key="d12">69 “อนุทิน-รักชนก” คว้าแชมป์โดดเด่นประจำเดือน - Thairath</data>
+</edge>
+<edge source="anutin_charnvirakul" target="sirikanya_tansakun">
+  <data key="d6">anutin_charnvirakul__sirikanya_tansakun__3891ce</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ ศิริกัญญา ตันสกุล มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-09</data>
+  <data key="d11">1</data>
+  <data key="d12">POLITICS: ‘อนุทิน’ โพสต์ “ถ้ายังวิ่งชนกำแพงอยู่ มันก็เจ็บหัวอีก” หลัง ‘ศิริกัญญา’ เปิดใจสู้ปัญหาในพรรคเหมือนสู้กับกำแพง วันนี้ (9 ส</data>
+</edge>
+<edge source="anutin_charnvirakul" target="peoples_party">
+  <data key="d6">anutin_charnvirakul__peoples_party__9e35d4</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">อนุทิน ชาญวีรกูล วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ พรรคประชาชน</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">5</data>
+  <data key="d12">2569 วงเงินไม่เกิน 400,000 ล้านบาท โดยเฉพาะในส่วนของแผนงานที่ 2 กรอบวงเงิน 200,000 ล้านบาท เพื่อปรับโครงสร้างและสร้างการเปลี่ยนผ่านด้านพลังงานของประเทศว่า ยืนยันว่ารัฐบาลภายใต้การนำของนายอนุทิน ชาญวีรกูล นายกรัฐมนตรี พร้อมเดินหน้าตามกรอบกฎหมาย รัฐบาล</data>
+</edge>
+<edge source="anutin_charnvirakul" target="bhumjaithai_party">
+  <data key="d6">anutin_charnvirakul__bhumjaithai_party__b1194b</data>
+  <data key="d7">MEMBER_OF</data>
+  <data key="d8">อนุทิน ชาญวีรกูล สังกัด/ดำรงตำแหน่งใน พรรคภูมิใจไทย</data>
+  <data key="d9">0.5</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">12</data>
+  <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
+</edge>
+<edge source="anutin_charnvirakul" target="thaksin_shinawatra">
+  <data key="d6">anutin_charnvirakul__thaksin_shinawatra__b1194b</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ ทักษิณ ชินวัตร ในขั้วการเมืองเดียวกัน (Government)</data>
+  <data key="d9">0.4</data>
+  <data key="d10">2026-08-15</data>
+  <data key="d11">1</data>
+  <data key="d12">วิเคราะห์ภาพบินเข้าทัพฟ้า-ไหว้ทักษิณ ธนพร มอง 'อนุทิน-ภูมิใจไทย' ขยับจากตัวแปร สู่ 'ผู้กำหนดเกม' การเมืองไทย - แนวหน้า</data>
+</edge>
+<edge source="anutin_charnvirakul" target="election_commission">
+  <data key="d6">anutin_charnvirakul__election_commission__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">อนุทิน ชาญวีรกูล วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="anutin_charnvirakul" target="parit_wacharasindhu">
+  <data key="d6">anutin_charnvirakul__parit_wacharasindhu__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">อนุทิน ชาญวีรกูล วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ พริษฐ์ วัชรสินธุ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="anutin_charnvirakul" target="senate_thailand">
+  <data key="d6">anutin_charnvirakul__senate_thailand__b5ad14</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ วุฒิสภา (สว.) ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล</data>
+  <data key="d9">0.8</data>
+  <data key="d10">2026-08-27</data>
+  <data key="d11">1</data>
+  <data key="d12">POLITICS: ’อนุทิน‘ โยนถาม ‘ชลน่าน’ ตอบ หลังมีชื่อขึ้นเวทีฝ่ายค้าน บอก พรรคใครพรรคมัน ชี้ พรรคร่วมรัฐบาลมีกฎกติกามารยาทอยู่แล้ว ไม่หวั่น เกมวัดใจ ‘เพื่อไทย‘ โหวตปม ฮั้ว สว. มั่นใจเสถียรภาพรัฐบาล - คะแนนโหวตชัดเจน วันนี้ (27 ส.ค. 69) นายอนุทิน ชาญวีรกู</data>
+</edge>
+<edge source="anutin_charnvirakul" target="pheu_thai_party">
+  <data key="d6">anutin_charnvirakul__pheu_thai_party__46c480</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ พรรคเพื่อไทย ในขั้วการเมืองเดียวกัน (Government)</data>
+  <data key="d9">0.4</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">5</data>
+  <data key="d12">เพื่อไทย ไฟเขียว ชลน่าน ร่วมเวทีฝ่ายค้าน ชี้สัมพันธ์รัฐบาลแน่นปึ้ก พร้อมเดินตามแนวอนุทิน</data>
+</edge>
+<edge source="anutin_charnvirakul" target="democrat_party">
+  <data key="d6">anutin_charnvirakul__democrat_party__c74bb3</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ พรรคประชาธิปัตย์ ในขั้วการเมืองเดียวกัน (Government)</data>
+  <data key="d9">0.4</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
+</edge>
+<edge source="anutin_charnvirakul" target="nacc">
+  <data key="d6">anutin_charnvirakul__nacc__90e429</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ปชน. เปิดเวที NEWนนท์ ‘ปิยบุตร’ ย้ำไม่ใช่สงครามยึดจังหวัด ‘เดชรัต’ ชูฟื้นศก.ท่าน้ำนนท์</data>
+</edge>
+<edge source="anutin_charnvirakul" target="constitution_amendment">
+  <data key="d6">anutin_charnvirakul__constitution_amendment__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">อนุทิน ชาญวีรกูล วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ การแก้ไขรัฐธรรมนูญ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="raknok_srinork" target="peoples_party">
+  <data key="d6">raknok_srinork__peoples_party__19deeb</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">รักชนก ศรีนอก วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ พรรคประชาชน</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-26</data>
+  <data key="d11">1</data>
+  <data key="d12">รักชนก ศรีนอก สส. แบบบัญชีรายชื่อ พรรคประชาชน อภิปรายในวาระพิจารณา พ.ร.ก. ให้อำนาจกระทรวงการคลังกู้เงิน 4 แสนล้าน ในการประชุมสภาผู้แทนราษฎร 26 สิงหาคม 2569 #TheStandardNews - facebook.com</data>
+</edge>
+<edge source="raknok_srinork" target="bhumjaithai_party">
+  <data key="d6">raknok_srinork__bhumjaithai_party__62af6a</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">รักชนก ศรีนอก และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-27</data>
+  <data key="d11">1</data>
+  <data key="d12">รักชนก พรรคประชาชน ถาม ศุภชัย พรรคภูมิใจไทย ทำไมไม่เรียกประชุมสักที</data>
+</edge>
+<edge source="parit_wacharasindhu" target="peoples_party">
+  <data key="d6">parit_wacharasindhu__peoples_party__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">พริษฐ์ วัชรสินธุ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ พรรคประชาชน</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="parit_wacharasindhu" target="election_commission">
+  <data key="d6">parit_wacharasindhu__election_commission__f61668</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พริษฐ์ วัชรสินธุ และ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-25</data>
+  <data key="d11">1</data>
+  <data key="d12">PARLIAMENT: 'พริษฐ์' จี้ กกต. ชัดเจนวันลงมติคดีฮั้ว สว. หวั่นตัดตอนช่วยเครือข่ายการเมือง ขู่ฟ้อง ม.157 หากยกคำร้อง วันนี้ (25 ส.ค. 69) นายพริษฐ์ วัชรสินธุ สส.บัญชีรายชื่อ และรองหัวหน้าพรรคประชาชน กล่าวถึงกรณีคณะกรรมการการเลือกตั้ง (กกต.) เตรียมลงมติส</data>
+</edge>
+<edge source="parit_wacharasindhu" target="senate_thailand">
+  <data key="d6">parit_wacharasindhu__senate_thailand__93cd8c</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พริษฐ์ วัชรสินธุ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">4</data>
+  <data key="d12">นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล</data>
+</edge>
+<edge source="parit_wacharasindhu" target="bhumjaithai_party">
+  <data key="d6">parit_wacharasindhu__bhumjaithai_party__55cd11</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พริษฐ์ วัชรสินธุ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">4</data>
+  <data key="d12">นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล</data>
+</edge>
+<edge source="parit_wacharasindhu" target="nacc">
+  <data key="d6">parit_wacharasindhu__nacc__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">พริษฐ์ วัชรสินธุ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="parit_wacharasindhu" target="constitution_amendment">
+  <data key="d6">parit_wacharasindhu__constitution_amendment__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">พริษฐ์ วัชรสินธุ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ การแก้ไขรัฐธรรมนูญ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="peoples_party" target="election_commission">
+  <data key="d6">peoples_party__election_commission__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคประชาชน และ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="peoples_party" target="senate_thailand">
+  <data key="d6">peoples_party__senate_thailand__33e989</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคประชาชน และ วุฒิสภา (สว.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">5</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="peoples_party" target="democrat_party">
+  <data key="d6">peoples_party__democrat_party__232fd9</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคประชาชน และ พรรคประชาธิปัตย์</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-13</data>
+  <data key="d11">1</data>
+  <data key="d12">เรื่องมันมีอยู่ว่า โอกาสทองของพรรค‘ประชาชน’ การเมืองท้องถิ่นที่‘ส้ม’ถวิลหา , ‘ใครจะเชื่อ?’และ‘จะเชื่อใคร?’ ปชป.กับจริยธรรมนักการเมือง - spacebar.th</data>
+</edge>
+<edge source="peoples_party" target="nacc">
+  <data key="d6">peoples_party__nacc__c38639</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคประชาชน และ คณะกรรมการ ป.ป.ช.</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">นายภัณฑิล กล่าวต่อว่า พรรคประชาชนเตรียมยื่นร้องเรียนต่อคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ (ป</data>
+</edge>
+<edge source="peoples_party" target="bhumjaithai_party">
+  <data key="d6">peoples_party__bhumjaithai_party__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคประชาชน และ พรรคภูมิใจไทย</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="peoples_party" target="constitution_amendment">
+  <data key="d6">peoples_party__constitution_amendment__929192</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พรรคประชาชน และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">3</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="peoples_party" target="constitutional_court">
+  <data key="d6">peoples_party__constitutional_court__72cf15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พรรคประชาชน และ ศาลรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="election_commission" target="senate_thailand">
+  <data key="d6">election_commission__senate_thailand__9fe4e6</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">คณะกรรมการการเลือกตั้ง (กกต.) และ วุฒิสภา (สว.) ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล</data>
+  <data key="d9">0.8</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">โดย นายวัสกล่าวว่า เวลานี้องค์กรอิสระ โดยรัฐธรรมนูญ 2560 เลือกองค์กรอิสระแบบวิบัติหรือไม่ ขึ้นอยู่กับการให้ความเห็นชอบของวุฒิสภา มีข่าวว่าคณะกรรมการการเลือกตั้ง (กกต</data>
+</edge>
+<edge source="election_commission" target="nacc">
+  <data key="d6">election_commission__nacc__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง คณะกรรมการการเลือกตั้ง (กกต.) และ คณะกรรมการ ป.ป.ช.</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="election_commission" target="constitution_amendment">
+  <data key="d6">election_commission__constitution_amendment__72cf15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">คณะกรรมการการเลือกตั้ง (กกต.) และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="bhumjaithai_party" target="election_commission">
+  <data key="d6">bhumjaithai_party__election_commission__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคภูมิใจไทย และ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="bhumjaithai_party" target="senate_thailand">
+  <data key="d6">bhumjaithai_party__senate_thailand__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคภูมิใจไทย และ วุฒิสภา (สว.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="bhumjaithai_party" target="nacc">
+  <data key="d6">bhumjaithai_party__nacc__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคภูมิใจไทย และ คณะกรรมการ ป.ป.ช.</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="bhumjaithai_party" target="democrat_party">
+  <data key="d6">bhumjaithai_party__democrat_party__c74bb3</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">พรรคภูมิใจไทย และ พรรคประชาธิปัตย์ ในขั้วการเมืองเดียวกัน (Government)</data>
+  <data key="d9">0.4</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
+</edge>
+<edge source="bhumjaithai_party" target="constitutional_court">
+  <data key="d6">bhumjaithai_party__constitutional_court__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคภูมิใจไทย และ ศาลรัฐธรรมนูญ</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="bhumjaithai_party" target="constitution_amendment">
+  <data key="d6">bhumjaithai_party__constitution_amendment__929192</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พรรคภูมิใจไทย และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="pheu_thai_party" target="peoples_party">
+  <data key="d6">pheu_thai_party__peoples_party__3ea406</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พรรคเพื่อไทย และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">3</data>
+  <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
+</edge>
+<edge source="pheu_thai_party" target="democrat_party">
+  <data key="d6">pheu_thai_party__democrat_party__678697</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">พรรคเพื่อไทย และ พรรคประชาธิปัตย์ ในขั้วการเมืองเดียวกัน (Government)</data>
+  <data key="d9">0.4</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">3</data>
+  <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
+</edge>
+<edge source="pheu_thai_party" target="nacc">
+  <data key="d6">pheu_thai_party__nacc__3ea406</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พรรคเพื่อไทย และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">อาสพลธ์ เผยแชตหลุดมัด ‘พ.ต.ท.’ผู้เชี่ยวชาญคดีพิเศษ ดีเอสไอ โยง คดีโกงสอบท้องถิ่น</data>
+</edge>
+<edge source="pheu_thai_party" target="bhumjaithai_party">
+  <data key="d6">pheu_thai_party__bhumjaithai_party__46c480</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">พรรคเพื่อไทย และ พรรคภูมิใจไทย ในขั้วการเมืองเดียวกัน (Government)</data>
+  <data key="d9">0.4</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">8</data>
+  <data key="d12">เกาะประเด็นการเมือง ท่าทีพรรคร่วมรัฐบาล รอวันร้าว ‘ภูมิใจไทย-เพื่อไทย’ - เดลินิวส์</data>
+</edge>
+<edge source="pheu_thai_party" target="senate_thailand">
+  <data key="d6">pheu_thai_party__senate_thailand__c74bb3</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พรรคเพื่อไทย และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
+</edge>
+<edge source="democrat_party" target="nacc">
+  <data key="d6">democrat_party__nacc__cbd9a7</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคประชาธิปัตย์ และ คณะกรรมการ ป.ป.ช.</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">วัส ชี้ กกต.ต้องส่งศาลฟันฮั้ว สว. อย่างต่ำ 120 คน ท้าฟ้องพร้อมแฉหลักฐาน ‘อภิสิทธิ์’ เตือนฮั้ว สสร.</data>
+</edge>
+<edge source="democrat_party" target="senate_thailand">
+  <data key="d6">democrat_party__senate_thailand__cbd9a7</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง พรรคประชาธิปัตย์ และ วุฒิสภา (สว.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">วัส ชี้ กกต.ต้องส่งศาลฟันฮั้ว สว. อย่างต่ำ 120 คน ท้าฟ้องพร้อมแฉหลักฐาน ‘อภิสิทธิ์’ เตือนฮั้ว สสร.</data>
+</edge>
+<edge source="democrat_party" target="election_commission">
+  <data key="d6">democrat_party__election_commission__72cf15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พรรคประชาธิปัตย์ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="democrat_party" target="constitutional_court">
+  <data key="d6">democrat_party__constitutional_court__72cf15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พรรคประชาธิปัตย์ และ ศาลรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="democrat_party" target="constitution_amendment">
+  <data key="d6">democrat_party__constitution_amendment__72cf15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พรรคประชาธิปัตย์ และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="nacc" target="senate_thailand">
+  <data key="d6">nacc__senate_thailand__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง คณะกรรมการ ป.ป.ช. และ วุฒิสภา (สว.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="nacc" target="constitution_amendment">
+  <data key="d6">nacc__constitution_amendment__6ca88c</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">คณะกรรมการ ป.ป.ช. และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">วิชา อัดองค์กรอิสระ ต้องยึดโยงประชาชน ชม ‘ยิ่งชีพ’ เปิดข้อมูลโกง ส.ว.</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="anutin_charnvirakul">
+  <data key="d6">natthaphong_ruengpanyawut__anutin_charnvirakul__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ อนุทิน ชาญวีรกูล</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="peoples_party">
+  <data key="d6">natthaphong_ruengpanyawut__peoples_party__f493e8</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ พรรคประชาชน</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-26</data>
+  <data key="d11">2</data>
+  <data key="d12">บัญชีรายชื่อ และหัวหน้าพรรคประชาชน ในฐานะผู้นำฝ่ายค้านในสภาผู้แทนราษฎร กล่าวถึงกรณีการอภิปราย - facebook</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="parit_wacharasindhu">
+  <data key="d6">natthaphong_ruengpanyawut__parit_wacharasindhu__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ พริษฐ์ วัชรสินธุ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="election_commission">
+  <data key="d6">natthaphong_ruengpanyawut__election_commission__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="senate_thailand">
+  <data key="d6">natthaphong_ruengpanyawut__senate_thailand__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ วุฒิสภา (สว.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="pheu_thai_party">
+  <data key="d6">natthaphong_ruengpanyawut__pheu_thai_party__c74bb3</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ และ พรรคเพื่อไทย มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">4</data>
+  <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="bhumjaithai_party">
+  <data key="d6">natthaphong_ruengpanyawut__bhumjaithai_party__c74bb3</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="democrat_party">
+  <data key="d6">natthaphong_ruengpanyawut__democrat_party__96da15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ และ พรรคประชาธิปัตย์ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">นอกจากนี้ยังมีนายอภิสิทธิ์ เวชชาชีวะ หัวหน้าพรรคประชาธิปัตย์ และอีกหลายคนที่เป็นอดีตผู้นำฝ่ายค้าน ที่ไปร่วมงานเช่นเดียวกัน ส่วนประเด็นที่ไปพูดไม่ได้เกี่ยวกับรัฐบาล แต่ไปพูดในเรื่องของการสร้างความมั่นใจของสังคมต่อระบบการเมือง จึงไม่มีประเด็นที่ต้องห่ว</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="nacc">
+  <data key="d6">natthaphong_ruengpanyawut__nacc__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="natthaphong_ruengpanyawut" target="constitution_amendment">
+  <data key="d6">natthaphong_ruengpanyawut__constitution_amendment__b56e6d</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ณัฐพงษ์ เรืองปัญญาวุฒิ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ การแก้ไขรัฐธรรมนูญ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="thaksin_shinawatra" target="bhumjaithai_party">
+  <data key="d6">thaksin_shinawatra__bhumjaithai_party__b1194b</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">ทักษิณ ชินวัตร และ พรรคภูมิใจไทย ในขั้วการเมืองเดียวกัน (Government)</data>
+  <data key="d9">0.4</data>
+  <data key="d10">2026-08-15</data>
+  <data key="d11">1</data>
+  <data key="d12">วิเคราะห์ภาพบินเข้าทัพฟ้า-ไหว้ทักษิณ ธนพร มอง 'อนุทิน-ภูมิใจไทย' ขยับจากตัวแปร สู่ 'ผู้กำหนดเกม' การเมืองไทย - แนวหน้า</data>
+</edge>
+<edge source="constitutional_court" target="election_commission">
+  <data key="d6">constitutional_court__election_commission__1c20d8</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ศาลรัฐธรรมนูญ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">) แต่ไม่ประสบความสำเร็จ จนกระทั่งเกิดการเรียกร้องให้มีการจัดทำรัฐธรรมนูญฉบับปี 2540 แนวคิดในเรื่องนี้จึงเข้าไปอยู่ในกฎหมายสูงสุดเป็นครั้งแรก มีศาลรัฐธรรมนูญ ศาลปกครอง คณะกรรมการการเลือกตั้ง(กกต</data>
+</edge>
+<edge source="constitutional_court" target="nacc">
+  <data key="d6">constitutional_court__nacc__72cf15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ศาลรัฐธรรมนูญ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="constitutional_court" target="senate_thailand">
+  <data key="d6">constitutional_court__senate_thailand__72cf15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ศาลรัฐธรรมนูญ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="constitutional_court" target="constitution_amendment">
+  <data key="d6">constitutional_court__constitution_amendment__72cf15</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ศาลรัฐธรรมนูญ และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+</graph></graphml>

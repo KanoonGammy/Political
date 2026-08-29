@@ -1,0 +1,14 @@
+# Summary: THE STANDARD. . พิชายซัดอนุทิน “ทำการเมืองอุปลักษณ์” ธนพรสวน “กำแพงอนุทิน เป็นเพียงสีสันทางการเมือง” #พรรคประชาชน #อนุทิน #ภูมิใจไทย #การเมือง #TheStandardNews #TheStandardNow - facebook.com
+
+- **Source**: [Google News Peoples Party](https://news.google.com/rss/articles/CBMiiAhBVV95cUxQalRkaGlrTDlkQi12R0gySGJsSzRYZDVicExTT3Y0U2hHVWJkdTJpZkQ5bUhyekxlUmljX2V6LWhMYzRsR1Q4UVlwaHBkbFBrMW5KeFlXT2I0OXN2WTczZVJoNDgxeUxfZFNpOG9heHpwbVpzdWFIZERMeXBRdmpNM0s0UERxWm9aeHcyRDhFLU1jNkVGT2NCbzdHckZ0X0hsUkN6TzY1aU5NY3QwT20yV2xNOWsxOHlUVDJqWTVJQzctemVQVGVRWS1jcmdXMjRHRlpFNkowaE05UWxEQmpPbmlFVzVmTnFWRnRPaXBYRzQ0SEJ0YTBkNFlyWmZFQWF5Mzl5M2VvUERYWUNlN0RWQXctNS1iQVZSZEg1VlZaVUNrNHgxdXUwNTJXdEVHNlJhdnRiT0hGZFByTGtWZFVLNGs5NFZFM3laRGVCSE9Ca0pQUWg3dlI1eGhORlZiQ09Ba0txT2QzV3AxeXltRFJKbjI4R2oyYU1hcnlhVFVfVmpUV2VyYmpSdXVTeHQ2WHVTeTRHbEJaT2hxZ2dOUldVckZpY085LW5oVk95T2lXWjd3SHR4WHRVVUNjSWY1azJlRVYzdWtKaDlXWGFVSkFKTi1ObDZhbHFZNWNUM0RacHhWaWhObWFxUWpjWkdTR2pIenNRWGVsNWVlYVF6YmtoNEtUUWxxQzcyaEY3X0V6Rk45UDYxZ2dQcVM4OWdxRE54SGVhMFVXaDJJNEVuQ0dhU2RIcVJHS1hCZmFNaHY4bGRMYy04RmtCNVB5bXdQbXBubmFVNnZ5NVp0YUtfMmw0enpqbVNoVTJ4Rm1KTHhIVHlncWtoMjhoZFZSa0hxVE1YbXZpTUdBWG1meHNwZHpSN0E1TDNqR25ZWDV6S0szVEdxbGxTbzRwd19ZcTBZSmNFMUdneDBsS09PQVVBNWVpQ3JJLW1RTDFraVhoSmN5azc2SkdCN3ZURE80VlJXclloU2hrUWo3ZmRQX3BPdlhmVmw0MnpfUGxjWGttWUttSzIzNUI5MHVIU0Q4elBpTkptUjV6bXN1eWN5ZG1oREJFUXlNamZWbHVrMkpXdlBwZEMtRWFMSThpUll2Z2FVLXBTUDFjbzJpdkl4TVg0aFZLNDE2NkNTd0ppblc2ZkEwc0ttNGY3YXJGSHBwbEZkYU54aG01Z1NxdVNYTW1IQ1I2X2N4VHpJMzRkTnpvWWljclJ3bTlrZ0EwZ2hlbk1UZWZrNDJ0dGpxVjdLX3dOQ08yVUNWMFc3XzQ3Yi16SENVakxHTThJempBNHZDcndQd2FZZElHOFZfeC1IdHgtODRONDBaLTBVbnhmUWE0QWFPOWJaQVdNOXM3VFZhbzNkcllxNzI2MUhlX2Q?oc=5)
+- **Date**: 2026-08-11
+- **Raw File**: `[[raw/articles/20260811-THE-STANDARD-พชายซดอนทน-ทำการเมองอปลกษณ-ธนพรสวน-กำแพงอนทน-เปนเพยงสสนทางการเมอง-พ]]`
+
+## Executive Summary
+THE STANDARD. . พิชายซัดอนุทิน “ทำการเมืองอุปลักษณ์” ธนพรสวน “กำแพงอนุทิน เป็นเพียงสีสันทางการเมือง” #พรรคประชาชน #อนุทิน #ภูมิใจไทย #การเมือง #TheStandardNews #TheStandardNow
+
+facebook.com
+
+## Key Political Implications
+- **Context**: ความเคลื่อนไหวทางการเมืองในรอบ 30 วัน
+- **Relevance**: เชื่อมโยงกับนโยบาย ขั้วอำนาจ และท่าทีของตัวละครทางการเมืองที่เกี่ยวข้อง

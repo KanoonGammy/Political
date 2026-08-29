@@ -1,0 +1,14 @@
+# Summary: THE STANDARD. . รักชนก พรรคประชาชน ถาม ศุภชัย พรรคภูมิใจไทย ทำไมไม่เรียกประชุมสักที? #TheStandardNewsMoMents - facebook.com
+
+- **Source**: [Google News Peoples Party](https://news.google.com/rss/articles/CBMi8gZBVV95cUxOOVNkY0o0a256Zk5zZWVvdFdaTENCbERKa3YyRU1xOFNmZHB1Y1pwRkJjSVVRZlA3RGVpMmxodFlGTVFwa3ZKekRpdjYwRU03XzRjcDQ1dWFNSE1kSDhfdUlETVVmTkh3Tnc1SEpjbkJiNFhocXM2S2ttalhXTHc4ZmNBXzhIYW9Ca2NvZlo2SmFWd3BFeFp1cEhOOHFOWjU1cnBBVXM1d1lqdXpvZUNZQlp4Mk00S2FHUkpwTnMyekpPemNwT2d2VTl2VkN1eVZhYk8yM3Ezd0lZVzJaakloSkd2YTF5MWozR3oxaXdZWVpBc0ZUR01LbTBpYUZpNFJ6MzlnWUlpUDExRTRPX3k2TVRDeFF0UWVYdWJfTzBhd3doN1g4clpOMU9KT0w0Um9tem1ncDdjalA4Z0llcDdIY1BNckJ4cWZXNElpeHZsQk9obG1feG03RjcxU2d0Z21oVFZud0s4eFpJSzJCSm9zY0NIcHNOTW84S0RFRW1ic3RLd2tJMU0wX2MtQk9WTXU2UkxRVmdvaHloand5ODg5T2dUaE9pNlFqZ2RHbmtDYUp3QkhjdDFnLWZzbmlTLXd6ZnlaY0tMVXBWamhCOEg3ek4wTjNlQmtzX0E1M2VpRGdIWUtWM1o0eEtvbU9HS09oX01YZkxvU2xnM1BaNHlRakZnOWZlRXJWZ1cwRU1RU1ZmUlVCS3ZQZy1qVjBUSWl5bm9rdlRQYjBkMjgzMG1HdDlDQVN4NFMzT1lqaWNBQUczcEpTS3ZNbjRYc1d5c25xTGhrOUZOMko5NTNNR0gxRl9GTE1GcXhxS0dUenJFUm1UOExYaWVfSG9kSDJSanpjZlZZNk1YWW5scmptU1ZkU2hSQkI3d21yaE0wajAtRWE1Zy1uR2duOS1JWThXS0xaZ2lsb1lpMUExYjJXdlJKcTh5eFJiN2JDTXJWRk1GcENmaHhUQXZ0MV83R0hQck5TcWNxallCWDBmNDA3VE1raUlaMlRhM2pTWDBMeG9IM2cwQ2JsQmFfM0NibjEyMVRnTFY0Q1RLTm5SelJIRW9hbDZIOFJfbl8tZjdZQjBfSzhReTNnSGxfYXV3aUJNcmtUN2JJaXNHalFWbE05LXN0RVlTcktmVUdWYWlMa0tfLVVCdGV0NVp6Z1IzdWFvMWxoSWc?oc=5)
+- **Date**: 2026-08-27
+- **Raw File**: `[[raw/articles/20260827-THE-STANDARD-รกชนก-พรรคประชาชน-ถาม-ศภชย-พรรคภมใจไทย-ทำไมไมเรยกประชมสกท-TheStanda]]`
+
+## Executive Summary
+THE STANDARD. . รักชนก พรรคประชาชน ถาม ศุภชัย พรรคภูมิใจไทย ทำไมไม่เรียกประชุมสักที? #TheStandardNewsMoMents
+
+facebook.com
+
+## Key Political Implications
+- **Context**: ความเคลื่อนไหวทางการเมืองในรอบ 30 วัน
+- **Relevance**: เชื่อมโยงกับนโยบาย ขั้วอำนาจ และท่าทีของตัวละครทางการเมืองที่เกี่ยวข้อง

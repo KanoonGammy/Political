@@ -1,0 +1,14 @@
+# Summary: THE STANDARD. . ไอติมซัดอนุทิน ปมซักฟอกรัฐบาล “อภิปรายฮั้ว สว. นอกเกมยังไง” #พรรคประชาชน #ฮั้วสว #กกต #อนุทิน #ภูมิใจไทย #การเมือง #TheStandardNews #TheStandardNow - facebook.com
+
+- **Source**: [Google News Peoples Party](https://news.google.com/rss/articles/CBMi3AdBVV95cUxObjFrbUdnQXduSjlqbVBEd0lNZmVFbmhlNmQyOEVLVXNBLTI4LUt2aFhFUVJGRTMwWHNSMG5uNGVsNDhPZzYxUDRfcTR3MHJQY1I0RlluZnVpdlpla1hicWs5SHR4NmpsWklUdlRkd0tyU1Qyb0Fhc2JGT1JMQmJLZTFBaXZwbzI5ZWlSbllXWUktWDdESDBKcFBTbHU2aEdJTElpYmJZcjBlckZfZW1GSGJPSGNFd09TaTF1UjJzSmJ2UFVVaFViR2Q0YmVTaTZxY1d1aF84eDFUMEtCRWhpV040TTNfeVlwdXRWaUNmMjFIcnltNS1nM1lNelFfVU81SjBhc1JuTERJM3RIQlVMVmNRTlFhSk1sZXRaMmVTMEpaS3prTlB2SFZROVhjQkl4RnRfbHJ1MWJDcVhaeVhtWmVoeUZBWTJTeENhUU1UWXlYRnBCMjYxOXRSSnlmVlpEX3ctbFl0c0tVR0JxOHFUck1BMGVrcU5CUGhBS2VzQ01kVUI2TUsyTHpUQ25qYmtIRzR1MEw1TEtPXzZyT01oVW9tOG5SYlNKQXV6ejczMGhTS2ZzcHQwWjJUS1JzWGRWNkRESEdMOC1lR09Way10UHhqNWQwR0Rtb0h6X2xwT1RIVGdGRXZBcTlnMXBIaVltZUxiN1h1UXVFX256bzJRd0FfMnU1X0hSV0l2VGxPQTFCWDlZcFdtdE01MWNubEt0MGNETHdOU041cWNXbEJHQVE1V3ZGNFFxRnhyTTBoVWpCZUdHZFJxNmY4bXlFTXUwSENKRU9zU25EajhzVnN6WXJmcjJRRnBDQjNSVFQ1X0UyWlJLOU1wbUVCeFRfQzBfb3FyRmdUa3IyV2puY2RWNzNMbUw3NjdLMG5NaVp1UWppbWdlbU9wRndYUFdGZVJaNk5yT0d1blphd3JDc1BkTEZDckxzNnpZY1FPWGpKQjRKb0xDS3BRYVdlcFNhMzh6aldDMXp0NjJVd3pnYmtrdjhsR3FxckR5Q0t6N3RsUU9TQnJwdGlvTERFeFdiRHlfcUpRa1V6TkVJY0lSaXBrNkdoWFE1MlV2ZWRFVG9HOHBuLWMwRTNpbjFiQnkxVUJKSEdwQXZKbnVYUThJZElFY2kwcVhab05OMmROdVFvcUFIanRneHFaeDZROTFVLXpnN3IzcW03T3VmMENlN3p5Wm5qQWRHMzdxelJpTEVpYjhheHN5SWExUFJmcUdJRHljQVEzWFdzT0pjSlZCdWtuNERhckZYRG1KZDcxd0hrTHEwenNpQ1FsQXUxdE1iUFdteUZsQlVPSXRjQTlv?oc=5)
+- **Date**: 2026-08-17
+- **Raw File**: `[[raw/articles/20260817-THE-STANDARD-ไอตมซดอนทน-ปมซกฟอกรฐบาล-อภปรายฮว-สว-นอกเกมยงไง-พรรคประชาชน-ฮวสว-กกต]]`
+
+## Executive Summary
+THE STANDARD. . ไอติมซัดอนุทิน ปมซักฟอกรัฐบาล “อภิปรายฮั้ว สว. นอกเกมยังไง” #พรรคประชาชน #ฮั้วสว #กกต #อนุทิน #ภูมิใจไทย #การเมือง #TheStandardNews #TheStandardNow
+
+facebook.com
+
+## Key Political Implications
+- **Context**: ความเคลื่อนไหวทางการเมืองในรอบ 30 วัน
+- **Relevance**: เชื่อมโยงกับนโยบาย ขั้วอำนาจ และท่าทีของตัวละครทางการเมืองที่เกี่ยวข้อง

@@ -1,0 +1,14 @@
+# Summary: ยังไม่ผิด!กกต. แจงปมพรรคประชาชนเก็บ Laser ID - thaitv5hd.com
+
+- **Source**: [Google News Peoples Party](https://news.google.com/rss/articles/CBMi3ANBVV95cUxQWDBpQlEtRWs3c2htR0EwY0J6eEZ1bHU0d3JhWmo1Y1l5SHg1bk15dVJ4S081YW9SQ1R0aV80blgxTmlpRUV3a3VoZmVjdDBvV2xxRmNvVUFMM0JUYUFZOGRzTlVkRldnLUJ5X2x0QUlDNlRldWc4eVJtR3VNRkNybmVJbXZnaXAxclhWbTFaQWQtdWJWQWlpNnFYVDhUc0kwbEFQaXB2aXdVOFctcnQzc3JhNUo4WThqQU53OGpSQkFqMGJlNm5tTVhheC1ZdTZsTkVkY3Q1MDdxT2tzQXl4bVFaQnRuR2plX0ZIZWhBcXUxV3lBUFQ3SEl2WEt6TnlCTWowVTJ4ak4tQ2t1cGY2ZHMtYkdmU3RlMjlteDlEYlZENXozQmN3NlNoY3pFa09hOWtZUnh6UE1JN2NxUkRvazRqcm9zajM5NS1xS2Y3ZlZfeHNjVWhkUVRqb00zRDBqR0J0SkJEdVlzQjhmNVJaaXVhbHJGN20zSTliMldNbEFjLTFGWXU0T2tpSThRdUY3ZzdUZEJWMkFraVZVcHF5TmdOUFR1WG8tQkVfQ0FKQnpZajkyVkZONHA4MEE5ZldLZzhxTWVfZ2k2T3FXMVhLVzRFWC1SdlRuVk04ZA?oc=5)
+- **Date**: 2026-08-18
+- **Raw File**: `[[raw/articles/20260818-ยงไมผดกกต-แจงปมพรรคประชาชนเกบ-Laser-ID-thaitv5hdcom]]`
+
+## Executive Summary
+ยังไม่ผิด!กกต. แจงปมพรรคประชาชนเก็บ Laser ID
+
+thaitv5hd.com
+
+## Key Political Implications
+- **Context**: ความเคลื่อนไหวทางการเมืองในรอบ 30 วัน
+- **Relevance**: เชื่อมโยงกับนโยบาย ขั้วอำนาจ และท่าทีของตัวละครทางการเมืองที่เกี่ยวข้อง

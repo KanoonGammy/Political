@@ -1,0 +1,14 @@
+# Summary: POLITICS: ‘เดชรัต’ ลุยตลาดประชานิเวศน์ เปิด 20 นโยบายสู่ NEW นนท์ ชูเด็กนนท์เท่าเทียม ลดเหลื่อมล้ำการศึกษา สกัดเด็กหลุดออกนอกระบบ วันนี้ (22 ส.ค. 69) นายเดชรัต สุขกำเนิด ผู้สมัครรับเลือกตั้งนายก อบจ.นนทบุรี ในนามพรรคประชาชน พร้อมด้วยนายวุฒากร นุตยกุล สส.นนทบุรี เขต 1 - facebook.com
+
+- **Source**: [Google News Peoples Party](https://news.google.com/rss/articles/CBMi0gZBVV95cUxQSHlJRHc1UklLTFRobEIyV3pmVGlKRk1OTHdMamFDSUhxb1JtVDJjeTA5bnhjTjkzYkxvcTd2N1c0WURoUFRWdllmU0xEOXVudE9wM2NhOUt0MXZyYU1CR19Fa0JIOTRNQWF6SGcwdk1nTTlvNk1VRy1QdDRnNktJdXJGUWhtWC1SZTYzNmw3S2pMTDRQeVVlbzhZRzYyaDY1d3NQb2pESWNzZ3J3TWVMcm5tTWREampEX0NfX3dwY1NhSlhlUUYxRmZtUzhQRDhyVWp1U0YtZE9RWXlsaWFjZVZzRWtBWENBY184TWgwbTQ0MVU4bUpVYU0ybWgwSnlBNko3Q1VJcnJSa2hmcmNxMnhUNXVPTVhES2dDbldyRGdjS1BwVml0N0RlOHEwVUlha1JuX3NzbFU0dGVFSU00ckRKSkhvWVZOcXU1WEFMd2RaZU9CaDVFdDJpb0lzMWF0MWhkUFkxMEFyYXJOU2pGRmEtM3h6WDRKcXVNLWVLU0ppV2ZHVHJsNnBCek5qeXdjMVhqalhNNk16Y3BCeEdGQ2xIM0c2QzRlWm5yd3hpYVNwZjV4T3FJSFIwWXRtVWJjTmFQcEl6bFVDTlk1cU5ZZ3JSX05fY3pZV0ZValV2eGFfaDduM25PNHMtbnZrRUhIRnY3QUNwMUNkWmJkeTJFMDNTU3Z3NDJKMHlMVlpiZzIzejhjNjlYb1pUU0thR0VRcFgwWUJxTTlqVjVhaVBqdDMwQXItb3JsX1NVZG1QMkUxdjMxRmtNbVlPOEdVWjA3MkdjSmtFTVUtV2FxcTVRcjlRLUE0b01UMi1nQllVeWIxb29PSFQ3VjlPWXREblhUalc0NFM5Q2VEV0QtTzd4T280R0NySUZSQUpvS2F4b3JtWkJCN25qR2Iwd0o1UXljbC1VMXNHcHh3NmwyekF2TVNjMnRPN3Bxa1FNbUZQcFk5ZjQteDdMNzBQNWNRdVJmajZ0b3JlZUZXUWxiWTVQMmlkNG9UYUlZQWp5aERBWHBiSGYwTHVVNUhWeC1sVVl6WGdGUzc3TG9LZnpZYV9xcU5RTmozNTgwUVpFMmRXTVhJb0NJM0Q0SDBmZHg4RFA5OXJXbEM2azh2SWcyQ0NUc2tB?oc=5)
+- **Date**: 2026-08-22
+- **Raw File**: `[[raw/articles/20260822-POLITICS-เดชรต-ลยตลาดประชานเวศน-เปด-20-นโยบายส-NEW-นนท-ชเดกนนทเทาเทยม-ลดเหลอมลำก]]`
+
+## Executive Summary
+POLITICS: ‘เดชรัต’ ลุยตลาดประชานิเวศน์ เปิด 20 นโยบายสู่ NEW นนท์ ชูเด็กนนท์เท่าเทียม ลดเหลื่อมล้ำการศึกษา สกัดเด็กหลุดออกนอกระบบ วันนี้ (22 ส.ค. 69) นายเดชรัต สุขกำเนิด ผู้สมัครรับเลือกตั้งนายก อบจ.นนทบุรี ในนามพรรคประชาชน พร้อมด้วยนายวุฒากร นุตยกุล สส.นนทบุรี เขต 1
+
+facebook.com
+
+## Key Political Implications
+- **Context**: ความเคลื่อนไหวทางการเมืองในรอบ 30 วัน
+- **Relevance**: เชื่อมโยงกับนโยบาย ขั้วอำนาจ และท่าทีของตัวละครทางการเมืองที่เกี่ยวข้อง

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thai Politics Semantic Graph — 30-Day Intelligence Network</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-icon">🌐</div>
+      <div>
+        <h1>Thai Politics Semantic Network</h1>
+        <span>โครงข่ายความสัมพันธ์และขั้วอำนาจการเมืองไทย (ย้อนหลัง 30 วัน)</span>
+      </div>
+    </div>
+    
+    <div class="header-stats">
+      <div class="stat-badge">
+        <span>ตัวละคร (Nodes):</span>
+        <span id="stat-nodes" class="stat-value">0</span>
+      </div>
+      <div class="stat-badge">
+        <span>ความสัมพันธ์ (Edges):</span>
+        <span id="stat-edges" class="stat-value">0</span>
+      </div>
+      <div class="stat-badge">
+        <span>ข่าวที่วิเคราะห์:</span>
+        <span id="stat-articles" class="stat-value">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Workspace -->
+  <div class="main-container">
+
+    <!-- Left Controls Sidebar -->
+    <aside class="sidebar">
+      
+      <!-- Search Box -->
+      <div class="search-box">
+        <h3>ค้นหาตัวละคร / ประเด็น</h3>
+        <input type="text" id="search-input" placeholder="พิมพ์ชื่อนักการเมือง, พรรค หรือองค์กร..." autocomplete="off">
+      </div>
+
+      <!-- Timeline Scrubber -->
+      <div class="timeline-card">
+        <h3>ช่วงเวลา (30 Days Timeline)</h3>
+        <input type="range" id="timeline-slider" min="1" max="30" value="30">
+        <div class="timeline-labels">
+          <span>30 วันก่อน</span>
+          <span id="timeline-current">ปัจจุบัน (ทั้งเดือน)</span>
+          <span>ล่าสุด</span>
+        </div>
+      </div>
+
+      <!-- Coalitions / Parties Filter -->
+      <div>
+        <h3>ขั้วการเมือง / สังกัด (Coalitions)</h3>
+        <div class="filter-group" id="party-filters">
+          <button class="filter-btn active" data-filter="all">
+            <span>ทั้งหมด (Show All)</span>
+            <span class="filter-pill" style="background:#fff;"></span>
+          </button>
+          <button class="filter-btn" data-filter="Government">
+            <span>พรรคร่วมรัฐบาล (Government)</span>
+            <span class="filter-pill" style="background:var(--color-pheu-thai);"></span>
+          </button>
+          <button class="filter-btn" data-filter="Opposition">
+            <span>พรรคฝ่ายค้าน (Opposition)</span>
+            <span class="filter-pill" style="background:var(--color-peoples-party);"></span>
+          </button>
+          <button class="filter-btn" data-filter="Independent">
+            <span>องค์กรอิสระ / วุฒิสภา</span>
+            <span class="filter-pill" style="background:var(--color-institution);"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Relation Types Filter -->
+      <div>
+        <h3>ประเภทความสัมพันธ์ (Relations)</h3>
+        <div class="filter-group" id="relation-filters">
+          <button class="filter-btn active" data-rel="ALL">
+            <span>ทั้งหมด (All Relations)</span>
+          </button>
+          <button class="filter-btn" data-rel="ALLIANCE">
+            <span>พันธมิตร / ร่วมมือ (Alliance)</span>
+            <span class="filter-pill" style="background:var(--rel-alliance);"></span>
+          </button>
+          <button class="filter-btn" data-rel="CRITICISM">
+            <span>วิจารณ์ / ตรวจสอบ (Criticism)</span>
+            <span class="filter-pill" style="background:var(--rel-criticism);"></span>
+          </button>
+          <button class="filter-btn" data-rel="LEGAL_ACTION">
+            <span>คดีความ / ยื่นร้อง (Legal Action)</span>
+            <span class="filter-pill" style="background:var(--rel-legal);"></span>
+          </button>
+          <button class="filter-btn" data-rel="MEMBER_OF">
+            <span>สังกัด / สมาชิก (Affiliation)</span>
+            <span class="filter-pill" style="background:var(--rel-member);"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Physics Controls -->
+      <div>
+        <h3>การจัดวางกราฟ</h3>
+        <button id="toggle-physics" class="filter-btn" style="width:100%;">
+          <span>🔒 ตรึงตำแหน่งกราฟ (Lock Physics)</span>
+        </button>
+      </div>
+
+    </aside>
+
+    <!-- Graph Visualization Canvas -->
+    <main id="graph-canvas"></main>
+
+    <!-- Floating Tool Buttons -->
+    <div class="floating-tools">
+      <button id="btn-fit" class="tool-btn" title="จัดกราฟให้อยู่กึ่งกลาง">🎯 Reset View</button>
+      <button id="btn-refresh" class="tool-btn" title="โหลดข้อมูลใหม่">🔄 Reload Data</button>
+    </div>
+
+    <!-- Side Evidence Drawer -->
+    <aside id="evidence-drawer" class="evidence-drawer">
+      <div class="drawer-header">
+        <h2 id="drawer-title">ข้อมูลตัวละคร</h2>
+        <button id="drawer-close" class="close-btn">&times;</button>
+      </div>
+      <div class="drawer-content" id="drawer-body">
+        <div class="dossier-card">
+          <p style="color:var(--text-muted);">คลิกเลือก Node หรือ เส้นความสัมพันธ์ เพื่อดูข้อมูลเจาะลึกและหลักฐานข่าวอ้างอิง</p>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Summary: THE STANDARD. . สด! 'เดชรัต สุขกำเนิด' เข้าสมัครนายก อบจ. นนทบุรี พรรคประชาชน | THE STANDARD - facebook.com
+
+- **Source**: [Google News Peoples Party](https://news.google.com/rss/articles/CBMi7wVBVV95cUxQb19fQVNOTERmVldsa2N4MHZQckVwSWMyd29USC1zT2s5QUF0TnJTRDBwR01sWDdtazVFWEt3ZFZIYWhvcFdJVkFtS1VfbzQtb0ZGVjdLT0k2T2NCLTFPcGUwZmltTjFyY09RZ1BZbXd3SjV5UVFXeDVIYzF0WlhPb2Vxem5PM3doVDk2RWZEUnp1U0VkbkZKUTZCLXA2OF9jS2hXTXJjSEZseXBQd3k3RVFNZUZyV2RUWktjaDlMY2gzaHptQ3dFQWg4czNtSUZhNHZFekZULUFaNTJPM3oweDhrTU5RTUE4LTdzR0tzVS0zSWxzM29ORlkyR1RRQlZzN05mUXVqY3UzdE1YZnRFeGtrZW1WczFPTjFlNWg1V2hjZFdkTlJWZmtMdkg2RmJoa3VvZGR5R0hCWmxCeHowdTFHQTdrWk1EazhQaThzMHNvUi03UlA3R2pWY0F3dk55MmZESFN6amZRc3V5OU42d2piMDhfVkhDcVFGaTdwMS1QRHg2bURLNE5kMzAtTEpIS21hR09GR1BmUjJjOFhqUndwb1BxaWR3WTk5bFUwWkZCVi1XNFFtYnF1WUF4VUlrNzRvam5oSlNMQmhiS29yM2o2XzNJVWxDOVlxYk9aeS04QjdMNjJBdm50Z1ZOSjV4NlQ3UTJ3V3NPVUp2Q0k1QXd6YlB6OG5fekw5ZEpGQjJzUWExZmc4ZHJVVWRYT285QjNwY1pmOFJmUU4tWmM5b0JUTlRCT0hFMGkyMWdXQThpX0NlM1hreWNib28xVjRTdkQ0Y2RyajVxcl9uaGxsTTYwWjNsZTNUWVRTVVp3SEpHQXFGdlhIR0N6VjdaYko2SHA1b3N4U3FrT01EeUpLanprX2MydU1DWVNkaVdSZ1g5THNheFpWVzlWTEowaGp2M2piV3cwTm1Obm9pYlJQemFrZzdXMmFwTmtxZVBuZUhndFA4WUF6eFBKWjd5Yy0zNzJTbWFEdFVPTW5MU19n?oc=5)
+- **Date**: 2026-08-19
+- **Raw File**: `[[raw/articles/20260819-THE-STANDARD-สด-เดชรต-สขกำเนด-เขาสมครนายก-อบจ-นนทบร-พรรคประชาชน-THE-STANDARD-fac]]`
+
+## Executive Summary
+THE STANDARD. . สด! 'เดชรัต สุขกำเนิด' เข้าสมัครนายก อบจ. นนทบุรี พรรคประชาชน | THE STANDARD
+
+facebook.com
+
+## Key Political Implications
+- **Context**: ความเคลื่อนไหวทางการเมืองในรอบ 30 วัน
+- **Relevance**: เชื่อมโยงกับนโยบาย ขั้วอำนาจ และท่าทีของตัวละครทางการเมืองที่เกี่ยวข้อง
