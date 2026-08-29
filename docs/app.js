@@ -43,6 +43,7 @@ async function initDashboard() {
       'data/graph_data.json',
       './data/graph_data.json',
       '../data/graph_data.json',
+      'web/data/graph_data.json',
       '/Political/data/graph_data.json',
       '/data/graph_data.json'
     ];
@@ -298,7 +299,7 @@ function showNodeDossier(node) {
         <span class="stat-badge" style="font-size:0.75rem;">ขั้ว: ${node.coalition || '-'}</span>
         <span class="stat-badge" style="font-size:0.75rem;">ปรากฏในข่าว: <strong style="color:var(--accent-primary); margin-left:4px;">${node.mention_count}</strong> ครั้ง</span>
       </div>
-      ${node.wiki_link ? `<div style="margin-top:10px; font-size:0.8rem;"><a href="../wiki/entities/${node.id}.md" target="_blank" style="color:var(--accent-primary);">📖 ดูเอกสารสรุปใน LLM-Wiki</a></div>` : ''}
+      ${node.wiki_link ? `<div style="margin-top:10px; font-size:0.8rem;"><a href="wiki/entities/${node.id}.md" target="_blank" style="color:var(--accent-primary);">📖 ดูเอกสารสรุปใน LLM-Wiki</a></div>` : ''}
     </div>
 
     <h3 style="font-size:0.9rem; margin-top:8px;">โครงข่ายความสัมพันธ์ที่เกี่ยวข้อง (${connectedEdges.length})</h3>

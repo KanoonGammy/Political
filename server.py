@@ -5,7 +5,7 @@ import sys
 import webbrowser
 
 PORT = 17325
-DIRECTORY = os.path.join(os.path.dirname(os.path.abspath(__file__)), "web")
+DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
