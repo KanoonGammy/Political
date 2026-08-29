@@ -6,9 +6,12 @@ party: "พรรคประชาชน"
 role: "รองหัวหน้าพรรคประชาชน"
 coalition: "Opposition"
 mentions: 1
+image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sirikanya_Tansakun_2023.jpg/440px-Sirikanya_Tansakun_2023.jpg"
 ---
 
 # ศิริกัญญา ตันสกุล
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sirikanya_Tansakun_2023.jpg/440px-Sirikanya_Tansakun_2023.jpg" alt="ศิริกัญญา ตันสกุล" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: พรรคประชาชน | **บทบาท**: รองหัวหน้าพรรคประชาชน | **ขั้วการเมือง**: Opposition
 

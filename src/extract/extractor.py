@@ -16,7 +16,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคเพื่อไทย",
         "role": "นายกรัฐมนตรี",
         "coalition": "Government",
-        "aliases": ["แพทองธาร", "อิ๊งค์", "อุ๊งอิ๊งค์", "นายกรัฐมนตรี", "นายกฯ"]
+        "aliases": ["แพทองธาร", "อิ๊งค์", "อุ๊งอิ๊งค์", "นายกรัฐมนตรี", "นายกฯ"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Paetongtarn_Shinawatra_2024.jpg/440px-Paetongtarn_Shinawatra_2024.jpg"
     },
     "natthaphong_ruengpanyawut": {
         "name": "ณัฐพงษ์ เรืองปัญญาวุฒิ",
@@ -24,7 +25,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคประชาชน",
         "role": "ผู้นำฝ่ายค้านในสภาฯ / หัวหน้าพรรคประชาชน",
         "coalition": "Opposition",
-        "aliases": ["ณัฐพงษ์", "เท้ง", "หัวหน้าพรรคประชาชน", "ผู้นำฝ่ายค้าน"]
+        "aliases": ["ณัฐพงษ์", "เท้ง", "หัวหน้าพรรคประชาชน", "ผู้นำฝ่ายค้าน"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Natthaphong_Ruengpanyawut_2024.jpg/440px-Natthaphong_Ruengpanyawut_2024.jpg"
     },
     "anutin_charnvirakul": {
         "name": "อนุทิน ชาญวีรกูล",
@@ -32,7 +34,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคภูมิใจไทย",
         "role": "รองนายกรัฐมนตรี และ รมว.มหาดไทย",
         "coalition": "Government",
-        "aliases": ["อนุทิน", "เสี่ยหนู", "หัวหน้าพรรคภูมิใจไทย", "มท.1"]
+        "aliases": ["อนุทิน", "เสี่ยหนู", "หัวหน้าพรรคภูมิใจไทย", "มท.1"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Anutin_Charnvirakul_in_2023.jpg/440px-Anutin_Charnvirakul_in_2023.jpg"
     },
     "pirapan_salerathavibhaga": {
         "name": "พีระพันธุ์ สาลีรัฐวิภาค",
@@ -40,7 +43,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรครวมไทยสร้างชาติ",
         "role": "รองนายกรัฐมนตรี และ รมว.พลังงาน",
         "coalition": "Government",
-        "aliases": ["พีระพันธุ์", "หัวหน้าพรรครวมไทยสร้างชาติ"]
+        "aliases": ["พีระพันธุ์", "หัวหน้าพรรครวมไทยสร้างชาติ"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pirapan_Salirathavibhaga_2023.jpg/440px-Pirapan_Salirathavibhaga_2023.jpg"
     },
     "thaksin_shinawatra": {
         "name": "ทักษิณ ชินวัตร",
@@ -48,7 +52,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคเพื่อไทย",
         "role": "อดีตนายกรัฐมนตรี",
         "coalition": "Government",
-        "aliases": ["ทักษิณ", "อดีตนายกฯ ทักษิณ", "ทักษิณ ชินวัตร"]
+        "aliases": ["ทักษิณ", "อดีตนายกฯ ทักษิณ", "ทักษิณ ชินวัตร"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Thaksin_Shinawatra_2003_%28cropped%29.jpg/440px-Thaksin_Shinawatra_2003_%28cropped%29.jpg"
     },
     "chalermchai_sri_on": {
         "name": "เฉลิมชัย ศรีอ่อน",
@@ -56,7 +61,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคประชาธิปัตย์",
         "role": "รมว.ทรัพยากรธรรมชาติฯ / หัวหน้าพรรคประชาธิปัตย์",
         "coalition": "Government",
-        "aliases": ["เฉลิมชัย", "เฉลิมชัย ศรีอ่อน"]
+        "aliases": ["เฉลิมชัย", "เฉลิมชัย ศรีอ่อน"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chalermchai_Sri-on_in_2023.jpg/440px-Chalermchai_Sri-on_in_2023.jpg"
     },
     "sirikanya_tansakun": {
         "name": "ศิริกัญญา ตันสกุล",
@@ -64,7 +70,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคประชาชน",
         "role": "รองหัวหน้าพรรคประชาชน",
         "coalition": "Opposition",
-        "aliases": ["ศิริกัญญา", "ไหม ศิริกัญญา"]
+        "aliases": ["ศิริกัญญา", "ไหม ศิริกัญญา"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sirikanya_Tansakun_2023.jpg/440px-Sirikanya_Tansakun_2023.jpg"
     },
     "rangsiman_rome": {
         "name": "รังสิมันต์ โรม",
@@ -72,7 +79,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคประชาชน",
         "role": "ประธาน กมธ. ความมั่นคงฯ / สส. พรรคประชาชน",
         "coalition": "Opposition",
-        "aliases": ["รังสิมันต์ โรม", "รังสิมันต์", "โรม"]
+        "aliases": ["รังสิมันต์ โรม", "รังสิมันต์", "โรม"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Rangsiman_Rome_2023.jpg/440px-Rangsiman_Rome_2023.jpg"
     },
     "prawit_wongsuwan": {
         "name": "พล.อ.ประวิตร วงษ์สุวรรณ",
@@ -80,7 +88,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคพลังประชารัฐ",
         "role": "หัวหน้าพรรคพลังประชารัฐ",
         "coalition": "Opposition",
-        "aliases": ["ประวิตร", "บิ๊กป้อม", "พล.อ.ประวิตร", "พลเอกประวิตร"]
+        "aliases": ["ประวิตร", "บิ๊กป้อม", "พล.อ.ประวิตร", "พลเอกประวิตร"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Prawit_Wongsuwan_2019.jpg/440px-Prawit_Wongsuwan_2019.jpg"
     },
     "thammanat_prompow": {
         "name": "ร.อ.ธรรมนัส พรหมเผ่า",
@@ -88,7 +97,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคพลังประชารัฐ (กลุ่มธรรมนัส)",
         "role": "อดีต รมว.เกษตรฯ / แกนนำกลุ่มการเมือง",
         "coalition": "Government",
-        "aliases": ["ธรรมนัส", "ผู้กองธรรมนัส", "ร.อ.ธรรมนัส"]
+        "aliases": ["ธรรมนัส", "ผู้กองธรรมนัส", "ร.อ.ธรรมนัส"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Thammanat_Prompow_2023.jpg/440px-Thammanat_Prompow_2023.jpg"
     },
     "parit_wacharasindhu": {
         "name": "พริษฐ์ วัชรสินธุ",
@@ -96,7 +106,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคประชาชน",
         "role": "โฆษกพรรคประชาชน",
         "coalition": "Opposition",
-        "aliases": ["พริษฐ์", "ไอติม พริษฐ์", "พริษฐ์ วัชรสินธุ"]
+        "aliases": ["พริษฐ์", "ไอติม พริษฐ์", "พริษฐ์ วัชรสินธุ"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Parit_Wacharasindhu_2023.jpg/440px-Parit_Wacharasindhu_2023.jpg"
     },
     "raknok_srinork": {
         "name": "รักชนก ศรีนอก",
@@ -104,7 +115,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคประชาชน",
         "role": "สส.กทม. พรรคประชาชน",
         "coalition": "Opposition",
-        "aliases": ["รักชนก", "ไอซ์ รักชนก"]
+        "aliases": ["รักชนก", "ไอซ์ รักชนก"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Rukchanok_Srinork_2023.jpg/440px-Rukchanok_Srinork_2023.jpg"
     },
     "prajak_kongkirati": {
         "name": "ประจักษ์ ก้องกีรติ",
@@ -112,7 +124,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "อิสระ",
         "role": "นักวิชาการด้านรัฐศาสตร์",
         "coalition": "Independent",
-        "aliases": ["ประจักษ์", "ศ.ดร.ประจักษ์ ก้องกีรติ"]
+        "aliases": ["ประจักษ์", "ศ.ดร.ประจักษ์ ก้องกีรติ"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/User_icon_2.svg/300px-User_icon_2.svg.png"
     },
 
     # Political Parties
@@ -122,7 +135,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคเพื่อไทย",
         "role": "แกนนำพรรคร่วมรัฐบาล",
         "coalition": "Government",
-        "aliases": ["พรรคเพื่อไทย", "เพื่อไทย", "พท."]
+        "aliases": ["พรรคเพื่อไทย", "เพื่อไทย", "พท."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
     },
     "peoples_party": {
         "name": "พรรคประชาชน",
@@ -130,7 +144,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคประชาชน",
         "role": "พรรคแกนนำฝ่ายค้าน",
         "coalition": "Opposition",
-        "aliases": ["พรรคประชาชน", "ประชาชน", "พรรคส้ม", "ค่ายส้ม"]
+        "aliases": ["พรรคประชาชน", "ประชาชน", "พรรคส้ม", "ค่ายส้ม"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png"
     },
     "bhumjaithai_party": {
         "name": "พรรคภูมิใจไทย",
@@ -138,7 +153,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคภูมิใจไทย",
         "role": "พรรคร่วมรัฐบาล",
         "coalition": "Government",
-        "aliases": ["พรรคภูมิใจไทย", "ภูมิใจไทย", "ภท.", "ค่ายน้ำเงิน"]
+        "aliases": ["พรรคภูมิใจไทย", "ภูมิใจไทย", "ภท.", "ค่ายน้ำเงิน"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png"
     },
     "united_thai_nation_party": {
         "name": "พรรครวมไทยสร้างชาติ",
@@ -146,7 +162,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรครวมไทยสร้างชาติ",
         "role": "พรรคร่วมรัฐบาล",
         "coalition": "Government",
-        "aliases": ["พรรครวมไทยสร้างชาติ", "รวมไทยสร้างชาติ", "รทสช."]
+        "aliases": ["พรรครวมไทยสร้างชาติ", "รวมไทยสร้างชาติ", "รทสช."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United_Thai_Nation_Party_logo.svg/500px-United_Thai_Nation_Party_logo.svg.png"
     },
     "democrat_party": {
         "name": "พรรคประชาธิปัตย์",
@@ -154,7 +171,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคประชาธิปัตย์",
         "role": "พรรคร่วมรัฐบาล",
         "coalition": "Government",
-        "aliases": ["พรรคประชาธิปัตย์", "ประชาธิปัตย์", "ปชป."]
+        "aliases": ["พรรคประชาธิปัตย์", "ประชาธิปัตย์", "ปชป."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png"
     },
     "palang_pracharath_party": {
         "name": "พรรคพลังประชารัฐ",
@@ -162,7 +180,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคพลังประชารัฐ",
         "role": "พรรคการเมืองฝ่ายค้าน / แตกขั้ว",
         "coalition": "Opposition",
-        "aliases": ["พรรคพลังประชารัฐ", "พลังประชารัฐ", "พปชร."]
+        "aliases": ["พรรคพลังประชารัฐ", "พลังประชารัฐ", "พปชร."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Palang_Pracharath_Party_logo.svg/500px-Palang_Pracharath_Party_logo.svg.png"
     },
 
     # State & Judicial Institutions
@@ -172,7 +191,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "ตุลาการ",
         "role": "ศาลสูงสุดด้านรัฐธรรมนูญ",
         "coalition": "Judicial",
-        "aliases": ["ศาลรัฐธรรมนูญ", "ศาล รธน."]
+        "aliases": ["ศาลรัฐธรรมนูญ", "ศาล รธน."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
     },
     "election_commission": {
         "name": "คณะกรรมการการเลือกตั้ง (กกต.)",
@@ -180,7 +200,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "องค์กรอิสระ",
         "role": "องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง",
         "coalition": "Independent",
-        "aliases": ["กกต.", "คณะกรรมการการเลือกตั้ง", "สำนักงาน กกต."]
+        "aliases": ["กกต.", "คณะกรรมการการเลือกตั้ง", "สำนักงาน กกต."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
     },
     "nacc": {
         "name": "คณะกรรมการ ป.ป.ช.",
@@ -188,7 +209,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "องค์กรอิสระ",
         "role": "องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ",
         "coalition": "Independent",
-        "aliases": ["ป.ป.ช.", "คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ", "สำนักงาน ป.ป.ช."]
+        "aliases": ["ป.ป.ช.", "คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ", "สำนักงาน ป.ป.ช."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg/500px-Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg.png"
     },
     "senate_thailand": {
         "name": "วุฒิสภา (สว.)",
@@ -196,7 +218,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "สถาบันนิติบัญญัติ",
         "role": "สภาสูง / กลั่นกรองกฎหมายและแต่งตั้งองค์กรอิสระ",
         "coalition": "Independent",
-        "aliases": ["วุฒิสภา", "สว.", "สมาชิกวุฒิสภา", "สภาสูง"]
+        "aliases": ["วุฒิสภา", "สว.", "สมาชิกวุฒิสภา", "สภาสูง"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
     },
 
     # Key Policies & Events
@@ -206,7 +229,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "พรรคเพื่อไทย",
         "role": "นโยบายเรือธงกระตุ้นเศรษฐกิจ",
         "coalition": "Government",
-        "aliases": ["ดิจิทัลวอลเล็ต", "แจกเงินหมื่น", "เงิน 10,000 บาท", "ดิจิทัลวอลเล็ต 10,000 บาท"]
+        "aliases": ["ดิจิทัลวอลเล็ต", "แจกเงินหมื่น", "เงิน 10,000 บาท", "ดิจิทัลวอลเล็ต 10,000 บาท"],
+        "image_url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400&auto=format&fit=crop&q=80"
     },
     "constitution_amendment": {
         "name": "การแก้ไขรัฐธรรมนูญ",
@@ -214,7 +238,8 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "party": "รัฐสภา",
         "role": "วาระการปฏิรูปกติกาการเมืองและหมวดจริยธรรม",
         "coalition": "Cross-Party",
-        "aliases": ["แก้รัฐธรรมนูญ", "แก้ไขรัฐธรรมนูญ", "แก้ รธน.", "แก้มาตรฐานจริยธรรม"]
+        "aliases": ["แก้รัฐธรรมนูญ", "แก้ไขรัฐธรรมนูญ", "แก้ รธน.", "แก้มาตรฐานจริยธรรม"],
+        "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80"
     }
 }
 
@@ -283,7 +308,8 @@ def extract_entities_and_relations_from_text(
             coalition=meta.get("coalition"),
             aliases=meta.get("aliases", []),
             mention_count=1,
-            wiki_link=f"[[entities/{ent_id}]]"
+            wiki_link=f"[[entities/{ent_id}]]",
+            image_url=meta.get("image_url")
         )
         nodes.append(node)
 

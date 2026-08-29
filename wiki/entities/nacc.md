@@ -6,9 +6,12 @@ party: "องค์กรอิสระ"
 role: "องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ"
 coalition: "Independent"
 mentions: 13
+image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg/500px-Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg.png"
 ---
 
 # คณะกรรมการ ป.ป.ช.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg/500px-Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg.png" alt="คณะกรรมการ ป.ป.ช." width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: องค์กรอิสระ | **บทบาท**: องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ | **ขั้วการเมือง**: Independent
 

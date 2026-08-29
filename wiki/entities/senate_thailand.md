@@ -6,9 +6,12 @@ party: "สถาบันนิติบัญญัติ"
 role: "สภาสูง / กลั่นกรองกฎหมายและแต่งตั้งองค์กรอิสระ"
 coalition: "Independent"
 mentions: 34
+image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
 ---
 
 # วุฒิสภา (สว.)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png" alt="วุฒิสภา (สว.)" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: สถาบันนิติบัญญัติ | **บทบาท**: สภาสูง / กลั่นกรองกฎหมายและแต่งตั้งองค์กรอิสระ | **ขั้วการเมือง**: Independent
 

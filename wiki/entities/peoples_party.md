@@ -6,9 +6,12 @@ party: "พรรคประชาชน"
 role: "พรรคแกนนำฝ่ายค้าน"
 coalition: "Opposition"
 mentions: 125
+image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png"
 ---
 
 # พรรคประชาชน
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png" alt="พรรคประชาชน" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: พรรคประชาชน | **บทบาท**: พรรคแกนนำฝ่ายค้าน | **ขั้วการเมือง**: Opposition
 

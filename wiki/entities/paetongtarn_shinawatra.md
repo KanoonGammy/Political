@@ -6,9 +6,12 @@ party: "พรรคเพื่อไทย"
 role: "นายกรัฐมนตรี"
 coalition: "Government"
 mentions: 40
+image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Paetongtarn_Shinawatra_2024.jpg/440px-Paetongtarn_Shinawatra_2024.jpg"
 ---
 
 # แพทองธาร ชินวัตร
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Paetongtarn_Shinawatra_2024.jpg/440px-Paetongtarn_Shinawatra_2024.jpg" alt="แพทองธาร ชินวัตร" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: พรรคเพื่อไทย | **บทบาท**: นายกรัฐมนตรี | **ขั้วการเมือง**: Government
 

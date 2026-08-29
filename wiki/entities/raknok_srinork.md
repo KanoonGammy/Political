@@ -6,9 +6,12 @@ party: "พรรคประชาชน"
 role: "สส.กทม. พรรคประชาชน"
 coalition: "Opposition"
 mentions: 5
+image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Rukchanok_Srinork_2023.jpg/440px-Rukchanok_Srinork_2023.jpg"
 ---
 
 # รักชนก ศรีนอก
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Rukchanok_Srinork_2023.jpg/440px-Rukchanok_Srinork_2023.jpg" alt="รักชนก ศรีนอก" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: พรรคประชาชน | **บทบาท**: สส.กทม. พรรคประชาชน | **ขั้วการเมือง**: Opposition
 

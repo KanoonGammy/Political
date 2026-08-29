@@ -45,6 +45,8 @@ def generate_entity_markdown(node: EntityNode, edges: List[RelationEdge], node_m
 
     relations_str = "\n".join(relations_list) if relations_list else "*ไม่มีประวัติความสัมพันธ์ในรอบ 30 วัน*"
 
+    img_embed = f'<img src="{node.image_url}" alt="{node.name}" width="120" style="border-radius:50%; margin-bottom:12px;" />\n\n' if node.image_url else ""
+
     return f"""---
 id: "{node.id}"
 title: "{node.name}"
@@ -53,11 +55,12 @@ party: "{node.party or ''}"
 role: "{node.role or ''}"
 coalition: "{node.coalition or ''}"
 mentions: {node.mention_count}
+image_url: "{node.image_url or ''}"
 ---
 
 # {node.name}
 
-> **สังกัด**: {node.party or 'อิสระ'} | **บทบาท**: {node.role or '-'} | **ขั้วการเมือง**: {node.coalition or '-'}
+{img_embed}> **สังกัด**: {node.party or 'อิสระ'} | **บทบาท**: {node.role or '-'} | **ขั้วการเมือง**: {node.coalition or '-'}
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: {node.mention_count} ครั้ง

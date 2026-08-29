@@ -93,6 +93,16 @@ function getNodeColor(node) {
   return { bg: "#3b82f6", border: "#1d4ed8", highlight: "#60a5fa" };
 }
 
+function getFallbackAvatar(node) {
+  const color = (getNodeColor(node) || {}).bg || "#3b82f6";
+  const initial = (node.name || '?').charAt(0);
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="48" fill="${color}" stroke="#ffffff" stroke-width="4"/>
+    <text x="50%" y="54%" font-size="44" font-weight="bold" fill="#ffffff" font-family="Noto Sans Thai, sans-serif" text-anchor="middle" dominant-baseline="middle">${initial}</text>
+  </svg>`;
+  return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+}
+
 function renderGraph() {
   const container = document.getElementById('graph-canvas');
 
@@ -111,16 +121,20 @@ function renderGraph() {
     return true;
   });
 
-  // Prepare Vis.js datasets
+  // Prepare Vis.js datasets with Personal Circular Images
   const visNodes = filteredNodes.map(node => {
     const colorStyle = getNodeColor(node);
-    const size = Math.min(45, Math.max(22, 18 + (node.mention_count || 1) * 1.5));
-    
+    const size = Math.min(48, Math.max(26, 22 + (node.mention_count || 1) * 1.4));
+    const fallbackImg = getFallbackAvatar(node);
+    const imgUrl = node.image_url || fallbackImg;
+
     return {
       id: node.id,
       label: node.name,
       title: `${node.name}\nตำแหน่ง: ${node.role || '-'}\nสังกัด: ${node.party || '-'}\nปรากฏในข่าว: ${node.mention_count} ครั้ง`,
-      shape: node.type === 'INSTITUTION' ? 'box' : (node.type === 'PARTY' ? 'diamond' : 'dot'),
+      shape: 'circularImage',
+      image: imgUrl,
+      brokenImage: fallbackImg,
       size: size,
       color: {
         background: colorStyle.bg,
@@ -137,7 +151,11 @@ function renderGraph() {
         strokeWidth: 3,
         strokeColor: '#0b0f19'
       },
-      borderWidth: 2,
+      borderWidth: 3,
+      shadow: { enabled: true, color: 'rgba(0,0,0,0.6)', size: 8, x: 2, y: 2 },
+      raw: node
+    };
+  });
       shadow: { enabled: true, color: 'rgba(0,0,0,0.6)', size: 8, x: 2, y: 2 },
       raw: node
     };
@@ -256,18 +274,24 @@ function showNodeDossier(node) {
     `;
   }).join('');
 
+  const fallbackImg = getFallbackAvatar(node);
+  const imgUrl = node.image_url || fallbackImg;
+
   body.innerHTML = `
     <div class="dossier-card">
-      <div style="font-size:0.8rem; text-transform:uppercase; color:var(--text-muted);">บทบาท / ตำแหน่ง</div>
-      <div style="font-size:1.05rem; font-weight:600; margin-top:2px;">${node.role || 'ไม่มีระบุ'}</div>
+      <div class="dossier-profile">
+        <img src="${imgUrl}" alt="${node.name}" class="dossier-avatar" onerror="this.src='${fallbackImg}'" />
+        <div>
+          <div style="font-size:0.8rem; text-transform:uppercase; color:var(--text-muted);">บทบาท / ตำแหน่ง</div>
+          <div style="font-size:1.05rem; font-weight:600; margin-top:2px;">${node.role || 'ไม่มีระบุ'}</div>
+          <div style="margin-top:4px; font-size:0.85rem; color:var(--accent-primary); font-weight:500;">${node.party || 'อิสระ'}</div>
+        </div>
+      </div>
       <div style="margin-top:8px; display:flex; gap:8px;">
-        <span class="stat-badge" style="font-size:0.75rem;">สังกัด: ${node.party || 'อิสระ'}</span>
         <span class="stat-badge" style="font-size:0.75rem;">ขั้ว: ${node.coalition || '-'}</span>
+        <span class="stat-badge" style="font-size:0.75rem;">ปรากฏในข่าว: <strong style="color:var(--accent-primary); margin-left:4px;">${node.mention_count}</strong> ครั้ง</span>
       </div>
-      <div style="margin-top:10px; font-size:0.8rem; color:var(--text-muted);">
-        ความถี่ในข่าวรอบ 30 วัน: <strong style="color:var(--accent-primary);">${node.mention_count}</strong> ครั้ง
-      </div>
-      ${node.wiki_link ? `<div style="margin-top:8px; font-size:0.8rem;"><a href="../wiki/entities/${node.id}.md" target="_blank" style="color:var(--accent-primary);">📖 ดูเอกสารสรุปใน LLM-Wiki</a></div>` : ''}
+      ${node.wiki_link ? `<div style="margin-top:10px; font-size:0.8rem;"><a href="../wiki/entities/${node.id}.md" target="_blank" style="color:var(--accent-primary);">📖 ดูเอกสารสรุปใน LLM-Wiki</a></div>` : ''}
     </div>
 
     <h3 style="font-size:0.9rem; margin-top:8px;">โครงข่ายความสัมพันธ์ที่เกี่ยวข้อง (${connectedEdges.length})</h3>

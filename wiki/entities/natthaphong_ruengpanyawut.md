@@ -6,9 +6,12 @@ party: "พรรคประชาชน"
 role: "ผู้นำฝ่ายค้านในสภาฯ / หัวหน้าพรรคประชาชน"
 coalition: "Opposition"
 mentions: 27
+image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Natthaphong_Ruengpanyawut_2024.jpg/440px-Natthaphong_Ruengpanyawut_2024.jpg"
 ---
 
 # ณัฐพงษ์ เรืองปัญญาวุฒิ
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Natthaphong_Ruengpanyawut_2024.jpg/440px-Natthaphong_Ruengpanyawut_2024.jpg" alt="ณัฐพงษ์ เรืองปัญญาวุฒิ" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: พรรคประชาชน | **บทบาท**: ผู้นำฝ่ายค้านในสภาฯ / หัวหน้าพรรคประชาชน | **ขั้วการเมือง**: Opposition
 

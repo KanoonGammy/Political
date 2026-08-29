@@ -28,6 +28,7 @@ class EntityNode(BaseModel):
     aliases: List[str] = Field(default_factory=list)
     mention_count: int = 1
     wiki_link: Optional[str] = None
+    image_url: Optional[str] = None
 
 class RelationEdge(BaseModel):
     id: str
