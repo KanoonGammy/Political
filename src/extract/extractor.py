@@ -118,14 +118,88 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "aliases": ["รักชนก", "ไอซ์ รักชนก"],
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Rukchanok_Srinork_2023.jpg/440px-Rukchanok_Srinork_2023.jpg"
     },
-    "prajak_kongkirati": {
-        "name": "ประจักษ์ ก้องกีรติ",
+
+    # --- Senate Collusion & Investigation Key Figures (คดีฮั้ว สว.) ---
+    "mongkol_surasajja": {
+        "name": "มงคล สุระสัจจะ",
         "type": EntityType.PERSON,
-        "party": "อิสระ",
-        "role": "นักวิชาการด้านรัฐศาสตร์",
+        "party": "วุฒิสภา (สายสีน้ำเงิน)",
+        "role": "ประธานวุฒิสภา / ผู้ถูกกล่าวหาคดีฮั้ว สว. 229 ราย",
+        "coalition": "Senate-Blue",
+        "aliases": ["มงคล สุระสัจจะ", "มงคล", "ประธานวุฒิสภา", "ประธาน สว."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Mongkol_Surasajja_%28cropped%29.jpg/500px-Mongkol_Surasajja_%28cropped%29.jpg"
+    },
+    "kriangkrai_srirak": {
+        "name": "พล.อ.เกรียงไกร ศรีรักษ์",
+        "type": EntityType.PERSON,
+        "party": "วุฒิสภา (สายสีน้ำเงิน)",
+        "role": "รองประธานวุฒิสภา คนที่ 1 / แกนนำ สว. สายสีน้ำเงิน",
+        "coalition": "Senate-Blue",
+        "aliases": ["เกรียงไกร ศรีรักษ์", "พล.อ.เกรียงไกร", "บิ๊กเกรียง", "รองประธานวุฒิสภา คนที่ 1"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kriangkrai_Srirak.jpg/500px-Kriangkrai_Srirak.jpg"
+    },
+    "nanthana_nanthavaropas": {
+        "name": "นันทนา นันทวโรภาส",
+        "type": EntityType.PERSON,
+        "party": "วุฒิสภา (กลุ่มพันธุ์ใหม่)",
+        "role": "สมาชิกวุฒิสภา / แกนนำ สว. กลุ่มพันธุ์ใหม่ (ฝ่ายตรวจสอบ)",
+        "coalition": "Senate-NewBreed",
+        "aliases": ["นันทนา นันทวโรภาส", "นันทนา", "ดร.นันทนา", "สว.นันทนา"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Nanthana_Nanthavaropas.jpg/500px-Nanthana_Nanthavaropas.jpg"
+    },
+    "tewarit_maneechay": {
+        "name": "เทวฤทธิ์ มณีฉาย",
+        "type": EntityType.PERSON,
+        "party": "วุฒิสภา (กลุ่มพันธุ์ใหม่)",
+        "role": "สมาชิกวุฒิสภา / โฆษก สว. กลุ่มพันธุ์ใหม่",
+        "coalition": "Senate-NewBreed",
+        "aliases": ["เทวฤทธิ์ มณีฉาย", "เทวฤทธิ์", "สว.เทวฤทธิ์"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+    },
+    "boonsong_noisophon": {
+        "name": "บุญส่ง น้อยโสภณ",
+        "type": EntityType.PERSON,
+        "party": "วุฒิสภา",
+        "role": "รองประธานวุฒิสภา คนที่ 2 / อดีต กกต.",
         "coalition": "Independent",
-        "aliases": ["ประจักษ์", "ศ.ดร.ประจักษ์ ก้องกีรติ"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/User_icon_2.svg/300px-User_icon_2.svg.png"
+        "aliases": ["บุญส่ง น้อยโสภณ", "บุญส่ง", "รองประธานวุฒิสภา คนที่ 2"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+    },
+    "itthiporn_boonpracong": {
+        "name": "อิทธิพร บุญประคอง",
+        "type": EntityType.PERSON,
+        "party": "องค์กรอิสระ (กกต.)",
+        "role": "ประธานคณะกรรมการการเลือกตั้ง (กกต.)",
+        "coalition": "Independent",
+        "aliases": ["อิทธิพร บุญประคอง", "อิทธิพร", "ประธาน กกต."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Itthiporn_Boonpracong.jpg/500px-Itthiporn_Boonpracong.jpg"
+    },
+    "sawaeng_boonmee": {
+        "name": "แสวง บุญมี",
+        "type": EntityType.PERSON,
+        "party": "องค์กรอิสระ (กกต.)",
+        "role": "เลขาธิการ กกต. (ผู้รับผิดชอบสำนวนคดีฮั้ว สว.)",
+        "coalition": "Independent",
+        "aliases": ["แสวง บุญมี", "แสวง", "เลขาธิการ กกต."],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+    },
+    "somchai_sawangkarn": {
+        "name": "สมชาย แสวงการ",
+        "type": EntityType.PERSON,
+        "party": "อดีตวุฒิสภา / ผู้ร้องเรียน",
+        "role": "อดีต สว. / ผู้ยื่นหลักฐานเส้นทางการเงินและโพยฮั้ว สว.",
+        "coalition": "Independent",
+        "aliases": ["สมชาย แสวงการ", "สมชาย"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+    },
+    "yingcheep_atchanont": {
+        "name": "ยิ่งชีพ อัชฌานนท์",
+        "type": EntityType.PERSON,
+        "party": "ภาคประชาสังคม (iLaw)",
+        "role": "ผู้จัดการ iLaw / ผู้เปิดโปงสถิติบล็อกโหวต สว.67",
+        "coalition": "Independent",
+        "aliases": ["ยิ่งชีพ อัชฌานนท์", "ยิ่งชีพ", "เป๋า ยิ่งชีพ", "iLaw"],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Yingcheep_Atchanont.jpg/500px-Yingcheep_Atchanont.jpg"
     },
 
     # Political Parties
@@ -324,13 +398,37 @@ PARTY_METADATA: Dict[str, Dict] = {
         "symbol": "🛡️",
         "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
     },
+    "องค์กรอิสระ (กกต.)": {
+        "symbol": "🛡️",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+    },
     "สถาบันนิติบัญญัติ": {
         "symbol": "🏛️",
         "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
     },
+    "วุฒิสภา": {
+        "symbol": "🏛️",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+    },
+    "วุฒิสภา (สายสีน้ำเงิน)": {
+        "symbol": "🏛️🔵",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+    },
+    "วุฒิสภา (กลุ่มพันธุ์ใหม่)": {
+        "symbol": "🏛️🌱",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+    },
+    "อดีตวุฒิสภา / ผู้ร้องเรียน": {
+        "symbol": "🔍",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+    },
+    "ภาคประชาสังคม (iLaw)": {
+        "symbol": "👁️",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+    },
     "รัฐสภา": {
         "symbol": "📜",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
     }
 }
 

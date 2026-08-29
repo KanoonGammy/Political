@@ -1,6 +1,43 @@
 {
   "nodes": [
     {
+      "id": "tewarit_maneechay",
+      "name": "เทวฤทธิ์ มณีฉาย",
+      "type": "PERSON",
+      "party": "วุฒิสภา (กลุ่มพันธุ์ใหม่)",
+      "role": "สมาชิกวุฒิสภา / โฆษก สว. กลุ่มพันธุ์ใหม่",
+      "coalition": "Senate-NewBreed",
+      "aliases": [
+        "เทวฤทธิ์ มณีฉาย",
+        "เทวฤทธิ์",
+        "สว.เทวฤทธิ์"
+      ],
+      "mention_count": 2,
+      "wiki_link": "[[entities/tewarit_maneechay]]",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_symbol": "🏛️🌱"
+    },
+    {
+      "id": "yingcheep_atchanont",
+      "name": "ยิ่งชีพ อัชฌานนท์",
+      "type": "PERSON",
+      "party": "ภาคประชาสังคม (iLaw)",
+      "role": "ผู้จัดการ iLaw / ผู้เปิดโปงสถิติบล็อกโหวต สว.67",
+      "coalition": "Independent",
+      "aliases": [
+        "ยิ่งชีพ อัชฌานนท์",
+        "ยิ่งชีพ",
+        "เป๋า ยิ่งชีพ",
+        "iLaw"
+      ],
+      "mention_count": 8,
+      "wiki_link": "[[entities/yingcheep_atchanont]]",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Yingcheep_Atchanont.jpg/500px-Yingcheep_Atchanont.jpg",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_symbol": "👁️"
+    },
+    {
       "id": "senate_thailand",
       "name": "วุฒิสภา (สว.)",
       "type": "INSTITUTION",
@@ -13,7 +50,7 @@
         "สมาชิกวุฒิสภา",
         "สภาสูง"
       ],
-      "mention_count": 34,
+      "mention_count": 39,
       "wiki_link": "[[entities/senate_thailand]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
       "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
@@ -33,7 +70,7 @@
         "นายกรัฐมนตรี",
         "นายกฯ"
       ],
-      "mention_count": 40,
+      "mention_count": 41,
       "wiki_link": "[[entities/paetongtarn_shinawatra]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Paetongtarn_Shinawatra_2024.jpg/440px-Paetongtarn_Shinawatra_2024.jpg",
       "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png",
@@ -52,7 +89,7 @@
         "หัวหน้าพรรคภูมิใจไทย",
         "มท.1"
       ],
-      "mention_count": 35,
+      "mention_count": 36,
       "wiki_link": "[[entities/anutin_charnvirakul]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Anutin_Charnvirakul_in_2023.jpg/440px-Anutin_Charnvirakul_in_2023.jpg",
       "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png",
@@ -106,7 +143,7 @@
         "พรรคส้ม",
         "ค่ายส้ม"
       ],
-      "mention_count": 125,
+      "mention_count": 126,
       "wiki_link": "[[entities/peoples_party]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png",
       "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png",
@@ -124,7 +161,7 @@
         "คณะกรรมการการเลือกตั้ง",
         "สำนักงาน กกต."
       ],
-      "mention_count": 26,
+      "mention_count": 31,
       "wiki_link": "[[entities/election_commission]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
       "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
@@ -143,7 +180,7 @@
         "ภท.",
         "ค่ายน้ำเงิน"
       ],
-      "mention_count": 30,
+      "mention_count": 31,
       "wiki_link": "[[entities/bhumjaithai_party]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png",
       "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png",
@@ -197,7 +234,7 @@
         "คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ",
         "สำนักงาน ป.ป.ช."
       ],
-      "mention_count": 13,
+      "mention_count": 15,
       "wiki_link": "[[entities/nacc]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg/500px-Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg.png",
       "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
@@ -258,6 +295,25 @@
       "party_symbol": "🔴"
     },
     {
+      "id": "mongkol_surasajja",
+      "name": "มงคล สุระสัจจะ",
+      "type": "PERSON",
+      "party": "วุฒิสภา (สายสีน้ำเงิน)",
+      "role": "ประธานวุฒิสภา / ผู้ถูกกล่าวหาคดีฮั้ว สว. 229 ราย",
+      "coalition": "Senate-Blue",
+      "aliases": [
+        "มงคล สุระสัจจะ",
+        "มงคล",
+        "ประธานวุฒิสภา",
+        "ประธาน สว."
+      ],
+      "mention_count": 8,
+      "wiki_link": "[[entities/mongkol_surasajja]]",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Mongkol_Surasajja_%28cropped%29.jpg/500px-Mongkol_Surasajja_%28cropped%29.jpg",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_symbol": "🏛️🔵"
+    },
+    {
       "id": "constitution_amendment",
       "name": "การแก้ไขรัฐธรรมนูญ",
       "type": "POLICY",
@@ -273,8 +329,26 @@
       "mention_count": 5,
       "wiki_link": "[[entities/constitution_amendment]]",
       "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
       "party_symbol": "📜"
+    },
+    {
+      "id": "sawaeng_boonmee",
+      "name": "แสวง บุญมี",
+      "type": "PERSON",
+      "party": "องค์กรอิสระ (กกต.)",
+      "role": "เลขาธิการ กกต. (ผู้รับผิดชอบสำนวนคดีฮั้ว สว.)",
+      "coalition": "Independent",
+      "aliases": [
+        "แสวง บุญมี",
+        "แสวง",
+        "เลขาธิการ กกต."
+      ],
+      "mention_count": 7,
+      "wiki_link": "[[entities/sawaeng_boonmee]]",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
+      "party_symbol": "🛡️"
     },
     {
       "id": "constitutional_court",
@@ -287,14 +361,141 @@
         "ศาลรัฐธรรมนูญ",
         "ศาล รธน."
       ],
-      "mention_count": 2,
+      "mention_count": 3,
       "wiki_link": "[[entities/constitutional_court]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png",
       "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png",
       "party_symbol": "⚖️"
+    },
+    {
+      "id": "nanthana_nanthavaropas",
+      "name": "นันทนา นันทวโรภาส",
+      "type": "PERSON",
+      "party": "วุฒิสภา (กลุ่มพันธุ์ใหม่)",
+      "role": "สมาชิกวุฒิสภา / แกนนำ สว. กลุ่มพันธุ์ใหม่ (ฝ่ายตรวจสอบ)",
+      "coalition": "Senate-NewBreed",
+      "aliases": [
+        "นันทนา นันทวโรภาส",
+        "นันทนา",
+        "ดร.นันทนา",
+        "สว.นันทนา"
+      ],
+      "mention_count": 2,
+      "wiki_link": "[[entities/nanthana_nanthavaropas]]",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Nanthana_Nanthavaropas.jpg/500px-Nanthana_Nanthavaropas.jpg",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_symbol": "🏛️🌱"
+    },
+    {
+      "id": "kriangkrai_srirak",
+      "name": "พล.อ.เกรียงไกร ศรีรักษ์",
+      "type": "PERSON",
+      "party": "วุฒิสภา (สายสีน้ำเงิน)",
+      "role": "รองประธานวุฒิสภา คนที่ 1 / แกนนำ สว. สายสีน้ำเงิน",
+      "coalition": "Senate-Blue",
+      "aliases": [
+        "เกรียงไกร ศรีรักษ์",
+        "พล.อ.เกรียงไกร",
+        "บิ๊กเกรียง",
+        "รองประธานวุฒิสภา คนที่ 1"
+      ],
+      "mention_count": 2,
+      "wiki_link": "[[entities/kriangkrai_srirak]]",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kriangkrai_Srirak.jpg/500px-Kriangkrai_Srirak.jpg",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_symbol": "🏛️🔵"
+    },
+    {
+      "id": "boonsong_noisophon",
+      "name": "บุญส่ง น้อยโสภณ",
+      "type": "PERSON",
+      "party": "วุฒิสภา",
+      "role": "รองประธานวุฒิสภา คนที่ 2 / อดีต กกต.",
+      "coalition": "Independent",
+      "aliases": [
+        "บุญส่ง น้อยโสภณ",
+        "บุญส่ง",
+        "รองประธานวุฒิสภา คนที่ 2"
+      ],
+      "mention_count": 1,
+      "wiki_link": "[[entities/boonsong_noisophon]]",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_symbol": "🏛️"
+    },
+    {
+      "id": "itthiporn_boonpracong",
+      "name": "อิทธิพร บุญประคอง",
+      "type": "PERSON",
+      "party": "องค์กรอิสระ (กกต.)",
+      "role": "ประธานคณะกรรมการการเลือกตั้ง (กกต.)",
+      "coalition": "Independent",
+      "aliases": [
+        "อิทธิพร บุญประคอง",
+        "อิทธิพร",
+        "ประธาน กกต."
+      ],
+      "mention_count": 2,
+      "wiki_link": "[[entities/itthiporn_boonpracong]]",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Itthiporn_Boonpracong.jpg/500px-Itthiporn_Boonpracong.jpg",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
+      "party_symbol": "🛡️"
+    },
+    {
+      "id": "somchai_sawangkarn",
+      "name": "สมชาย แสวงการ",
+      "type": "PERSON",
+      "party": "อดีตวุฒิสภา / ผู้ร้องเรียน",
+      "role": "อดีต สว. / ผู้ยื่นหลักฐานเส้นทางการเงินและโพยฮั้ว สว.",
+      "coalition": "Independent",
+      "aliases": [
+        "สมชาย แสวงการ",
+        "สมชาย"
+      ],
+      "mention_count": 1,
+      "wiki_link": "[[entities/somchai_sawangkarn]]",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_symbol": "🔍"
     }
   ],
   "edges": [
+    {
+      "id": "tewarit_maneechay__yingcheep_atchanont__083f92",
+      "source": "tewarit_maneechay",
+      "target": "yingcheep_atchanont",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง เทวฤทธิ์ มณีฉาย และ ยิ่งชีพ อัชฌานนท์",
+      "sentiment": -0.6,
+      "date": "2026-07-31",
+      "evidence": "ฟ้อง iLaw: การเมืองไทยในวิกฤตความเชื่อใจ กับ เทวฤทธิ์ มณีฉาย - The101",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrMjZvQmgxckVGU2hTNFA0ZE51YzgxMEh2amxhcWVvOW5Fd3Z3RTNJM2w3VThNckttUUMtMEFJazYxWFZ4XzdsT244R2lEN3ZzRldRY0pVc1haenM?oc=5",
+      "weight": 1
+    },
+    {
+      "id": "tewarit_maneechay__senate_thailand__07fbdf",
+      "source": "tewarit_maneechay",
+      "target": "senate_thailand",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง เทวฤทธิ์ มณีฉาย และ วุฒิสภา (สว.)",
+      "sentiment": -0.6,
+      "date": "2026-07-31",
+      "evidence": "101 One-on-One EP.417: โกง สว. ฟ้อง iLaw: การเมืองไทยในวิกฤตความเชื่อใจ กับ เทวฤทธิ์ มณีฉาย - The101.world",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBrMjZvQmgxckVGU2hTNFA0ZE51YzgxMEh2amxhcWVvOW5Fd3Z3RTNJM2w3VThNckttUUMtMEFJazYxWFZ4XzdsT244R2lEN3ZzRldRY0pVc1haenM?oc=5",
+      "weight": 1
+    },
+    {
+      "id": "yingcheep_atchanont__senate_thailand__07fbdf",
+      "source": "yingcheep_atchanont",
+      "target": "senate_thailand",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ วุฒิสภา (สว.)",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่",
+      "source_url": "https://www.matichon.co.th/politics/news_5866426",
+      "weight": 3
+    },
     {
       "id": "anutin_charnvirakul__raknok_srinork__f2c331",
       "source": "anutin_charnvirakul",
@@ -374,10 +575,10 @@
       "relation_type": "CRITICISM",
       "description": "คณะกรรมการการเลือกตั้ง (กกต.) วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ วุฒิสภา (สว.)",
       "sentiment": -0.7,
-      "date": "2026-08-28",
-      "evidence": "บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน",
-      "source_url": "https://www.matichon.co.th/politics/news_5865926",
-      "weight": 3
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 4
     },
     {
       "id": "pheu_thai_party__peoples_party__3ea406",
@@ -458,10 +659,10 @@
       "relation_type": "OPPOSITION",
       "description": "พรรคประชาชน และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
-      "date": "2026-08-28",
-      "evidence": "นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล",
-      "source_url": "https://www.matichon.co.th/politics/news_5866474",
-      "weight": 15
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 16
     },
     {
       "id": "peoples_party__senate_thailand__a4f033",
@@ -470,10 +671,10 @@
       "relation_type": "OPPOSITION",
       "description": "พรรคประชาชน และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
-      "date": "2026-08-28",
-      "evidence": ") และอดีตผู้นำฝ่ายค้านฯ โดยตนจะร่วมเฉพาะวงเสวนาของอดีตผู้นำฝ่ายค้านในช่วงเช้าเท่านั้น ไม่ได้เข้าร่วมวงเสวนาช่วงอื่นที่เกี่ยวข้องกับประเด็นการเลือกสมาชิกวุฒิสภา หรือร่วมเวทีกับกลุ่มเคลื่อนไหวภาคประชาชน",
-      "source_url": "https://www.matichon.co.th/politics/news_5866237",
-      "weight": 10
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 11
     },
     {
       "id": "election_commission__senate_thailand__a4f033",
@@ -482,10 +683,10 @@
       "relation_type": "OPPOSITION",
       "description": "คณะกรรมการการเลือกตั้ง (กกต.) และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
-      "date": "2026-08-28",
-      "evidence": "ด่วน! กกต.ร่อนเอกสาร นัดแล้ว 14 ก.ย.นี้ ลงมติสำนวน คดีฮั้วส.ว.",
-      "source_url": "https://www.matichon.co.th/politics/news_5866958",
-      "weight": 8
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 12
     },
     {
       "id": "paetongtarn_shinawatra__anutin_charnvirakul__79561f",
@@ -494,10 +695,10 @@
       "relation_type": "ALLIANCE",
       "description": "แพทองธาร ชินวัตร และ อนุทิน ชาญวีรกูล ในขั้วการเมืองเดียวกัน (Government)",
       "sentiment": 0.4,
-      "date": "2026-08-28",
-      "evidence": "นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล",
-      "source_url": "https://www.matichon.co.th/politics/news_5866474",
-      "weight": 18
+      "date": "2026-08-29",
+      "evidence": "ด้านนายอนุทิน ชาญวีรกูล รองนายกฯ และ รมว",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 19
     },
     {
       "id": "paetongtarn_shinawatra__sirikanya_tansakun__140bb4",
@@ -650,10 +851,10 @@
       "relation_type": "MEMBER_OF",
       "description": "อนุทิน ชาญวีรกูล สังกัด/ดำรงตำแหน่งใน พรรคภูมิใจไทย",
       "sentiment": 0.5,
-      "date": "2026-08-28",
-      "evidence": "‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’",
-      "source_url": "https://www.matichon.co.th/politics/news_5866237",
-      "weight": 12
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 13
     },
     {
       "id": "thaksin_shinawatra__bhumjaithai_party__b1194b",
@@ -674,10 +875,10 @@
       "relation_type": "OPPOSITION",
       "description": "อนุทิน ชาญวีรกูล และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
-      "date": "2026-08-28",
-      "evidence": "นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล",
-      "source_url": "https://www.matichon.co.th/politics/news_5866474",
-      "weight": 3
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 4
     },
     {
       "id": "peoples_party__bhumjaithai_party__d9a754",
@@ -698,10 +899,10 @@
       "relation_type": "OPPOSITION",
       "description": "พรรคภูมิใจไทย และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
-      "date": "2026-08-28",
-      "evidence": "นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล",
-      "source_url": "https://www.matichon.co.th/politics/news_5866474",
-      "weight": 5
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 6
     },
     {
       "id": "anutin_charnvirakul__parit_wacharasindhu__55cd11",
@@ -782,10 +983,10 @@
       "relation_type": "ALLIANCE",
       "description": "แพทองธาร ชินวัตร และ พรรคภูมิใจไทย ในขั้วการเมืองเดียวกัน (Government)",
       "sentiment": 0.4,
-      "date": "2026-08-28",
-      "evidence": "ธนกร หนุนนายกฯช่วยลดค่าไฟฟ้า ชูโซลาร์รูฟท็อป เหน็บฝ่ายค้านดีแต่พูด",
-      "source_url": "https://www.matichon.co.th/politics/news_5866219",
-      "weight": 4
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 5
     },
     {
       "id": "anutin_charnvirakul__pheu_thai_party__46c480",
@@ -818,10 +1019,10 @@
       "relation_type": "OPPOSITION",
       "description": "อนุทิน ชาญวีรกูล และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
-      "date": "2026-08-28",
-      "evidence": "‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’",
-      "source_url": "https://www.matichon.co.th/politics/news_5866237",
-      "weight": 3
+      "date": "2026-08-29",
+      "evidence": "tags: [\"มงคล สุระสัจจะ\", \"เกรียงไกร ศรีรักษ์\", \"อนุทิน ชาญวีรกูล\", \"วุฒิสภา\", \"กกต",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 4
     },
     {
       "id": "bhumjaithai_party__senate_thailand__e59db5",
@@ -830,10 +1031,10 @@
       "relation_type": "OPPOSITION",
       "description": "พรรคภูมิใจไทย และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
-      "date": "2026-08-28",
-      "evidence": "‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’",
-      "source_url": "https://www.matichon.co.th/politics/news_5866237",
-      "weight": 6
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 7
     },
     {
       "id": "natthaphong_ruengpanyawut__peoples_party__f493e8",
@@ -1052,6 +1253,18 @@
       "weight": 3
     },
     {
+      "id": "mongkol_surasajja__peoples_party__2bb904",
+      "source": "mongkol_surasajja",
+      "target": "peoples_party",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 2
+    },
+    {
       "id": "paetongtarn_shinawatra__democrat_party__b2a0af",
       "source": "paetongtarn_shinawatra",
       "target": "democrat_party",
@@ -1160,6 +1373,30 @@
       "weight": 2
     },
     {
+      "id": "yingcheep_atchanont__election_commission__82f553",
+      "source": "yingcheep_atchanont",
+      "target": "election_commission",
+      "relation_type": "OPPOSITION",
+      "description": "ยิ่งชีพ อัชฌานนท์ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 4
+    },
+    {
+      "id": "yingcheep_atchanont__senate_thailand__82f553",
+      "source": "yingcheep_atchanont",
+      "target": "senate_thailand",
+      "relation_type": "OPPOSITION",
+      "description": "ยิ่งชีพ อัชฌานนท์ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 5
+    },
+    {
       "id": "paetongtarn_shinawatra__anutin_charnvirakul__26855a",
       "source": "paetongtarn_shinawatra",
       "target": "anutin_charnvirakul",
@@ -1196,16 +1433,28 @@
       "weight": 2
     },
     {
+      "id": "paetongtarn_shinawatra__yingcheep_atchanont__c4c1ee",
+      "source": "paetongtarn_shinawatra",
+      "target": "yingcheep_atchanont",
+      "relation_type": "OPPOSITION",
+      "description": "แพทองธาร ชินวัตร และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-28",
+      "evidence": "นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล",
+      "source_url": "https://www.matichon.co.th/politics/news_5866474",
+      "weight": 2
+    },
+    {
       "id": "paetongtarn_shinawatra__election_commission__c4c1ee",
       "source": "paetongtarn_shinawatra",
       "target": "election_commission",
       "relation_type": "OPPOSITION",
       "description": "แพทองธาร ชินวัตร และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
-      "date": "2026-08-28",
-      "evidence": "นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล",
-      "source_url": "https://www.matichon.co.th/politics/news_5866474",
-      "weight": 3
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 4
     },
     {
       "id": "paetongtarn_shinawatra__senate_thailand__c4c1ee",
@@ -1214,10 +1463,58 @@
       "relation_type": "OPPOSITION",
       "description": "แพทองธาร ชินวัตร และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 5
+    },
+    {
+      "id": "anutin_charnvirakul__yingcheep_atchanont__c4c1ee",
+      "source": "anutin_charnvirakul",
+      "target": "yingcheep_atchanont",
+      "relation_type": "OPPOSITION",
+      "description": "อนุทิน ชาญวีรกูล และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
       "date": "2026-08-28",
       "evidence": "นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล",
       "source_url": "https://www.matichon.co.th/politics/news_5866474",
-      "weight": 4
+      "weight": 1
+    },
+    {
+      "id": "parit_wacharasindhu__yingcheep_atchanont__2029f9",
+      "source": "parit_wacharasindhu",
+      "target": "yingcheep_atchanont",
+      "relation_type": "OPPOSITION",
+      "description": "พริษฐ์ วัชรสินธุ และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-28",
+      "evidence": "ต่อหน้าคนทั้งหมดเหล่านี้หรือ และหลักฐานได้ส่งคณะอนุกรรมการชุดที่ 26 ไปเรียบร้อยแล้ว แต่นายยิ่งชีพหรือนายพริษฐ์ นำข้อมูลที่ผมชี้แจงว่ามีพยานตรงนี้มาเปิดเผยด้วยหรือไม่”",
+      "source_url": "https://www.matichon.co.th/politics/news_5866474",
+      "weight": 1
+    },
+    {
+      "id": "yingcheep_atchanont__peoples_party__4db025",
+      "source": "yingcheep_atchanont",
+      "target": "peoples_party",
+      "relation_type": "OPPOSITION",
+      "description": "ยิ่งชีพ อัชฌานนท์ และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "นายยิ่งชีพ อัชฌานนท์ ผู้จัดการโครงการอินเทอร์เน็ตเพื่อกฎหมายประชาชน (iLaw) และทีมงาน Senate67 Watch ได้เผยแพร่รายงานวิเคราะห์ทางสถิติผลคะแนนการเลือก สว",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 3
+    },
+    {
+      "id": "yingcheep_atchanont__bhumjaithai_party__c4c1ee",
+      "source": "yingcheep_atchanont",
+      "target": "bhumjaithai_party",
+      "relation_type": "OPPOSITION",
+      "description": "ยิ่งชีพ อัชฌานนท์ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-28",
+      "evidence": "นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล",
+      "source_url": "https://www.matichon.co.th/politics/news_5866474",
+      "weight": 1
     },
     {
       "id": "paetongtarn_shinawatra__natthaphong_ruengpanyawut__b56e6d",
@@ -1478,10 +1775,10 @@
       "relation_type": "CRITICISM",
       "description": "คณะกรรมการการเลือกตั้ง (กกต.) วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.",
       "sentiment": -0.7,
-      "date": "2026-08-28",
-      "evidence": "บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน",
-      "source_url": "https://www.matichon.co.th/politics/news_5865926",
-      "weight": 3
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 4
     },
     {
       "id": "election_commission__constitution_amendment__b56e6d",
@@ -1502,10 +1799,10 @@
       "relation_type": "CRITICISM",
       "description": "คณะกรรมการ ป.ป.ช. วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ วุฒิสภา (สว.)",
       "sentiment": -0.7,
-      "date": "2026-08-28",
-      "evidence": "บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน",
-      "source_url": "https://www.matichon.co.th/politics/news_5865926",
-      "weight": 3
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 4
     },
     {
       "id": "nacc__constitution_amendment__b56e6d",
@@ -1544,16 +1841,28 @@
       "weight": 1
     },
     {
+      "id": "mongkol_surasajja__senate_thailand__494573",
+      "source": "mongkol_surasajja",
+      "target": "senate_thailand",
+      "relation_type": "ALLIANCE",
+      "description": "มงคล สุระสัจจะ และ วุฒิสภา (สว.) ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล",
+      "sentiment": 0.8,
+      "date": "2026-08-28",
+      "evidence": "ประธานวุฒิสภา ออกถ้อยแถลงโต้ข้อกล่าวหา ‘ฮุน เซน’ พร้อมเรียกร้องความจริงใจ จับมือแก้แก๊งคอล",
+      "source_url": "https://www.matichon.co.th/politics/news_5867061",
+      "weight": 1
+    },
+    {
       "id": "election_commission__nacc__dc449e",
       "source": "election_commission",
       "target": "nacc",
       "relation_type": "OPPOSITION",
       "description": "คณะกรรมการการเลือกตั้ง (กกต.) และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
-      "date": "2026-08-28",
-      "evidence": "พรรคประชาชน เตรียมร้อง ป.ป.ช. ฟัน กกต.ซื้อเวลาคดีฮั้ว สว. - nationtv.tv",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JQVFGUlFBWl8xWTdyWEdQZ0FMa1FpNV9QdXlLdHcwOGxleEM0b3RxZjljWkljTEM1OTVCeFZDSlRfT0lFV3NrZzhYb0ZuNmJpcnFjbUlrTHh2OVE?oc=5",
-      "weight": 2
+      "date": "2026-08-29",
+      "evidence": "สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 3
     },
     {
       "id": "nacc__senate_thailand__dc449e",
@@ -1562,9 +1871,45 @@
       "relation_type": "OPPOSITION",
       "description": "คณะกรรมการ ป.ป.ช. และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
       "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 4
+    },
+    {
+      "id": "sawaeng_boonmee__yingcheep_atchanont__219428",
+      "source": "sawaeng_boonmee",
+      "target": "yingcheep_atchanont",
+      "relation_type": "OPPOSITION",
+      "description": "แสวง บุญมี และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
       "date": "2026-08-28",
-      "evidence": "พรรคประชาชน เตรียมร้อง ป.ป.ช. ฟัน กกต.ซื้อเวลาคดีฮั้ว สว. - nationtv.tv",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JQVFGUlFBWl8xWTdyWEdQZ0FMa1FpNV9QdXlLdHcwOGxleEM0b3RxZjljWkljTEM1OTVCeFZDSlRfT0lFV3NrZzhYb0ZuNmJpcnFjbUlrTHh2OVE?oc=5",
+      "evidence": "โดยเนื้อหาระบุว่า นายครรชิต เจริญอินทร์ รองเลขาธิการคณะกรรมการการเลือกตั้ง เข้าแจ้งความ ณ กองบังคับการปราบปราม กองบัญชาการตำรวจสอบสวนกลาง เพื่อดำเนินการตามกฎหมาย กรณี iLaw เผยแพร่เอกสารความเห็นของนายครรชิต เจริญอินทร์ รองเลขาธิการคณะกรรมการการเลือกตั",
+      "source_url": "https://www.matichon.co.th/politics/news_5866528",
+      "weight": 1
+    },
+    {
+      "id": "sawaeng_boonmee__election_commission__219428",
+      "source": "sawaeng_boonmee",
+      "target": "election_commission",
+      "relation_type": "OPPOSITION",
+      "description": "แสวง บุญมี และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "กกต. เดินหน้าสอบคดีฮั้ว สว. 229 รายชื่อ นัดลงมติชี้ชะตาสอย สว. สายสีน้ำเงิน",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
+      "weight": 3
+    },
+    {
+      "id": "sawaeng_boonmee__senate_thailand__219428",
+      "source": "sawaeng_boonmee",
+      "target": "senate_thailand",
+      "relation_type": "OPPOSITION",
+      "description": "แสวง บุญมี และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "กกต. เดินหน้าสอบคดีฮั้ว สว. 229 รายชื่อ นัดลงมติชี้ชะตาสอย สว. สายสีน้ำเงิน",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
       "weight": 3
     },
     {
@@ -1578,6 +1923,78 @@
       "evidence": "นายภัณฑิล กล่าวต่อว่า พรรคประชาชนเตรียมยื่นร้องเรียนต่อคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ (ป",
       "source_url": "https://www.matichon.co.th/politics/news_5865944",
       "weight": 2
+    },
+    {
+      "id": "yingcheep_atchanont__peoples_party__929192",
+      "source": "yingcheep_atchanont",
+      "target": "peoples_party",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ พรรคประชาชน",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่",
+      "source_url": "https://www.matichon.co.th/politics/news_5866426",
+      "weight": 2
+    },
+    {
+      "id": "yingcheep_atchanont__bhumjaithai_party__929192",
+      "source": "yingcheep_atchanont",
+      "target": "bhumjaithai_party",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ พรรคภูมิใจไทย",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่",
+      "source_url": "https://www.matichon.co.th/politics/news_5866426",
+      "weight": 1
+    },
+    {
+      "id": "yingcheep_atchanont__constitutional_court__929192",
+      "source": "yingcheep_atchanont",
+      "target": "constitutional_court",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ ศาลรัฐธรรมนูญ",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่",
+      "source_url": "https://www.matichon.co.th/politics/news_5866426",
+      "weight": 1
+    },
+    {
+      "id": "yingcheep_atchanont__election_commission__929192",
+      "source": "yingcheep_atchanont",
+      "target": "election_commission",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ คณะกรรมการการเลือกตั้ง (กกต.)",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่",
+      "source_url": "https://www.matichon.co.th/politics/news_5866426",
+      "weight": 2
+    },
+    {
+      "id": "yingcheep_atchanont__nacc__929192",
+      "source": "yingcheep_atchanont",
+      "target": "nacc",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ คณะกรรมการ ป.ป.ช.",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่",
+      "source_url": "https://www.matichon.co.th/politics/news_5866426",
+      "weight": 1
+    },
+    {
+      "id": "yingcheep_atchanont__constitution_amendment__929192",
+      "source": "yingcheep_atchanont",
+      "target": "constitution_amendment",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ การแก้ไขรัฐธรรมนูญ",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่",
+      "source_url": "https://www.matichon.co.th/politics/news_5866426",
+      "weight": 1
     },
     {
       "id": "peoples_party__bhumjaithai_party__929192",
@@ -1820,6 +2237,30 @@
       "weight": 2
     },
     {
+      "id": "yingcheep_atchanont__nacc__6ca88c",
+      "source": "yingcheep_atchanont",
+      "target": "nacc",
+      "relation_type": "OPPOSITION",
+      "description": "ยิ่งชีพ อัชฌานนท์ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-28",
+      "evidence": "วิชา อัดองค์กรอิสระ ต้องยึดโยงประชาชน ชม ‘ยิ่งชีพ’ เปิดข้อมูลโกง ส.ว.",
+      "source_url": "https://www.matichon.co.th/politics/news_5866030",
+      "weight": 1
+    },
+    {
+      "id": "yingcheep_atchanont__constitution_amendment__6ca88c",
+      "source": "yingcheep_atchanont",
+      "target": "constitution_amendment",
+      "relation_type": "OPPOSITION",
+      "description": "ยิ่งชีพ อัชฌานนท์ และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-28",
+      "evidence": "วิชา อัดองค์กรอิสระ ต้องยึดโยงประชาชน ชม ‘ยิ่งชีพ’ เปิดข้อมูลโกง ส.ว.",
+      "source_url": "https://www.matichon.co.th/politics/news_5866030",
+      "weight": 1
+    },
+    {
       "id": "nacc__constitution_amendment__6ca88c",
       "source": "nacc",
       "target": "constitution_amendment",
@@ -1926,6 +2367,42 @@
       "evidence": "โดย นายวัสกล่าวว่า เวลานี้องค์กรอิสระ โดยรัฐธรรมนูญ 2560 เลือกองค์กรอิสระแบบวิบัติหรือไม่ ขึ้นอยู่กับการให้ความเห็นชอบของวุฒิสภา มีข่าวว่าคณะกรรมการการเลือกตั้ง (กกต",
       "source_url": "https://www.matichon.co.th/politics/news_5866042",
       "weight": 1
+    },
+    {
+      "id": "sawaeng_boonmee__peoples_party__759e32",
+      "source": "sawaeng_boonmee",
+      "target": "peoples_party",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง แสวง บุญมี และ พรรคประชาชน",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "สว.สำรอง ยื่นยธ.จี้ ‘รัฐมนตรี’ หยุดฟ้องปิดปาก ล่าคนปล่อยสำนวนลับ บี้เร่งรัดคดีฮั้วสว.ค้างเติ่ง 2 ปีแล้ว",
+      "source_url": "https://www.matichon.co.th/politics/news_5866440",
+      "weight": 2
+    },
+    {
+      "id": "sawaeng_boonmee__election_commission__759e32",
+      "source": "sawaeng_boonmee",
+      "target": "election_commission",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง แสวง บุญมี และ คณะกรรมการการเลือกตั้ง (กกต.)",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "สว.สำรอง ยื่นยธ.จี้ ‘รัฐมนตรี’ หยุดฟ้องปิดปาก ล่าคนปล่อยสำนวนลับ บี้เร่งรัดคดีฮั้วสว.ค้างเติ่ง 2 ปีแล้ว",
+      "source_url": "https://www.matichon.co.th/politics/news_5866440",
+      "weight": 2
+    },
+    {
+      "id": "sawaeng_boonmee__senate_thailand__759e32",
+      "source": "sawaeng_boonmee",
+      "target": "senate_thailand",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง แสวง บุญมี และ วุฒิสภา (สว.)",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "สว.สำรอง ยื่นยธ.จี้ ‘รัฐมนตรี’ หยุดฟ้องปิดปาก ล่าคนปล่อยสำนวนลับ บี้เร่งรัดคดีฮั้วสว.ค้างเติ่ง 2 ปีแล้ว",
+      "source_url": "https://www.matichon.co.th/politics/news_5866440",
+      "weight": 2
     },
     {
       "id": "paetongtarn_shinawatra__democrat_party__72cf15",
@@ -2060,6 +2537,18 @@
       "weight": 1
     },
     {
+      "id": "sawaeng_boonmee__yingcheep_atchanont__a2c415",
+      "source": "sawaeng_boonmee",
+      "target": "yingcheep_atchanont",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง แสวง บุญมี และ ยิ่งชีพ อัชฌานนท์",
+      "sentiment": -0.6,
+      "date": "2026-08-28",
+      "evidence": "อ.มุนินทร์ งง เหตุผลกกต.ฟ้องไอลอว์ คือไม่มั่นใจตัวเองโปร่งใส เลยให้ตำรวจสอบอีกชั้น?",
+      "source_url": "https://www.matichon.co.th/politics/news_5866921",
+      "weight": 1
+    },
+    {
       "id": "natthaphong_ruengpanyawut__democrat_party__96da15",
       "source": "natthaphong_ruengpanyawut",
       "target": "democrat_party",
@@ -2070,13 +2559,781 @@
       "evidence": "นอกจากนี้ยังมีนายอภิสิทธิ์ เวชชาชีวะ หัวหน้าพรรคประชาธิปัตย์ และอีกหลายคนที่เป็นอดีตผู้นำฝ่ายค้าน ที่ไปร่วมงานเช่นเดียวกัน ส่วนประเด็นที่ไปพูดไม่ได้เกี่ยวกับรัฐบาล แต่ไปพูดในเรื่องของการสร้างความมั่นใจของสังคมต่อระบบการเมือง จึงไม่มีประเด็นที่ต้องห่ว",
       "source_url": "https://www.matichon.co.th/politics/news_5865873",
       "weight": 1
+    },
+    {
+      "id": "sawaeng_boonmee__peoples_party__5cc0db",
+      "source": "sawaeng_boonmee",
+      "target": "peoples_party",
+      "relation_type": "OPPOSITION",
+      "description": "แสวง บุญมี และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "ด้านสำนักข่าว BBC ไทย รายงานสถานการณ์ล่าสุดเมื่อวันที่ 28 สิงหาคมว่า ยอดผู้เสียชีวิตจากเหตุการณ์นี้ในฝั่งเนปาลและทิเบตพุ่งสูงกว่า 400 คนแล้ว ขณะที่ยอดผู้สูญหายรวมกันทะลุ 1,000 คน ซึ่งในจำนวนผู้เคราะห์ร้ายมีทั้งประชาชนในพื้นที่ รวมถึงนักท่องเที่ยวและผ",
+      "source_url": "https://thestandard.co/theos-2-himalaya-flood-china-nepal/",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__nanthana_nanthavaropas__08edfd",
+      "source": "mongkol_surasajja",
+      "target": "nanthana_nanthavaropas",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ นันทนา นันทวโรภาส มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "tags: [\"ยิ่งชีพ อัชฌานนท์\", \"iLaw\", \"มงคล สุระสัจจะ\", \"นันทนา นันทวโรภาส\", \"กกต",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 2
+    },
+    {
+      "id": "mongkol_surasajja__yingcheep_atchanont__08edfd",
+      "source": "mongkol_surasajja",
+      "target": "yingcheep_atchanont",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "tags: [\"ยิ่งชีพ อัชฌานนท์\", \"iLaw\", \"มงคล สุระสัจจะ\", \"นันทนา นันทวโรภาส\", \"กกต",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__election_commission__1189cd",
+      "source": "mongkol_surasajja",
+      "target": "election_commission",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 4
+    },
+    {
+      "id": "mongkol_surasajja__senate_thailand__1189cd",
+      "source": "mongkol_surasajja",
+      "target": "senate_thailand",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 4
+    },
+    {
+      "id": "nanthana_nanthavaropas__yingcheep_atchanont__08edfd",
+      "source": "nanthana_nanthavaropas",
+      "target": "yingcheep_atchanont",
+      "relation_type": "OPPOSITION",
+      "description": "นันทนา นันทวโรภาส และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "tags: [\"ยิ่งชีพ อัชฌานนท์\", \"iLaw\", \"มงคล สุระสัจจะ\", \"นันทนา นันทวโรภาส\", \"กกต",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 1
+    },
+    {
+      "id": "nanthana_nanthavaropas__peoples_party__1189cd",
+      "source": "nanthana_nanthavaropas",
+      "target": "peoples_party",
+      "relation_type": "OPPOSITION",
+      "description": "นันทนา นันทวโรภาส และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 1
+    },
+    {
+      "id": "nanthana_nanthavaropas__election_commission__1189cd",
+      "source": "nanthana_nanthavaropas",
+      "target": "election_commission",
+      "relation_type": "OPPOSITION",
+      "description": "นันทนา นันทวโรภาส และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 1
+    },
+    {
+      "id": "nanthana_nanthavaropas__senate_thailand__1189cd",
+      "source": "nanthana_nanthavaropas",
+      "target": "senate_thailand",
+      "relation_type": "OPPOSITION",
+      "description": "นันทนา นันทวโรภาส และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง",
+      "source_url": "https://ilaw.or.th/node/senate67-investigation-report",
+      "weight": 2
+    },
+    {
+      "id": "paetongtarn_shinawatra__mongkol_surasajja__f7cc28",
+      "source": "paetongtarn_shinawatra",
+      "target": "mongkol_surasajja",
+      "relation_type": "OPPOSITION",
+      "description": "แพทองธาร ชินวัตร และ มงคล สุระสัจจะ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "paetongtarn_shinawatra__kriangkrai_srirak__f7cc28",
+      "source": "paetongtarn_shinawatra",
+      "target": "kriangkrai_srirak",
+      "relation_type": "OPPOSITION",
+      "description": "แพทองธาร ชินวัตร และ พล.อ.เกรียงไกร ศรีรักษ์ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "paetongtarn_shinawatra__boonsong_noisophon__f7cc28",
+      "source": "paetongtarn_shinawatra",
+      "target": "boonsong_noisophon",
+      "relation_type": "OPPOSITION",
+      "description": "แพทองธาร ชินวัตร และ บุญส่ง น้อยโสภณ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "anutin_charnvirakul__mongkol_surasajja__2370eb",
+      "source": "anutin_charnvirakul",
+      "target": "mongkol_surasajja",
+      "relation_type": "OPPOSITION",
+      "description": "อนุทิน ชาญวีรกูล และ มงคล สุระสัจจะ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "tags: [\"มงคล สุระสัจจะ\", \"เกรียงไกร ศรีรักษ์\", \"อนุทิน ชาญวีรกูล\", \"วุฒิสภา\", \"กกต",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "anutin_charnvirakul__kriangkrai_srirak__2370eb",
+      "source": "anutin_charnvirakul",
+      "target": "kriangkrai_srirak",
+      "relation_type": "OPPOSITION",
+      "description": "อนุทิน ชาญวีรกูล และ พล.อ.เกรียงไกร ศรีรักษ์ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "tags: [\"มงคล สุระสัจจะ\", \"เกรียงไกร ศรีรักษ์\", \"อนุทิน ชาญวีรกูล\", \"วุฒิสภา\", \"กกต",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "anutin_charnvirakul__boonsong_noisophon__f7cc28",
+      "source": "anutin_charnvirakul",
+      "target": "boonsong_noisophon",
+      "relation_type": "OPPOSITION",
+      "description": "อนุทิน ชาญวีรกูล และ บุญส่ง น้อยโสภณ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__kriangkrai_srirak__b58b7e",
+      "source": "mongkol_surasajja",
+      "target": "kriangkrai_srirak",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ พล.อ.เกรียงไกร ศรีรักษ์ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 2
+    },
+    {
+      "id": "mongkol_surasajja__boonsong_noisophon__c41d63",
+      "source": "mongkol_surasajja",
+      "target": "boonsong_noisophon",
+      "relation_type": "ALLIANCE",
+      "description": "มงคล สุระสัจจะ และ บุญส่ง น้อยโสภณ ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล",
+      "sentiment": 0.8,
+      "date": "2026-08-29",
+      "evidence": "ทุกท่านมีความเป็นอิสระตามรัฐธรรมนูญ ขณะที่นายบุญส่ง น้อยโสภณ รองประธานวุฒิสภา คนที่ 2 ระบุว่าวุฒิสภายังคงเดินหน้าทำหน้าที่พิจารณาร่างกฎหมายและเห็นชอบองค์กรอิสระตามปกติ",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__bhumjaithai_party__f7cc28",
+      "source": "mongkol_surasajja",
+      "target": "bhumjaithai_party",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "kriangkrai_srirak__boonsong_noisophon__f7cc28",
+      "source": "kriangkrai_srirak",
+      "target": "boonsong_noisophon",
+      "relation_type": "OPPOSITION",
+      "description": "พล.อ.เกรียงไกร ศรีรักษ์ และ บุญส่ง น้อยโสภณ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "kriangkrai_srirak__bhumjaithai_party__f7cc28",
+      "source": "kriangkrai_srirak",
+      "target": "bhumjaithai_party",
+      "relation_type": "OPPOSITION",
+      "description": "พล.อ.เกรียงไกร ศรีรักษ์ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "kriangkrai_srirak__election_commission__f7cc28",
+      "source": "kriangkrai_srirak",
+      "target": "election_commission",
+      "relation_type": "OPPOSITION",
+      "description": "พล.อ.เกรียงไกร ศรีรักษ์ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 2
+    },
+    {
+      "id": "kriangkrai_srirak__senate_thailand__2370eb",
+      "source": "kriangkrai_srirak",
+      "target": "senate_thailand",
+      "relation_type": "OPPOSITION",
+      "description": "พล.อ.เกรียงไกร ศรีรักษ์ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "tags: [\"มงคล สุระสัจจะ\", \"เกรียงไกร ศรีรักษ์\", \"อนุทิน ชาญวีรกูล\", \"วุฒิสภา\", \"กกต",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 2
+    },
+    {
+      "id": "boonsong_noisophon__bhumjaithai_party__f7cc28",
+      "source": "boonsong_noisophon",
+      "target": "bhumjaithai_party",
+      "relation_type": "OPPOSITION",
+      "description": "บุญส่ง น้อยโสภณ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "boonsong_noisophon__election_commission__f7cc28",
+      "source": "boonsong_noisophon",
+      "target": "election_commission",
+      "relation_type": "OPPOSITION",
+      "description": "บุญส่ง น้อยโสภณ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "boonsong_noisophon__senate_thailand__c41d63",
+      "source": "boonsong_noisophon",
+      "target": "senate_thailand",
+      "relation_type": "ALLIANCE",
+      "description": "บุญส่ง น้อยโสภณ และ วุฒิสภา (สว.) ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล",
+      "sentiment": 0.8,
+      "date": "2026-08-29",
+      "evidence": "ทุกท่านมีความเป็นอิสระตามรัฐธรรมนูญ ขณะที่นายบุญส่ง น้อยโสภณ รองประธานวุฒิสภา คนที่ 2 ระบุว่าวุฒิสภายังคงเดินหน้าทำหน้าที่พิจารณาร่างกฎหมายและเห็นชอบองค์กรอิสระตามปกติ",
+      "source_url": "https://www.bangkokbiznews.com/politics/senate-election-clarification",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__tewarit_maneechay__b530e2",
+      "source": "mongkol_surasajja",
+      "target": "tewarit_maneechay",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ เทวฤทธิ์ มณีฉาย มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "tags: [\"นันทนา นันทวโรภาส\", \"เทวฤทธิ์ มณีฉาย\", \"มงคล สุระสัจจะ\", \"กกต",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__sawaeng_boonmee__cca656",
+      "source": "mongkol_surasajja",
+      "target": "sawaeng_boonmee",
+      "relation_type": "CRITICISM",
+      "description": "มงคล สุระสัจจะ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ แสวง บุญมี",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__constitutional_court__cca656",
+      "source": "mongkol_surasajja",
+      "target": "constitutional_court",
+      "relation_type": "CRITICISM",
+      "description": "มงคล สุระสัจจะ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ศาลรัฐธรรมนูญ",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__election_commission__cca656",
+      "source": "mongkol_surasajja",
+      "target": "election_commission",
+      "relation_type": "CRITICISM",
+      "description": "มงคล สุระสัจจะ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__nacc__cca656",
+      "source": "mongkol_surasajja",
+      "target": "nacc",
+      "relation_type": "CRITICISM",
+      "description": "มงคล สุระสัจจะ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "nanthana_nanthavaropas__tewarit_maneechay__b530e2",
+      "source": "nanthana_nanthavaropas",
+      "target": "tewarit_maneechay",
+      "relation_type": "OPPOSITION",
+      "description": "นันทนา นันทวโรภาส และ เทวฤทธิ์ มณีฉาย มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "tags: [\"นันทนา นันทวโรภาส\", \"เทวฤทธิ์ มณีฉาย\", \"มงคล สุระสัจจะ\", \"กกต",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "nanthana_nanthavaropas__sawaeng_boonmee__cca656",
+      "source": "nanthana_nanthavaropas",
+      "target": "sawaeng_boonmee",
+      "relation_type": "CRITICISM",
+      "description": "นันทนา นันทวโรภาส วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ แสวง บุญมี",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "nanthana_nanthavaropas__constitutional_court__e1f5bf",
+      "source": "nanthana_nanthavaropas",
+      "target": "constitutional_court",
+      "relation_type": "OPPOSITION",
+      "description": "นันทนา นันทวโรภาส และ ศาลรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "นันทนา ระบุว่า การโหวตรับรองกรรมการองค์กรอิสระ อาทิ ตุลาการศาลรัฐธรรมนูญ และ ป",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "nanthana_nanthavaropas__election_commission__cca656",
+      "source": "nanthana_nanthavaropas",
+      "target": "election_commission",
+      "relation_type": "CRITICISM",
+      "description": "นันทนา นันทวโรภาส วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "nanthana_nanthavaropas__nacc__cca656",
+      "source": "nanthana_nanthavaropas",
+      "target": "nacc",
+      "relation_type": "CRITICISM",
+      "description": "นันทนา นันทวโรภาส วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "tewarit_maneechay__sawaeng_boonmee__cca656",
+      "source": "tewarit_maneechay",
+      "target": "sawaeng_boonmee",
+      "relation_type": "CRITICISM",
+      "description": "เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ แสวง บุญมี",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "tewarit_maneechay__constitutional_court__cca656",
+      "source": "tewarit_maneechay",
+      "target": "constitutional_court",
+      "relation_type": "CRITICISM",
+      "description": "เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ศาลรัฐธรรมนูญ",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "tewarit_maneechay__election_commission__cca656",
+      "source": "tewarit_maneechay",
+      "target": "election_commission",
+      "relation_type": "CRITICISM",
+      "description": "เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "tewarit_maneechay__nacc__cca656",
+      "source": "tewarit_maneechay",
+      "target": "nacc",
+      "relation_type": "CRITICISM",
+      "description": "เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "tewarit_maneechay__senate_thailand__26d783",
+      "source": "tewarit_maneechay",
+      "target": "senate_thailand",
+      "relation_type": "OPPOSITION",
+      "description": "เทวฤทธิ์ มณีฉาย และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส สมาชิกวุฒิสภา พร้อมด้วยนายเทวฤทธิ์ มณีฉาย แกนนำกลุ่ม สว",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "sawaeng_boonmee__constitutional_court__cca656",
+      "source": "sawaeng_boonmee",
+      "target": "constitutional_court",
+      "relation_type": "CRITICISM",
+      "description": "แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ศาลรัฐธรรมนูญ",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "sawaeng_boonmee__election_commission__cca656",
+      "source": "sawaeng_boonmee",
+      "target": "election_commission",
+      "relation_type": "CRITICISM",
+      "description": "แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "sawaeng_boonmee__nacc__cca656",
+      "source": "sawaeng_boonmee",
+      "target": "nacc",
+      "relation_type": "CRITICISM",
+      "description": "แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "sawaeng_boonmee__senate_thailand__cca656",
+      "source": "sawaeng_boonmee",
+      "target": "senate_thailand",
+      "relation_type": "CRITICISM",
+      "description": "แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ วุฒิสภา (สว.)",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "constitutional_court__election_commission__cca656",
+      "source": "constitutional_court",
+      "target": "election_commission",
+      "relation_type": "CRITICISM",
+      "description": "ศาลรัฐธรรมนูญ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "constitutional_court__nacc__cca656",
+      "source": "constitutional_court",
+      "target": "nacc",
+      "relation_type": "CRITICISM",
+      "description": "ศาลรัฐธรรมนูญ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "constitutional_court__senate_thailand__cca656",
+      "source": "constitutional_court",
+      "target": "senate_thailand",
+      "relation_type": "CRITICISM",
+      "description": "ศาลรัฐธรรมนูญ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ วุฒิสภา (สว.)",
+      "sentiment": -0.7,
+      "date": "2026-08-29",
+      "evidence": "นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่",
+      "source_url": "https://thestandard.co/politics/nanthana-senate-investigation-spirit",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__itthiporn_boonpracong__e8e0b5",
+      "source": "mongkol_surasajja",
+      "target": "itthiporn_boonpracong",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ อิทธิพร บุญประคอง มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "\", \"มงคล สุระสัจจะ\", \"เกรียงไกร ศรีรักษ์\", \"แสวง บุญมี\", \"อิทธิพร บุญประคอง\"]",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
+      "weight": 2
+    },
+    {
+      "id": "mongkol_surasajja__sawaeng_boonmee__e8e0b5",
+      "source": "mongkol_surasajja",
+      "target": "sawaeng_boonmee",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ แสวง บุญมี มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "\", \"มงคล สุระสัจจะ\", \"เกรียงไกร ศรีรักษ์\", \"แสวง บุญมี\", \"อิทธิพร บุญประคอง\"]",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
+      "weight": 2
+    },
+    {
+      "id": "mongkol_surasajja__senate_thailand__44999b",
+      "source": "mongkol_surasajja",
+      "target": "senate_thailand",
+      "relation_type": "LEGAL_ACTION",
+      "description": "กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง มงคล สุระสัจจะ และ วุฒิสภา (สว.)",
+      "sentiment": -0.6,
+      "date": "2026-08-29",
+      "evidence": ") ปี 2567 โดยคณะกรรมการสืบสวนและไต่สวนกลางได้รวบรวมพยานหลักฐานและรับฟังข้อเท็จจริงในสำนวนกลุ่มผู้ถูกกล่าวหาจำนวน 229 รายชื่อ ซึ่งรวมถึงนายมงคล สุระสัจจะ ประธานวุฒิสภา และ พล",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
+      "weight": 1
+    },
+    {
+      "id": "kriangkrai_srirak__itthiporn_boonpracong__e8e0b5",
+      "source": "kriangkrai_srirak",
+      "target": "itthiporn_boonpracong",
+      "relation_type": "OPPOSITION",
+      "description": "พล.อ.เกรียงไกร ศรีรักษ์ และ อิทธิพร บุญประคอง มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "\", \"มงคล สุระสัจจะ\", \"เกรียงไกร ศรีรักษ์\", \"แสวง บุญมี\", \"อิทธิพร บุญประคอง\"]",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
+      "weight": 1
+    },
+    {
+      "id": "kriangkrai_srirak__sawaeng_boonmee__e8e0b5",
+      "source": "kriangkrai_srirak",
+      "target": "sawaeng_boonmee",
+      "relation_type": "OPPOSITION",
+      "description": "พล.อ.เกรียงไกร ศรีรักษ์ และ แสวง บุญมี มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "\", \"มงคล สุระสัจจะ\", \"เกรียงไกร ศรีรักษ์\", \"แสวง บุญมี\", \"อิทธิพร บุญประคอง\"]",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
+      "weight": 1
+    },
+    {
+      "id": "itthiporn_boonpracong__sawaeng_boonmee__e8e0b5",
+      "source": "itthiporn_boonpracong",
+      "target": "sawaeng_boonmee",
+      "relation_type": "OPPOSITION",
+      "description": "อิทธิพร บุญประคอง และ แสวง บุญมี มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "\", \"มงคล สุระสัจจะ\", \"เกรียงไกร ศรีรักษ์\", \"แสวง บุญมี\", \"อิทธิพร บุญประคอง\"]",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
+      "weight": 2
+    },
+    {
+      "id": "itthiporn_boonpracong__election_commission__3be15c",
+      "source": "itthiporn_boonpracong",
+      "target": "election_commission",
+      "relation_type": "OPPOSITION",
+      "description": "อิทธิพร บุญประคอง และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "กกต. เดินหน้าสอบคดีฮั้ว สว. 229 รายชื่อ นัดลงมติชี้ชะตาสอย สว. สายสีน้ำเงิน",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
+      "weight": 2
+    },
+    {
+      "id": "itthiporn_boonpracong__senate_thailand__3be15c",
+      "source": "itthiporn_boonpracong",
+      "target": "senate_thailand",
+      "relation_type": "OPPOSITION",
+      "description": "อิทธิพร บุญประคอง และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "กกต. เดินหน้าสอบคดีฮั้ว สว. 229 รายชื่อ นัดลงมติชี้ชะตาสอย สว. สายสีน้ำเงิน",
+      "source_url": "https://www.thaipbs.or.th/news/content/345120",
+      "weight": 2
+    },
+    {
+      "id": "mongkol_surasajja__somchai_sawangkarn__b1366d",
+      "source": "mongkol_surasajja",
+      "target": "somchai_sawangkarn",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ สมชาย แสวงการ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 1
+    },
+    {
+      "id": "mongkol_surasajja__nacc__b1366d",
+      "source": "mongkol_surasajja",
+      "target": "nacc",
+      "relation_type": "OPPOSITION",
+      "description": "มงคล สุระสัจจะ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 1
+    },
+    {
+      "id": "itthiporn_boonpracong__somchai_sawangkarn__a0aeff",
+      "source": "itthiporn_boonpracong",
+      "target": "somchai_sawangkarn",
+      "relation_type": "OPPOSITION",
+      "description": "อิทธิพร บุญประคอง และ สมชาย แสวงการ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "นายสมชาย แสวงการ อดีตสมาชิกวุฒิสภา ได้นำเอกสารหลักฐานชุดใหม่เข้ายื่นต่อนายอิทธิพร บุญประคอง ประธาน กกต",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 1
+    },
+    {
+      "id": "itthiporn_boonpracong__nacc__b1366d",
+      "source": "itthiporn_boonpracong",
+      "target": "nacc",
+      "relation_type": "OPPOSITION",
+      "description": "อิทธิพร บุญประคอง และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 1
+    },
+    {
+      "id": "sawaeng_boonmee__somchai_sawangkarn__fb6726",
+      "source": "sawaeng_boonmee",
+      "target": "somchai_sawangkarn",
+      "relation_type": "OPPOSITION",
+      "description": "แสวง บุญมี และ สมชาย แสวงการ มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 1
+    },
+    {
+      "id": "sawaeng_boonmee__nacc__b1366d",
+      "source": "sawaeng_boonmee",
+      "target": "nacc",
+      "relation_type": "OPPOSITION",
+      "description": "แสวง บุญมี และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 1
+    },
+    {
+      "id": "somchai_sawangkarn__election_commission__b1366d",
+      "source": "somchai_sawangkarn",
+      "target": "election_commission",
+      "relation_type": "OPPOSITION",
+      "description": "สมชาย แสวงการ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 1
+    },
+    {
+      "id": "somchai_sawangkarn__nacc__b1366d",
+      "source": "somchai_sawangkarn",
+      "target": "nacc",
+      "relation_type": "OPPOSITION",
+      "description": "สมชาย แสวงการ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 1
+    },
+    {
+      "id": "somchai_sawangkarn__senate_thailand__a0aeff",
+      "source": "somchai_sawangkarn",
+      "target": "senate_thailand",
+      "relation_type": "OPPOSITION",
+      "description": "สมชาย แสวงการ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง",
+      "sentiment": -0.2,
+      "date": "2026-08-29",
+      "evidence": "นายสมชาย แสวงการ อดีตสมาชิกวุฒิสภา ได้นำเอกสารหลักฐานชุดใหม่เข้ายื่นต่อนายอิทธิพร บุญประคอง ประธาน กกต",
+      "source_url": "https://www.isranews.org/article/isranews-news/somchai-senate-collusion-evidence.html",
+      "weight": 1
     }
   ],
   "metadata": {
-    "generated_at": "2026-08-29T04:03:35.351675+00:00",
-    "total_nodes": 16,
-    "total_edges": 148,
-    "articles_analyzed": 233,
+    "generated_at": "2026-08-29T04:13:45.196531+00:00",
+    "total_nodes": 25,
+    "total_edges": 239,
+    "articles_analyzed": 238,
     "date_range": "Past 30 Days"
   }
 }

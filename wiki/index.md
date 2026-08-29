@@ -15,7 +15,9 @@
 - [[concepts/Digital_Wallet_Policy|นโยบายดิจิทัลวอลเล็ต]] — Flagship economic stimulus initiative and associated political tensions.
 - [[concepts/Constitutional_Amendment|การแก้ไขรัฐธรรมนูญ]] — Parliamentary debates on drafting a new constitution and charter amendment hurdles.
 
-## Key Actors & Entities (16)
+## Key Actors & Entities (25)
+- [[entities/tewarit_maneechay|เทวฤทธิ์ มณีฉาย]] — สมาชิกวุฒิสภา / โฆษก สว. กลุ่มพันธุ์ใหม่ (Senate-NewBreed)
+- [[entities/yingcheep_atchanont|ยิ่งชีพ อัชฌานนท์]] — ผู้จัดการ iLaw / ผู้เปิดโปงสถิติบล็อกโหวต สว.67 (Independent)
 - [[entities/senate_thailand|วุฒิสภา (สว.)]] — สภาสูง / กลั่นกรองกฎหมายและแต่งตั้งองค์กรอิสระ (Independent)
 - [[entities/paetongtarn_shinawatra|แพทองธาร ชินวัตร]] — นายกรัฐมนตรี (Government)
 - [[entities/anutin_charnvirakul|อนุทิน ชาญวีรกูล]] — รองนายกรัฐมนตรี และ รมว.มหาดไทย (Government)
@@ -30,8 +32,15 @@
 - [[entities/sirikanya_tansakun|ศิริกัญญา ตันสกุล]] — รองหัวหน้าพรรคประชาชน (Opposition)
 - [[entities/natthaphong_ruengpanyawut|ณัฐพงษ์ เรืองปัญญาวุฒิ]] — ผู้นำฝ่ายค้านในสภาฯ / หัวหน้าพรรคประชาชน (Opposition)
 - [[entities/thaksin_shinawatra|ทักษิณ ชินวัตร]] — อดีตนายกรัฐมนตรี (Government)
+- [[entities/mongkol_surasajja|มงคล สุระสัจจะ]] — ประธานวุฒิสภา / ผู้ถูกกล่าวหาคดีฮั้ว สว. 229 ราย (Senate-Blue)
 - [[entities/constitution_amendment|การแก้ไขรัฐธรรมนูญ]] — วาระการปฏิรูปกติกาการเมืองและหมวดจริยธรรม (Cross-Party)
+- [[entities/sawaeng_boonmee|แสวง บุญมี]] — เลขาธิการ กกต. (ผู้รับผิดชอบสำนวนคดีฮั้ว สว.) (Independent)
 - [[entities/constitutional_court|ศาลรัฐธรรมนูญ]] — ศาลสูงสุดด้านรัฐธรรมนูญ (Judicial)
+- [[entities/nanthana_nanthavaropas|นันทนา นันทวโรภาส]] — สมาชิกวุฒิสภา / แกนนำ สว. กลุ่มพันธุ์ใหม่ (ฝ่ายตรวจสอบ) (Senate-NewBreed)
+- [[entities/kriangkrai_srirak|พล.อ.เกรียงไกร ศรีรักษ์]] — รองประธานวุฒิสภา คนที่ 1 / แกนนำ สว. สายสีน้ำเงิน (Senate-Blue)
+- [[entities/boonsong_noisophon|บุญส่ง น้อยโสภณ]] — รองประธานวุฒิสภา คนที่ 2 / อดีต กกต. (Independent)
+- [[entities/itthiporn_boonpracong|อิทธิพร บุญประคอง]] — ประธานคณะกรรมการการเลือกตั้ง (กกต.) (Independent)
+- [[entities/somchai_sawangkarn|สมชาย แสวงการ]] — อดีต สว. / ผู้ยื่นหลักฐานเส้นทางการเงินและโพยฮั้ว สว. (Independent)
 
 ## Source Summaries (Past 30 Days — Total 233)
 - [[summaries/index|📑 ดูรายการสรุปข่าวทั้งหมด (233 ข่าว)]]

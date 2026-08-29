@@ -19,13 +19,31 @@
       <attribute id="4" title="mentions" type="long" />
     </attributes>
     <nodes>
+      <node id="tewarit_maneechay" label="เทวฤทธิ์ มณีฉาย">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+          <attvalue for="1" value="วุฒิสภา (กลุ่มพันธุ์ใหม่)" />
+          <attvalue for="2" value="สมาชิกวุฒิสภา / โฆษก สว. กลุ่มพันธุ์ใหม่" />
+          <attvalue for="3" value="Senate-NewBreed" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="yingcheep_atchanont" label="ยิ่งชีพ อัชฌานนท์">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+          <attvalue for="1" value="ภาคประชาสังคม (iLaw)" />
+          <attvalue for="2" value="ผู้จัดการ iLaw / ผู้เปิดโปงสถิติบล็อกโหวต สว.67" />
+          <attvalue for="3" value="Independent" />
+          <attvalue for="4" value="8" />
+        </attvalues>
+      </node>
       <node id="senate_thailand" label="วุฒิสภา (สว.)">
         <attvalues>
           <attvalue for="0" value="INSTITUTION" />
           <attvalue for="1" value="สถาบันนิติบัญญัติ" />
           <attvalue for="2" value="สภาสูง / กลั่นกรองกฎหมายและแต่งตั้งองค์กรอิสระ" />
           <attvalue for="3" value="Independent" />
-          <attvalue for="4" value="34" />
+          <attvalue for="4" value="39" />
         </attvalues>
       </node>
       <node id="paetongtarn_shinawatra" label="แพทองธาร ชินวัตร">
@@ -34,7 +52,7 @@
           <attvalue for="1" value="พรรคเพื่อไทย" />
           <attvalue for="2" value="นายกรัฐมนตรี" />
           <attvalue for="3" value="Government" />
-          <attvalue for="4" value="40" />
+          <attvalue for="4" value="41" />
         </attvalues>
       </node>
       <node id="anutin_charnvirakul" label="อนุทิน ชาญวีรกูล">
@@ -43,7 +61,7 @@
           <attvalue for="1" value="พรรคภูมิใจไทย" />
           <attvalue for="2" value="รองนายกรัฐมนตรี และ รมว.มหาดไทย" />
           <attvalue for="3" value="Government" />
-          <attvalue for="4" value="35" />
+          <attvalue for="4" value="36" />
         </attvalues>
       </node>
       <node id="raknok_srinork" label="รักชนก ศรีนอก">
@@ -70,7 +88,7 @@
           <attvalue for="1" value="พรรคประชาชน" />
           <attvalue for="2" value="พรรคแกนนำฝ่ายค้าน" />
           <attvalue for="3" value="Opposition" />
-          <attvalue for="4" value="125" />
+          <attvalue for="4" value="126" />
         </attvalues>
       </node>
       <node id="election_commission" label="คณะกรรมการการเลือกตั้ง (กกต.)">
@@ -79,7 +97,7 @@
           <attvalue for="1" value="องค์กรอิสระ" />
           <attvalue for="2" value="องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง" />
           <attvalue for="3" value="Independent" />
-          <attvalue for="4" value="26" />
+          <attvalue for="4" value="31" />
         </attvalues>
       </node>
       <node id="bhumjaithai_party" label="พรรคภูมิใจไทย">
@@ -88,7 +106,7 @@
           <attvalue for="1" value="พรรคภูมิใจไทย" />
           <attvalue for="2" value="พรรคร่วมรัฐบาล" />
           <attvalue for="3" value="Government" />
-          <attvalue for="4" value="30" />
+          <attvalue for="4" value="31" />
         </attvalues>
       </node>
       <node id="pheu_thai_party" label="พรรคเพื่อไทย">
@@ -115,7 +133,7 @@
           <attvalue for="1" value="องค์กรอิสระ" />
           <attvalue for="2" value="องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ" />
           <attvalue for="3" value="Independent" />
-          <attvalue for="4" value="13" />
+          <attvalue for="4" value="15" />
         </attvalues>
       </node>
       <node id="sirikanya_tansakun" label="ศิริกัญญา ตันสกุล">
@@ -145,6 +163,15 @@
           <attvalue for="4" value="1" />
         </attvalues>
       </node>
+      <node id="mongkol_surasajja" label="มงคล สุระสัจจะ">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+          <attvalue for="1" value="วุฒิสภา (สายสีน้ำเงิน)" />
+          <attvalue for="2" value="ประธานวุฒิสภา / ผู้ถูกกล่าวหาคดีฮั้ว สว. 229 ราย" />
+          <attvalue for="3" value="Senate-Blue" />
+          <attvalue for="4" value="8" />
+        </attvalues>
+      </node>
       <node id="constitution_amendment" label="การแก้ไขรัฐธรรมนูญ">
         <attvalues>
           <attvalue for="0" value="POLICY" />
@@ -154,17 +181,188 @@
           <attvalue for="4" value="5" />
         </attvalues>
       </node>
+      <node id="sawaeng_boonmee" label="แสวง บุญมี">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+          <attvalue for="1" value="องค์กรอิสระ (กกต.)" />
+          <attvalue for="2" value="เลขาธิการ กกต. (ผู้รับผิดชอบสำนวนคดีฮั้ว สว.)" />
+          <attvalue for="3" value="Independent" />
+          <attvalue for="4" value="7" />
+        </attvalues>
+      </node>
       <node id="constitutional_court" label="ศาลรัฐธรรมนูญ">
         <attvalues>
           <attvalue for="0" value="INSTITUTION" />
           <attvalue for="1" value="ตุลาการ" />
           <attvalue for="2" value="ศาลสูงสุดด้านรัฐธรรมนูญ" />
           <attvalue for="3" value="Judicial" />
+          <attvalue for="4" value="3" />
+        </attvalues>
+      </node>
+      <node id="nanthana_nanthavaropas" label="นันทนา นันทวโรภาส">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+          <attvalue for="1" value="วุฒิสภา (กลุ่มพันธุ์ใหม่)" />
+          <attvalue for="2" value="สมาชิกวุฒิสภา / แกนนำ สว. กลุ่มพันธุ์ใหม่ (ฝ่ายตรวจสอบ)" />
+          <attvalue for="3" value="Senate-NewBreed" />
           <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="kriangkrai_srirak" label="พล.อ.เกรียงไกร ศรีรักษ์">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+          <attvalue for="1" value="วุฒิสภา (สายสีน้ำเงิน)" />
+          <attvalue for="2" value="รองประธานวุฒิสภา คนที่ 1 / แกนนำ สว. สายสีน้ำเงิน" />
+          <attvalue for="3" value="Senate-Blue" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="boonsong_noisophon" label="บุญส่ง น้อยโสภณ">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+          <attvalue for="1" value="วุฒิสภา" />
+          <attvalue for="2" value="รองประธานวุฒิสภา คนที่ 2 / อดีต กกต." />
+          <attvalue for="3" value="Independent" />
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </node>
+      <node id="itthiporn_boonpracong" label="อิทธิพร บุญประคอง">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+          <attvalue for="1" value="องค์กรอิสระ (กกต.)" />
+          <attvalue for="2" value="ประธานคณะกรรมการการเลือกตั้ง (กกต.)" />
+          <attvalue for="3" value="Independent" />
+          <attvalue for="4" value="2" />
+        </attvalues>
+      </node>
+      <node id="somchai_sawangkarn" label="สมชาย แสวงการ">
+        <attvalues>
+          <attvalue for="0" value="PERSON" />
+          <attvalue for="1" value="อดีตวุฒิสภา / ผู้ร้องเรียน" />
+          <attvalue for="2" value="อดีต สว. / ผู้ยื่นหลักฐานเส้นทางการเงินและโพยฮั้ว สว." />
+          <attvalue for="3" value="Independent" />
+          <attvalue for="4" value="1" />
         </attvalues>
       </node>
     </nodes>
     <edges>
+      <edge source="tewarit_maneechay" target="yingcheep_atchanont" id="tewarit_maneechay__yingcheep_atchanont__083f92" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LEGAL_ACTION" />
+          <attvalue for="6" value="กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง เทวฤทธิ์ มณีฉาย และ ยิ่งชีพ อัชฌานนท์" />
+          <attvalue for="7" value="-0.6" />
+          <attvalue for="8" value="2026-07-31" />
+          <attvalue for="9" value="ฟ้อง iLaw: การเมืองไทยในวิกฤตความเชื่อใจ กับ เทวฤทธิ์ มณีฉาย - The101" />
+        </attvalues>
+      </edge>
+      <edge source="tewarit_maneechay" target="senate_thailand" id="tewarit_maneechay__senate_thailand__26d783" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="เทวฤทธิ์ มณีฉาย และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส สมาชิกวุฒิสภา พร้อมด้วยนายเทวฤทธิ์ มณีฉาย แกนนำกลุ่ม สว" />
+        </attvalues>
+      </edge>
+      <edge source="tewarit_maneechay" target="sawaeng_boonmee" id="tewarit_maneechay__sawaeng_boonmee__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ แสวง บุญมี" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="tewarit_maneechay" target="constitutional_court" id="tewarit_maneechay__constitutional_court__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ศาลรัฐธรรมนูญ" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="tewarit_maneechay" target="election_commission" id="tewarit_maneechay__election_commission__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="tewarit_maneechay" target="nacc" id="tewarit_maneechay__nacc__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช." />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="yingcheep_atchanont" target="senate_thailand" id="yingcheep_atchanont__senate_thailand__82f553" weight="5">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="ยิ่งชีพ อัชฌานนท์ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง" />
+        </attvalues>
+      </edge>
+      <edge source="yingcheep_atchanont" target="election_commission" id="yingcheep_atchanont__election_commission__929192" weight="2">
+        <attvalues>
+          <attvalue for="5" value="LEGAL_ACTION" />
+          <attvalue for="6" value="กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ คณะกรรมการการเลือกตั้ง (กกต.)" />
+          <attvalue for="7" value="-0.6" />
+          <attvalue for="8" value="2026-08-28" />
+          <attvalue for="9" value="ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่" />
+        </attvalues>
+      </edge>
+      <edge source="yingcheep_atchanont" target="peoples_party" id="yingcheep_atchanont__peoples_party__929192" weight="2">
+        <attvalues>
+          <attvalue for="5" value="LEGAL_ACTION" />
+          <attvalue for="6" value="กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ พรรคประชาชน" />
+          <attvalue for="7" value="-0.6" />
+          <attvalue for="8" value="2026-08-28" />
+          <attvalue for="9" value="ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่" />
+        </attvalues>
+      </edge>
+      <edge source="yingcheep_atchanont" target="bhumjaithai_party" id="yingcheep_atchanont__bhumjaithai_party__929192" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LEGAL_ACTION" />
+          <attvalue for="6" value="กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ พรรคภูมิใจไทย" />
+          <attvalue for="7" value="-0.6" />
+          <attvalue for="8" value="2026-08-28" />
+          <attvalue for="9" value="ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่" />
+        </attvalues>
+      </edge>
+      <edge source="yingcheep_atchanont" target="constitutional_court" id="yingcheep_atchanont__constitutional_court__929192" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LEGAL_ACTION" />
+          <attvalue for="6" value="กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ ศาลรัฐธรรมนูญ" />
+          <attvalue for="7" value="-0.6" />
+          <attvalue for="8" value="2026-08-28" />
+          <attvalue for="9" value="ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่" />
+        </attvalues>
+      </edge>
+      <edge source="yingcheep_atchanont" target="nacc" id="yingcheep_atchanont__nacc__6ca88c" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="ยิ่งชีพ อัชฌานนท์ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-28" />
+          <attvalue for="9" value="วิชา อัดองค์กรอิสระ ต้องยึดโยงประชาชน ชม ‘ยิ่งชีพ’ เปิดข้อมูลโกง ส.ว." />
+        </attvalues>
+      </edge>
+      <edge source="yingcheep_atchanont" target="constitution_amendment" id="yingcheep_atchanont__constitution_amendment__6ca88c" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="ยิ่งชีพ อัชฌานนท์ และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-28" />
+          <attvalue for="9" value="วิชา อัดองค์กรอิสระ ต้องยึดโยงประชาชน ชม ‘ยิ่งชีพ’ เปิดข้อมูลโกง ส.ว." />
+        </attvalues>
+      </edge>
       <edge source="senate_thailand" target="constitution_amendment" id="senate_thailand__constitution_amendment__6ca88c" weight="2">
         <attvalues>
           <attvalue for="5" value="OPPOSITION" />
@@ -219,13 +417,13 @@
           <attvalue for="9" value="นายกฯ นัดครม.พรรคร่วมกินข้าวสัปดาห์หน้า ยังไม่เคาะวัน-สถานที่ ยิ้มไม่ตอบปมปรับครม." />
         </attvalues>
       </edge>
-      <edge source="paetongtarn_shinawatra" target="bhumjaithai_party" id="paetongtarn_shinawatra__bhumjaithai_party__46c480" weight="4">
+      <edge source="paetongtarn_shinawatra" target="bhumjaithai_party" id="paetongtarn_shinawatra__bhumjaithai_party__46c480" weight="5">
         <attvalues>
           <attvalue for="5" value="ALLIANCE" />
           <attvalue for="6" value="แพทองธาร ชินวัตร และ พรรคภูมิใจไทย ในขั้วการเมืองเดียวกัน (Government)" />
           <attvalue for="7" value="0.4" />
-          <attvalue for="8" value="2026-08-28" />
-          <attvalue for="9" value="ธนกร หนุนนายกฯช่วยลดค่าไฟฟ้า ชูโซลาร์รูฟท็อป เหน็บฝ่ายค้านดีแต่พูด" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
         </attvalues>
       </edge>
       <edge source="paetongtarn_shinawatra" target="senate_thailand" id="paetongtarn_shinawatra__senate_thailand__cbd9a7" weight="1">
@@ -253,6 +451,15 @@
           <attvalue for="7" value="-0.7" />
           <attvalue for="8" value="2026-08-28" />
           <attvalue for="9" value="บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน" />
+        </attvalues>
+      </edge>
+      <edge source="paetongtarn_shinawatra" target="yingcheep_atchanont" id="paetongtarn_shinawatra__yingcheep_atchanont__c4c1ee" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="แพทองธาร ชินวัตร และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-28" />
+          <attvalue for="9" value="นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล" />
         </attvalues>
       </edge>
       <edge source="paetongtarn_shinawatra" target="election_commission" id="paetongtarn_shinawatra__election_commission__cbd9a7" weight="1">
@@ -291,6 +498,33 @@
           <attvalue for="9" value="อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’" />
         </attvalues>
       </edge>
+      <edge source="paetongtarn_shinawatra" target="mongkol_surasajja" id="paetongtarn_shinawatra__mongkol_surasajja__f7cc28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="แพทองธาร ชินวัตร และ มงคล สุระสัจจะ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
+        </attvalues>
+      </edge>
+      <edge source="paetongtarn_shinawatra" target="kriangkrai_srirak" id="paetongtarn_shinawatra__kriangkrai_srirak__f7cc28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="แพทองธาร ชินวัตร และ พล.อ.เกรียงไกร ศรีรักษ์ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
+        </attvalues>
+      </edge>
+      <edge source="paetongtarn_shinawatra" target="boonsong_noisophon" id="paetongtarn_shinawatra__boonsong_noisophon__f7cc28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="แพทองธาร ชินวัตร และ บุญส่ง น้อยโสภณ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
+        </attvalues>
+      </edge>
       <edge source="anutin_charnvirakul" target="raknok_srinork" id="anutin_charnvirakul__raknok_srinork__f2c331" weight="1">
         <attvalues>
           <attvalue for="5" value="OPPOSITION" />
@@ -318,13 +552,13 @@
           <attvalue for="9" value="2569 วงเงินไม่เกิน 400,000 ล้านบาท โดยเฉพาะในส่วนของแผนงานที่ 2 กรอบวงเงิน 200,000 ล้านบาท เพื่อปรับโครงสร้างและสร้างการเปลี่ยนผ่านด้านพลังงานของประเทศว่า ยืนยันว่ารัฐบาลภายใต้การนำของนายอนุทิน ชาญวีรกูล นายกรัฐมนตรี พร้อมเดินหน้าตามกรอบกฎหมาย รัฐบาล" />
         </attvalues>
       </edge>
-      <edge source="anutin_charnvirakul" target="bhumjaithai_party" id="anutin_charnvirakul__bhumjaithai_party__b1194b" weight="12">
+      <edge source="anutin_charnvirakul" target="bhumjaithai_party" id="anutin_charnvirakul__bhumjaithai_party__b1194b" weight="13">
         <attvalues>
           <attvalue for="5" value="MEMBER_OF" />
           <attvalue for="6" value="อนุทิน ชาญวีรกูล สังกัด/ดำรงตำแหน่งใน พรรคภูมิใจไทย" />
           <attvalue for="7" value="0.5" />
-          <attvalue for="8" value="2026-08-28" />
-          <attvalue for="9" value="‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
         </attvalues>
       </edge>
       <edge source="anutin_charnvirakul" target="thaksin_shinawatra" id="anutin_charnvirakul__thaksin_shinawatra__b1194b" weight="1">
@@ -381,6 +615,15 @@
           <attvalue for="9" value="‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’" />
         </attvalues>
       </edge>
+      <edge source="anutin_charnvirakul" target="yingcheep_atchanont" id="anutin_charnvirakul__yingcheep_atchanont__c4c1ee" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="อนุทิน ชาญวีรกูล และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-28" />
+          <attvalue for="9" value="นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล" />
+        </attvalues>
+      </edge>
       <edge source="anutin_charnvirakul" target="nacc" id="anutin_charnvirakul__nacc__90e429" weight="1">
         <attvalues>
           <attvalue for="5" value="OPPOSITION" />
@@ -397,6 +640,33 @@
           <attvalue for="7" value="-0.7" />
           <attvalue for="8" value="2026-08-28" />
           <attvalue for="9" value="บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน" />
+        </attvalues>
+      </edge>
+      <edge source="anutin_charnvirakul" target="mongkol_surasajja" id="anutin_charnvirakul__mongkol_surasajja__2370eb" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="อนุทิน ชาญวีรกูล และ มงคล สุระสัจจะ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="tags: [&quot;มงคล สุระสัจจะ&quot;, &quot;เกรียงไกร ศรีรักษ์&quot;, &quot;อนุทิน ชาญวีรกูล&quot;, &quot;วุฒิสภา&quot;, &quot;กกต" />
+        </attvalues>
+      </edge>
+      <edge source="anutin_charnvirakul" target="kriangkrai_srirak" id="anutin_charnvirakul__kriangkrai_srirak__2370eb" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="อนุทิน ชาญวีรกูล และ พล.อ.เกรียงไกร ศรีรักษ์ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="tags: [&quot;มงคล สุระสัจจะ&quot;, &quot;เกรียงไกร ศรีรักษ์&quot;, &quot;อนุทิน ชาญวีรกูล&quot;, &quot;วุฒิสภา&quot;, &quot;กกต" />
+        </attvalues>
+      </edge>
+      <edge source="anutin_charnvirakul" target="boonsong_noisophon" id="anutin_charnvirakul__boonsong_noisophon__f7cc28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="อนุทิน ชาญวีรกูล และ บุญส่ง น้อยโสภณ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
         </attvalues>
       </edge>
       <edge source="raknok_srinork" target="peoples_party" id="raknok_srinork__peoples_party__19deeb" weight="1">
@@ -451,6 +721,15 @@
           <attvalue for="7" value="-0.2" />
           <attvalue for="8" value="2026-08-28" />
           <attvalue for="9" value="นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล" />
+        </attvalues>
+      </edge>
+      <edge source="parit_wacharasindhu" target="yingcheep_atchanont" id="parit_wacharasindhu__yingcheep_atchanont__2029f9" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="พริษฐ์ วัชรสินธุ และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-28" />
+          <attvalue for="9" value="ต่อหน้าคนทั้งหมดเหล่านี้หรือ และหลักฐานได้ส่งคณะอนุกรรมการชุดที่ 26 ไปเรียบร้อยแล้ว แต่นายยิ่งชีพหรือนายพริษฐ์ นำข้อมูลที่ผมชี้แจงว่ามีพยานตรงนี้มาเปิดเผยด้วยหรือไม่”" />
         </attvalues>
       </edge>
       <edge source="parit_wacharasindhu" target="nacc" id="parit_wacharasindhu__nacc__b56e6d" weight="1">
@@ -822,31 +1101,220 @@
           <attvalue for="9" value="วิเคราะห์ภาพบินเข้าทัพฟ้า-ไหว้ทักษิณ ธนพร มอง 'อนุทิน-ภูมิใจไทย' ขยับจากตัวแปร สู่ 'ผู้กำหนดเกม' การเมืองไทย - แนวหน้า" />
         </attvalues>
       </edge>
-      <edge source="constitutional_court" target="election_commission" id="constitutional_court__election_commission__1c20d8" weight="1">
+      <edge source="mongkol_surasajja" target="peoples_party" id="mongkol_surasajja__peoples_party__2bb904" weight="2">
         <attvalues>
           <attvalue for="5" value="OPPOSITION" />
-          <attvalue for="6" value="ศาลรัฐธรรมนูญ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง" />
           <attvalue for="7" value="-0.2" />
-          <attvalue for="8" value="2026-08-28" />
-          <attvalue for="9" value=") แต่ไม่ประสบความสำเร็จ จนกระทั่งเกิดการเรียกร้องให้มีการจัดทำรัฐธรรมนูญฉบับปี 2540 แนวคิดในเรื่องนี้จึงเข้าไปอยู่ในกฎหมายสูงสุดเป็นครั้งแรก มีศาลรัฐธรรมนูญ ศาลปกครอง คณะกรรมการการเลือกตั้ง(กกต" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง" />
         </attvalues>
       </edge>
-      <edge source="constitutional_court" target="nacc" id="constitutional_court__nacc__72cf15" weight="1">
+      <edge source="mongkol_surasajja" target="senate_thailand" id="mongkol_surasajja__senate_thailand__44999b" weight="1">
         <attvalues>
-          <attvalue for="5" value="OPPOSITION" />
-          <attvalue for="6" value="ศาลรัฐธรรมนูญ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง" />
-          <attvalue for="7" value="-0.2" />
-          <attvalue for="8" value="2026-08-28" />
-          <attvalue for="9" value="อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’" />
+          <attvalue for="5" value="LEGAL_ACTION" />
+          <attvalue for="6" value="กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง มงคล สุระสัจจะ และ วุฒิสภา (สว.)" />
+          <attvalue for="7" value="-0.6" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value=") ปี 2567 โดยคณะกรรมการสืบสวนและไต่สวนกลางได้รวบรวมพยานหลักฐานและรับฟังข้อเท็จจริงในสำนวนกลุ่มผู้ถูกกล่าวหาจำนวน 229 รายชื่อ ซึ่งรวมถึงนายมงคล สุระสัจจะ ประธานวุฒิสภา และ พล" />
         </attvalues>
       </edge>
-      <edge source="constitutional_court" target="senate_thailand" id="constitutional_court__senate_thailand__72cf15" weight="1">
+      <edge source="mongkol_surasajja" target="nanthana_nanthavaropas" id="mongkol_surasajja__nanthana_nanthavaropas__08edfd" weight="2">
         <attvalues>
           <attvalue for="5" value="OPPOSITION" />
-          <attvalue for="6" value="ศาลรัฐธรรมนูญ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ นันทนา นันทวโรภาส มีปฏิสัมพันธ์ในประเด็นการเมือง" />
           <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="tags: [&quot;ยิ่งชีพ อัชฌานนท์&quot;, &quot;iLaw&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;นันทนา นันทวโรภาส&quot;, &quot;กกต" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="yingcheep_atchanont" id="mongkol_surasajja__yingcheep_atchanont__08edfd" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="tags: [&quot;ยิ่งชีพ อัชฌานนท์&quot;, &quot;iLaw&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;นันทนา นันทวโรภาส&quot;, &quot;กกต" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="election_commission" id="mongkol_surasajja__election_commission__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="มงคล สุระสัจจะ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="kriangkrai_srirak" id="mongkol_surasajja__kriangkrai_srirak__b58b7e" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ พล.อ.เกรียงไกร ศรีรักษ์ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="boonsong_noisophon" id="mongkol_surasajja__boonsong_noisophon__c41d63" weight="1">
+        <attvalues>
+          <attvalue for="5" value="ALLIANCE" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ บุญส่ง น้อยโสภณ ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล" />
+          <attvalue for="7" value="0.8" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="ทุกท่านมีความเป็นอิสระตามรัฐธรรมนูญ ขณะที่นายบุญส่ง น้อยโสภณ รองประธานวุฒิสภา คนที่ 2 ระบุว่าวุฒิสภายังคงเดินหน้าทำหน้าที่พิจารณาร่างกฎหมายและเห็นชอบองค์กรอิสระตามปกติ" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="bhumjaithai_party" id="mongkol_surasajja__bhumjaithai_party__f7cc28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="tewarit_maneechay" id="mongkol_surasajja__tewarit_maneechay__b530e2" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ เทวฤทธิ์ มณีฉาย มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="tags: [&quot;นันทนา นันทวโรภาส&quot;, &quot;เทวฤทธิ์ มณีฉาย&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;กกต" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="sawaeng_boonmee" id="mongkol_surasajja__sawaeng_boonmee__e8e0b5" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ แสวง บุญมี มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;เกรียงไกร ศรีรักษ์&quot;, &quot;แสวง บุญมี&quot;, &quot;อิทธิพร บุญประคอง&quot;]" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="constitutional_court" id="mongkol_surasajja__constitutional_court__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="มงคล สุระสัจจะ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ศาลรัฐธรรมนูญ" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="nacc" id="mongkol_surasajja__nacc__b1366d" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช." />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="itthiporn_boonpracong" id="mongkol_surasajja__itthiporn_boonpracong__e8e0b5" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ อิทธิพร บุญประคอง มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;เกรียงไกร ศรีรักษ์&quot;, &quot;แสวง บุญมี&quot;, &quot;อิทธิพร บุญประคอง&quot;]" />
+        </attvalues>
+      </edge>
+      <edge source="mongkol_surasajja" target="somchai_sawangkarn" id="mongkol_surasajja__somchai_sawangkarn__b1366d" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="มงคล สุระสัจจะ และ สมชาย แสวงการ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช." />
+        </attvalues>
+      </edge>
+      <edge source="sawaeng_boonmee" target="yingcheep_atchanont" id="sawaeng_boonmee__yingcheep_atchanont__a2c415" weight="1">
+        <attvalues>
+          <attvalue for="5" value="LEGAL_ACTION" />
+          <attvalue for="6" value="กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง แสวง บุญมี และ ยิ่งชีพ อัชฌานนท์" />
+          <attvalue for="7" value="-0.6" />
           <attvalue for="8" value="2026-08-28" />
-          <attvalue for="9" value="อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’" />
+          <attvalue for="9" value="อ.มุนินทร์ งง เหตุผลกกต.ฟ้องไอลอว์ คือไม่มั่นใจตัวเองโปร่งใส เลยให้ตำรวจสอบอีกชั้น?" />
+        </attvalues>
+      </edge>
+      <edge source="sawaeng_boonmee" target="election_commission" id="sawaeng_boonmee__election_commission__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="sawaeng_boonmee" target="senate_thailand" id="sawaeng_boonmee__senate_thailand__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ วุฒิสภา (สว.)" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="sawaeng_boonmee" target="peoples_party" id="sawaeng_boonmee__peoples_party__5cc0db" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="แสวง บุญมี และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="ด้านสำนักข่าว BBC ไทย รายงานสถานการณ์ล่าสุดเมื่อวันที่ 28 สิงหาคมว่า ยอดผู้เสียชีวิตจากเหตุการณ์นี้ในฝั่งเนปาลและทิเบตพุ่งสูงกว่า 400 คนแล้ว ขณะที่ยอดผู้สูญหายรวมกันทะลุ 1,000 คน ซึ่งในจำนวนผู้เคราะห์ร้ายมีทั้งประชาชนในพื้นที่ รวมถึงนักท่องเที่ยวและผ" />
+        </attvalues>
+      </edge>
+      <edge source="sawaeng_boonmee" target="constitutional_court" id="sawaeng_boonmee__constitutional_court__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ศาลรัฐธรรมนูญ" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="sawaeng_boonmee" target="nacc" id="sawaeng_boonmee__nacc__b1366d" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="แสวง บุญมี และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช." />
+        </attvalues>
+      </edge>
+      <edge source="sawaeng_boonmee" target="somchai_sawangkarn" id="sawaeng_boonmee__somchai_sawangkarn__fb6726" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="แสวง บุญมี และ สมชาย แสวงการ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว" />
+        </attvalues>
+      </edge>
+      <edge source="constitutional_court" target="election_commission" id="constitutional_court__election_commission__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="ศาลรัฐธรรมนูญ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="constitutional_court" target="nacc" id="constitutional_court__nacc__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="ศาลรัฐธรรมนูญ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช." />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="constitutional_court" target="senate_thailand" id="constitutional_court__senate_thailand__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="ศาลรัฐธรรมนูญ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ วุฒิสภา (สว.)" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
         </attvalues>
       </edge>
       <edge source="constitutional_court" target="constitution_amendment" id="constitutional_court__constitution_amendment__72cf15" weight="1">
@@ -856,6 +1324,231 @@
           <attvalue for="7" value="-0.2" />
           <attvalue for="8" value="2026-08-28" />
           <attvalue for="9" value="อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’" />
+        </attvalues>
+      </edge>
+      <edge source="nanthana_nanthavaropas" target="yingcheep_atchanont" id="nanthana_nanthavaropas__yingcheep_atchanont__08edfd" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="นันทนา นันทวโรภาส และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="tags: [&quot;ยิ่งชีพ อัชฌานนท์&quot;, &quot;iLaw&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;นันทนา นันทวโรภาส&quot;, &quot;กกต" />
+        </attvalues>
+      </edge>
+      <edge source="nanthana_nanthavaropas" target="peoples_party" id="nanthana_nanthavaropas__peoples_party__1189cd" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="นันทนา นันทวโรภาส และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง" />
+        </attvalues>
+      </edge>
+      <edge source="nanthana_nanthavaropas" target="election_commission" id="nanthana_nanthavaropas__election_commission__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="นันทนา นันทวโรภาส วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="nanthana_nanthavaropas" target="senate_thailand" id="nanthana_nanthavaropas__senate_thailand__1189cd" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="นันทนา นันทวโรภาส และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง" />
+        </attvalues>
+      </edge>
+      <edge source="nanthana_nanthavaropas" target="tewarit_maneechay" id="nanthana_nanthavaropas__tewarit_maneechay__b530e2" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="นันทนา นันทวโรภาส และ เทวฤทธิ์ มณีฉาย มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="tags: [&quot;นันทนา นันทวโรภาส&quot;, &quot;เทวฤทธิ์ มณีฉาย&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;กกต" />
+        </attvalues>
+      </edge>
+      <edge source="nanthana_nanthavaropas" target="sawaeng_boonmee" id="nanthana_nanthavaropas__sawaeng_boonmee__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="นันทนา นันทวโรภาส วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ แสวง บุญมี" />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="nanthana_nanthavaropas" target="constitutional_court" id="nanthana_nanthavaropas__constitutional_court__e1f5bf" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="นันทนา นันทวโรภาส และ ศาลรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา ระบุว่า การโหวตรับรองกรรมการองค์กรอิสระ อาทิ ตุลาการศาลรัฐธรรมนูญ และ ป" />
+        </attvalues>
+      </edge>
+      <edge source="nanthana_nanthavaropas" target="nacc" id="nanthana_nanthavaropas__nacc__cca656" weight="1">
+        <attvalues>
+          <attvalue for="5" value="CRITICISM" />
+          <attvalue for="6" value="นันทนา นันทวโรภาส วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช." />
+          <attvalue for="7" value="-0.7" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่" />
+        </attvalues>
+      </edge>
+      <edge source="kriangkrai_srirak" target="boonsong_noisophon" id="kriangkrai_srirak__boonsong_noisophon__f7cc28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="พล.อ.เกรียงไกร ศรีรักษ์ และ บุญส่ง น้อยโสภณ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
+        </attvalues>
+      </edge>
+      <edge source="kriangkrai_srirak" target="bhumjaithai_party" id="kriangkrai_srirak__bhumjaithai_party__f7cc28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="พล.อ.เกรียงไกร ศรีรักษ์ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
+        </attvalues>
+      </edge>
+      <edge source="kriangkrai_srirak" target="election_commission" id="kriangkrai_srirak__election_commission__f7cc28" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="พล.อ.เกรียงไกร ศรีรักษ์ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
+        </attvalues>
+      </edge>
+      <edge source="kriangkrai_srirak" target="senate_thailand" id="kriangkrai_srirak__senate_thailand__2370eb" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="พล.อ.เกรียงไกร ศรีรักษ์ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="tags: [&quot;มงคล สุระสัจจะ&quot;, &quot;เกรียงไกร ศรีรักษ์&quot;, &quot;อนุทิน ชาญวีรกูล&quot;, &quot;วุฒิสภา&quot;, &quot;กกต" />
+        </attvalues>
+      </edge>
+      <edge source="kriangkrai_srirak" target="itthiporn_boonpracong" id="kriangkrai_srirak__itthiporn_boonpracong__e8e0b5" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="พล.อ.เกรียงไกร ศรีรักษ์ และ อิทธิพร บุญประคอง มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;เกรียงไกร ศรีรักษ์&quot;, &quot;แสวง บุญมี&quot;, &quot;อิทธิพร บุญประคอง&quot;]" />
+        </attvalues>
+      </edge>
+      <edge source="kriangkrai_srirak" target="sawaeng_boonmee" id="kriangkrai_srirak__sawaeng_boonmee__e8e0b5" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="พล.อ.เกรียงไกร ศรีรักษ์ และ แสวง บุญมี มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;เกรียงไกร ศรีรักษ์&quot;, &quot;แสวง บุญมี&quot;, &quot;อิทธิพร บุญประคอง&quot;]" />
+        </attvalues>
+      </edge>
+      <edge source="boonsong_noisophon" target="bhumjaithai_party" id="boonsong_noisophon__bhumjaithai_party__f7cc28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="บุญส่ง น้อยโสภณ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
+        </attvalues>
+      </edge>
+      <edge source="boonsong_noisophon" target="election_commission" id="boonsong_noisophon__election_commission__f7cc28" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="บุญส่ง น้อยโสภณ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง" />
+        </attvalues>
+      </edge>
+      <edge source="boonsong_noisophon" target="senate_thailand" id="boonsong_noisophon__senate_thailand__c41d63" weight="1">
+        <attvalues>
+          <attvalue for="5" value="ALLIANCE" />
+          <attvalue for="6" value="บุญส่ง น้อยโสภณ และ วุฒิสภา (สว.) ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล" />
+          <attvalue for="7" value="0.8" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="ทุกท่านมีความเป็นอิสระตามรัฐธรรมนูญ ขณะที่นายบุญส่ง น้อยโสภณ รองประธานวุฒิสภา คนที่ 2 ระบุว่าวุฒิสภายังคงเดินหน้าทำหน้าที่พิจารณาร่างกฎหมายและเห็นชอบองค์กรอิสระตามปกติ" />
+        </attvalues>
+      </edge>
+      <edge source="itthiporn_boonpracong" target="sawaeng_boonmee" id="itthiporn_boonpracong__sawaeng_boonmee__e8e0b5" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="อิทธิพร บุญประคอง และ แสวง บุญมี มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="&quot;, &quot;มงคล สุระสัจจะ&quot;, &quot;เกรียงไกร ศรีรักษ์&quot;, &quot;แสวง บุญมี&quot;, &quot;อิทธิพร บุญประคอง&quot;]" />
+        </attvalues>
+      </edge>
+      <edge source="itthiporn_boonpracong" target="election_commission" id="itthiporn_boonpracong__election_commission__3be15c" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="อิทธิพร บุญประคอง และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="กกต. เดินหน้าสอบคดีฮั้ว สว. 229 รายชื่อ นัดลงมติชี้ชะตาสอย สว. สายสีน้ำเงิน" />
+        </attvalues>
+      </edge>
+      <edge source="itthiporn_boonpracong" target="senate_thailand" id="itthiporn_boonpracong__senate_thailand__3be15c" weight="2">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="อิทธิพร บุญประคอง และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="กกต. เดินหน้าสอบคดีฮั้ว สว. 229 รายชื่อ นัดลงมติชี้ชะตาสอย สว. สายสีน้ำเงิน" />
+        </attvalues>
+      </edge>
+      <edge source="itthiporn_boonpracong" target="somchai_sawangkarn" id="itthiporn_boonpracong__somchai_sawangkarn__a0aeff" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="อิทธิพร บุญประคอง และ สมชาย แสวงการ มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นายสมชาย แสวงการ อดีตสมาชิกวุฒิสภา ได้นำเอกสารหลักฐานชุดใหม่เข้ายื่นต่อนายอิทธิพร บุญประคอง ประธาน กกต" />
+        </attvalues>
+      </edge>
+      <edge source="itthiporn_boonpracong" target="nacc" id="itthiporn_boonpracong__nacc__b1366d" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="อิทธิพร บุญประคอง และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช." />
+        </attvalues>
+      </edge>
+      <edge source="somchai_sawangkarn" target="election_commission" id="somchai_sawangkarn__election_commission__b1366d" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="สมชาย แสวงการ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช." />
+        </attvalues>
+      </edge>
+      <edge source="somchai_sawangkarn" target="nacc" id="somchai_sawangkarn__nacc__b1366d" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="สมชาย แสวงการ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช." />
+        </attvalues>
+      </edge>
+      <edge source="somchai_sawangkarn" target="senate_thailand" id="somchai_sawangkarn__senate_thailand__a0aeff" weight="1">
+        <attvalues>
+          <attvalue for="5" value="OPPOSITION" />
+          <attvalue for="6" value="สมชาย แสวงการ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง" />
+          <attvalue for="7" value="-0.2" />
+          <attvalue for="8" value="2026-08-29" />
+          <attvalue for="9" value="นายสมชาย แสวงการ อดีตสมาชิกวุฒิสภา ได้นำเอกสารหลักฐานชุดใหม่เข้ายื่นต่อนายอิทธิพร บุญประคอง ประธาน กกต" />
         </attvalues>
       </edge>
     </edges>

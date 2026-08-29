@@ -12,13 +12,29 @@
 <key id="d2" for="node" attr.name="party" attr.type="string"/>
 <key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
 <key id="d0" for="node" attr.name="label" attr.type="string"/>
-<graph edgedefault="directed"><node id="senate_thailand">
+<graph edgedefault="directed"><node id="tewarit_maneechay">
+  <data key="d0">เทวฤทธิ์ มณีฉาย</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">วุฒิสภา (กลุ่มพันธุ์ใหม่)</data>
+  <data key="d3">สมาชิกวุฒิสภา / โฆษก สว. กลุ่มพันธุ์ใหม่</data>
+  <data key="d4">Senate-NewBreed</data>
+  <data key="d5">2</data>
+</node>
+<node id="yingcheep_atchanont">
+  <data key="d0">ยิ่งชีพ อัชฌานนท์</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">ภาคประชาสังคม (iLaw)</data>
+  <data key="d3">ผู้จัดการ iLaw / ผู้เปิดโปงสถิติบล็อกโหวต สว.67</data>
+  <data key="d4">Independent</data>
+  <data key="d5">8</data>
+</node>
+<node id="senate_thailand">
   <data key="d0">วุฒิสภา (สว.)</data>
   <data key="d1">INSTITUTION</data>
   <data key="d2">สถาบันนิติบัญญัติ</data>
   <data key="d3">สภาสูง / กลั่นกรองกฎหมายและแต่งตั้งองค์กรอิสระ</data>
   <data key="d4">Independent</data>
-  <data key="d5">34</data>
+  <data key="d5">39</data>
 </node>
 <node id="paetongtarn_shinawatra">
   <data key="d0">แพทองธาร ชินวัตร</data>
@@ -26,7 +42,7 @@
   <data key="d2">พรรคเพื่อไทย</data>
   <data key="d3">นายกรัฐมนตรี</data>
   <data key="d4">Government</data>
-  <data key="d5">40</data>
+  <data key="d5">41</data>
 </node>
 <node id="anutin_charnvirakul">
   <data key="d0">อนุทิน ชาญวีรกูล</data>
@@ -34,7 +50,7 @@
   <data key="d2">พรรคภูมิใจไทย</data>
   <data key="d3">รองนายกรัฐมนตรี และ รมว.มหาดไทย</data>
   <data key="d4">Government</data>
-  <data key="d5">35</data>
+  <data key="d5">36</data>
 </node>
 <node id="raknok_srinork">
   <data key="d0">รักชนก ศรีนอก</data>
@@ -58,7 +74,7 @@
   <data key="d2">พรรคประชาชน</data>
   <data key="d3">พรรคแกนนำฝ่ายค้าน</data>
   <data key="d4">Opposition</data>
-  <data key="d5">125</data>
+  <data key="d5">126</data>
 </node>
 <node id="election_commission">
   <data key="d0">คณะกรรมการการเลือกตั้ง (กกต.)</data>
@@ -66,7 +82,7 @@
   <data key="d2">องค์กรอิสระ</data>
   <data key="d3">องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง</data>
   <data key="d4">Independent</data>
-  <data key="d5">26</data>
+  <data key="d5">31</data>
 </node>
 <node id="bhumjaithai_party">
   <data key="d0">พรรคภูมิใจไทย</data>
@@ -74,7 +90,7 @@
   <data key="d2">พรรคภูมิใจไทย</data>
   <data key="d3">พรรคร่วมรัฐบาล</data>
   <data key="d4">Government</data>
-  <data key="d5">30</data>
+  <data key="d5">31</data>
 </node>
 <node id="pheu_thai_party">
   <data key="d0">พรรคเพื่อไทย</data>
@@ -98,7 +114,7 @@
   <data key="d2">องค์กรอิสระ</data>
   <data key="d3">องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ</data>
   <data key="d4">Independent</data>
-  <data key="d5">13</data>
+  <data key="d5">15</data>
 </node>
 <node id="sirikanya_tansakun">
   <data key="d0">ศิริกัญญา ตันสกุล</data>
@@ -124,6 +140,14 @@
   <data key="d4">Government</data>
   <data key="d5">1</data>
 </node>
+<node id="mongkol_surasajja">
+  <data key="d0">มงคล สุระสัจจะ</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">วุฒิสภา (สายสีน้ำเงิน)</data>
+  <data key="d3">ประธานวุฒิสภา / ผู้ถูกกล่าวหาคดีฮั้ว สว. 229 ราย</data>
+  <data key="d4">Senate-Blue</data>
+  <data key="d5">8</data>
+</node>
 <node id="constitution_amendment">
   <data key="d0">การแก้ไขรัฐธรรมนูญ</data>
   <data key="d1">POLICY</data>
@@ -132,14 +156,179 @@
   <data key="d4">Cross-Party</data>
   <data key="d5">5</data>
 </node>
+<node id="sawaeng_boonmee">
+  <data key="d0">แสวง บุญมี</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">องค์กรอิสระ (กกต.)</data>
+  <data key="d3">เลขาธิการ กกต. (ผู้รับผิดชอบสำนวนคดีฮั้ว สว.)</data>
+  <data key="d4">Independent</data>
+  <data key="d5">7</data>
+</node>
 <node id="constitutional_court">
   <data key="d0">ศาลรัฐธรรมนูญ</data>
   <data key="d1">INSTITUTION</data>
   <data key="d2">ตุลาการ</data>
   <data key="d3">ศาลสูงสุดด้านรัฐธรรมนูญ</data>
   <data key="d4">Judicial</data>
+  <data key="d5">3</data>
+</node>
+<node id="nanthana_nanthavaropas">
+  <data key="d0">นันทนา นันทวโรภาส</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">วุฒิสภา (กลุ่มพันธุ์ใหม่)</data>
+  <data key="d3">สมาชิกวุฒิสภา / แกนนำ สว. กลุ่มพันธุ์ใหม่ (ฝ่ายตรวจสอบ)</data>
+  <data key="d4">Senate-NewBreed</data>
   <data key="d5">2</data>
 </node>
+<node id="kriangkrai_srirak">
+  <data key="d0">พล.อ.เกรียงไกร ศรีรักษ์</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">วุฒิสภา (สายสีน้ำเงิน)</data>
+  <data key="d3">รองประธานวุฒิสภา คนที่ 1 / แกนนำ สว. สายสีน้ำเงิน</data>
+  <data key="d4">Senate-Blue</data>
+  <data key="d5">2</data>
+</node>
+<node id="boonsong_noisophon">
+  <data key="d0">บุญส่ง น้อยโสภณ</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">วุฒิสภา</data>
+  <data key="d3">รองประธานวุฒิสภา คนที่ 2 / อดีต กกต.</data>
+  <data key="d4">Independent</data>
+  <data key="d5">1</data>
+</node>
+<node id="itthiporn_boonpracong">
+  <data key="d0">อิทธิพร บุญประคอง</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">องค์กรอิสระ (กกต.)</data>
+  <data key="d3">ประธานคณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d4">Independent</data>
+  <data key="d5">2</data>
+</node>
+<node id="somchai_sawangkarn">
+  <data key="d0">สมชาย แสวงการ</data>
+  <data key="d1">PERSON</data>
+  <data key="d2">อดีตวุฒิสภา / ผู้ร้องเรียน</data>
+  <data key="d3">อดีต สว. / ผู้ยื่นหลักฐานเส้นทางการเงินและโพยฮั้ว สว.</data>
+  <data key="d4">Independent</data>
+  <data key="d5">1</data>
+</node>
+<edge source="tewarit_maneechay" target="yingcheep_atchanont">
+  <data key="d6">tewarit_maneechay__yingcheep_atchanont__083f92</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง เทวฤทธิ์ มณีฉาย และ ยิ่งชีพ อัชฌานนท์</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-07-31</data>
+  <data key="d11">1</data>
+  <data key="d12">ฟ้อง iLaw: การเมืองไทยในวิกฤตความเชื่อใจ กับ เทวฤทธิ์ มณีฉาย - The101</data>
+</edge>
+<edge source="tewarit_maneechay" target="senate_thailand">
+  <data key="d6">tewarit_maneechay__senate_thailand__26d783</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">เทวฤทธิ์ มณีฉาย และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส สมาชิกวุฒิสภา พร้อมด้วยนายเทวฤทธิ์ มณีฉาย แกนนำกลุ่ม สว</data>
+</edge>
+<edge source="tewarit_maneechay" target="sawaeng_boonmee">
+  <data key="d6">tewarit_maneechay__sawaeng_boonmee__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ แสวง บุญมี</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="tewarit_maneechay" target="constitutional_court">
+  <data key="d6">tewarit_maneechay__constitutional_court__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ศาลรัฐธรรมนูญ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="tewarit_maneechay" target="election_commission">
+  <data key="d6">tewarit_maneechay__election_commission__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="tewarit_maneechay" target="nacc">
+  <data key="d6">tewarit_maneechay__nacc__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">เทวฤทธิ์ มณีฉาย วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="yingcheep_atchanont" target="senate_thailand">
+  <data key="d6">yingcheep_atchanont__senate_thailand__82f553</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ยิ่งชีพ อัชฌานนท์ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">5</data>
+  <data key="d12">iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง</data>
+</edge>
+<edge source="yingcheep_atchanont" target="election_commission">
+  <data key="d6">yingcheep_atchanont__election_commission__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="yingcheep_atchanont" target="peoples_party">
+  <data key="d6">yingcheep_atchanont__peoples_party__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ พรรคประชาชน</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="yingcheep_atchanont" target="bhumjaithai_party">
+  <data key="d6">yingcheep_atchanont__bhumjaithai_party__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ พรรคภูมิใจไทย</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="yingcheep_atchanont" target="constitutional_court">
+  <data key="d6">yingcheep_atchanont__constitutional_court__929192</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง ยิ่งชีพ อัชฌานนท์ และ ศาลรัฐธรรมนูญ</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ยิ่งชีพ ปลุกบี้ #สั่งฟ้องสว. ยันไม่มีถ้า.. ชี้ 5 ซีนาริโอ กกต.ไม่ฟ้อง ระบอบสีน้ำเงินเฟื่องฟูแน่</data>
+</edge>
+<edge source="yingcheep_atchanont" target="nacc">
+  <data key="d6">yingcheep_atchanont__nacc__6ca88c</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ยิ่งชีพ อัชฌานนท์ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">วิชา อัดองค์กรอิสระ ต้องยึดโยงประชาชน ชม ‘ยิ่งชีพ’ เปิดข้อมูลโกง ส.ว.</data>
+</edge>
+<edge source="yingcheep_atchanont" target="constitution_amendment">
+  <data key="d6">yingcheep_atchanont__constitution_amendment__6ca88c</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">ยิ่งชีพ อัชฌานนท์ และ การแก้ไขรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">วิชา อัดองค์กรอิสระ ต้องยึดโยงประชาชน ชม ‘ยิ่งชีพ’ เปิดข้อมูลโกง ส.ว.</data>
+</edge>
 <edge source="senate_thailand" target="constitution_amendment">
   <data key="d6">senate_thailand__constitution_amendment__6ca88c</data>
   <data key="d7">OPPOSITION</data>
@@ -199,9 +388,9 @@
   <data key="d7">ALLIANCE</data>
   <data key="d8">แพทองธาร ชินวัตร และ พรรคภูมิใจไทย ในขั้วการเมืองเดียวกัน (Government)</data>
   <data key="d9">0.4</data>
-  <data key="d10">2026-08-28</data>
-  <data key="d11">4</data>
-  <data key="d12">ธนกร หนุนนายกฯช่วยลดค่าไฟฟ้า ชูโซลาร์รูฟท็อป เหน็บฝ่ายค้านดีแต่พูด</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">5</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
 </edge>
 <edge source="paetongtarn_shinawatra" target="senate_thailand">
   <data key="d6">paetongtarn_shinawatra__senate_thailand__cbd9a7</data>
@@ -229,6 +418,15 @@
   <data key="d10">2026-08-28</data>
   <data key="d11">1</data>
   <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="yingcheep_atchanont">
+  <data key="d6">paetongtarn_shinawatra__yingcheep_atchanont__c4c1ee</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แพทองธาร ชินวัตร และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">2</data>
+  <data key="d12">นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล</data>
 </edge>
 <edge source="paetongtarn_shinawatra" target="election_commission">
   <data key="d6">paetongtarn_shinawatra__election_commission__cbd9a7</data>
@@ -266,6 +464,33 @@
   <data key="d11">1</data>
   <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
 </edge>
+<edge source="paetongtarn_shinawatra" target="mongkol_surasajja">
+  <data key="d6">paetongtarn_shinawatra__mongkol_surasajja__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แพทองธาร ชินวัตร และ มงคล สุระสัจจะ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="kriangkrai_srirak">
+  <data key="d6">paetongtarn_shinawatra__kriangkrai_srirak__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แพทองธาร ชินวัตร และ พล.อ.เกรียงไกร ศรีรักษ์ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
+</edge>
+<edge source="paetongtarn_shinawatra" target="boonsong_noisophon">
+  <data key="d6">paetongtarn_shinawatra__boonsong_noisophon__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แพทองธาร ชินวัตร และ บุญส่ง น้อยโสภณ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
+</edge>
 <edge source="anutin_charnvirakul" target="raknok_srinork">
   <data key="d6">anutin_charnvirakul__raknok_srinork__f2c331</data>
   <data key="d7">OPPOSITION</data>
@@ -298,9 +523,9 @@
   <data key="d7">MEMBER_OF</data>
   <data key="d8">อนุทิน ชาญวีรกูล สังกัด/ดำรงตำแหน่งใน พรรคภูมิใจไทย</data>
   <data key="d9">0.5</data>
-  <data key="d10">2026-08-28</data>
-  <data key="d11">12</data>
-  <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">13</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
 </edge>
 <edge source="anutin_charnvirakul" target="thaksin_shinawatra">
   <data key="d6">anutin_charnvirakul__thaksin_shinawatra__b1194b</data>
@@ -356,6 +581,15 @@
   <data key="d11">2</data>
   <data key="d12">‘ชลน่าน’ ยันขึ้นเวทีฝ่ายค้าน ขอ พท.แล้ว ชี้ไม่กระทบสัมพันธ์ ‘ภูมิใจไทย’</data>
 </edge>
+<edge source="anutin_charnvirakul" target="yingcheep_atchanont">
+  <data key="d6">anutin_charnvirakul__yingcheep_atchanont__c4c1ee</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล</data>
+</edge>
 <edge source="anutin_charnvirakul" target="nacc">
   <data key="d6">anutin_charnvirakul__nacc__90e429</data>
   <data key="d7">OPPOSITION</data>
@@ -373,6 +607,33 @@
   <data key="d10">2026-08-28</data>
   <data key="d11">1</data>
   <data key="d12">บวรศักดิ์ ซัดองค์กรอิสระ ความเชื่อมั่นตกต่ำ หนุนแก้รธน. ชง 5 ข้อรื้อสรรหา-คืนสิทธิปชช.ถอดถอน</data>
+</edge>
+<edge source="anutin_charnvirakul" target="mongkol_surasajja">
+  <data key="d6">anutin_charnvirakul__mongkol_surasajja__2370eb</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ มงคล สุระสัจจะ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">tags: ["มงคล สุระสัจจะ", "เกรียงไกร ศรีรักษ์", "อนุทิน ชาญวีรกูล", "วุฒิสภา", "กกต</data>
+</edge>
+<edge source="anutin_charnvirakul" target="kriangkrai_srirak">
+  <data key="d6">anutin_charnvirakul__kriangkrai_srirak__2370eb</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ พล.อ.เกรียงไกร ศรีรักษ์ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">tags: ["มงคล สุระสัจจะ", "เกรียงไกร ศรีรักษ์", "อนุทิน ชาญวีรกูล", "วุฒิสภา", "กกต</data>
+</edge>
+<edge source="anutin_charnvirakul" target="boonsong_noisophon">
+  <data key="d6">anutin_charnvirakul__boonsong_noisophon__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อนุทิน ชาญวีรกูล และ บุญส่ง น้อยโสภณ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
 </edge>
 <edge source="raknok_srinork" target="peoples_party">
   <data key="d6">raknok_srinork__peoples_party__19deeb</data>
@@ -427,6 +688,15 @@
   <data key="d10">2026-08-28</data>
   <data key="d11">4</data>
   <data key="d12">นภินทร เปิดทำเนียบ แจงโกงเลือกส.ว. ลั่นไม่โง่ทำผิดกฎหมาย ฝากถึง เป๋า-ยิ่งชีพ เจอกันในศาล</data>
+</edge>
+<edge source="parit_wacharasindhu" target="yingcheep_atchanont">
+  <data key="d6">parit_wacharasindhu__yingcheep_atchanont__2029f9</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พริษฐ์ วัชรสินธุ และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-28</data>
+  <data key="d11">1</data>
+  <data key="d12">ต่อหน้าคนทั้งหมดเหล่านี้หรือ และหลักฐานได้ส่งคณะอนุกรรมการชุดที่ 26 ไปเรียบร้อยแล้ว แต่นายยิ่งชีพหรือนายพริษฐ์ นำข้อมูลที่ผมชี้แจงว่ามีพยานตรงนี้มาเปิดเผยด้วยหรือไม่”</data>
 </edge>
 <edge source="parit_wacharasindhu" target="nacc">
   <data key="d6">parit_wacharasindhu__nacc__b56e6d</data>
@@ -797,32 +1067,221 @@
   <data key="d11">1</data>
   <data key="d12">วิเคราะห์ภาพบินเข้าทัพฟ้า-ไหว้ทักษิณ ธนพร มอง 'อนุทิน-ภูมิใจไทย' ขยับจากตัวแปร สู่ 'ผู้กำหนดเกม' การเมืองไทย - แนวหน้า</data>
 </edge>
-<edge source="constitutional_court" target="election_commission">
-  <data key="d6">constitutional_court__election_commission__1c20d8</data>
+<edge source="mongkol_surasajja" target="peoples_party">
+  <data key="d6">mongkol_surasajja__peoples_party__2bb904</data>
   <data key="d7">OPPOSITION</data>
-  <data key="d8">ศาลรัฐธรรมนูญ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d8">มงคล สุระสัจจะ และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
   <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง</data>
+</edge>
+<edge source="mongkol_surasajja" target="senate_thailand">
+  <data key="d6">mongkol_surasajja__senate_thailand__44999b</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง มงคล สุระสัจจะ และ วุฒิสภา (สว.)</data>
+  <data key="d9">-0.6</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">) ปี 2567 โดยคณะกรรมการสืบสวนและไต่สวนกลางได้รวบรวมพยานหลักฐานและรับฟังข้อเท็จจริงในสำนวนกลุ่มผู้ถูกกล่าวหาจำนวน 229 รายชื่อ ซึ่งรวมถึงนายมงคล สุระสัจจะ ประธานวุฒิสภา และ พล</data>
+</edge>
+<edge source="mongkol_surasajja" target="nanthana_nanthavaropas">
+  <data key="d6">mongkol_surasajja__nanthana_nanthavaropas__08edfd</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">มงคล สุระสัจจะ และ นันทนา นันทวโรภาส มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">tags: ["ยิ่งชีพ อัชฌานนท์", "iLaw", "มงคล สุระสัจจะ", "นันทนา นันทวโรภาส", "กกต</data>
+</edge>
+<edge source="mongkol_surasajja" target="yingcheep_atchanont">
+  <data key="d6">mongkol_surasajja__yingcheep_atchanont__08edfd</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">มงคล สุระสัจจะ และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">tags: ["ยิ่งชีพ อัชฌานนท์", "iLaw", "มงคล สุระสัจจะ", "นันทนา นันทวโรภาส", "กกต</data>
+</edge>
+<edge source="mongkol_surasajja" target="election_commission">
+  <data key="d6">mongkol_surasajja__election_commission__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">มงคล สุระสัจจะ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="mongkol_surasajja" target="kriangkrai_srirak">
+  <data key="d6">mongkol_surasajja__kriangkrai_srirak__b58b7e</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">มงคล สุระสัจจะ และ พล.อ.เกรียงไกร ศรีรักษ์ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต</data>
+</edge>
+<edge source="mongkol_surasajja" target="boonsong_noisophon">
+  <data key="d6">mongkol_surasajja__boonsong_noisophon__c41d63</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">มงคล สุระสัจจะ และ บุญส่ง น้อยโสภณ ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล</data>
+  <data key="d9">0.8</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">ทุกท่านมีความเป็นอิสระตามรัฐธรรมนูญ ขณะที่นายบุญส่ง น้อยโสภณ รองประธานวุฒิสภา คนที่ 2 ระบุว่าวุฒิสภายังคงเดินหน้าทำหน้าที่พิจารณาร่างกฎหมายและเห็นชอบองค์กรอิสระตามปกติ</data>
+</edge>
+<edge source="mongkol_surasajja" target="bhumjaithai_party">
+  <data key="d6">mongkol_surasajja__bhumjaithai_party__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">มงคล สุระสัจจะ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
+</edge>
+<edge source="mongkol_surasajja" target="tewarit_maneechay">
+  <data key="d6">mongkol_surasajja__tewarit_maneechay__b530e2</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">มงคล สุระสัจจะ และ เทวฤทธิ์ มณีฉาย มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">tags: ["นันทนา นันทวโรภาส", "เทวฤทธิ์ มณีฉาย", "มงคล สุระสัจจะ", "กกต</data>
+</edge>
+<edge source="mongkol_surasajja" target="sawaeng_boonmee">
+  <data key="d6">mongkol_surasajja__sawaeng_boonmee__e8e0b5</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">มงคล สุระสัจจะ และ แสวง บุญมี มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">", "มงคล สุระสัจจะ", "เกรียงไกร ศรีรักษ์", "แสวง บุญมี", "อิทธิพร บุญประคอง"]</data>
+</edge>
+<edge source="mongkol_surasajja" target="constitutional_court">
+  <data key="d6">mongkol_surasajja__constitutional_court__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">มงคล สุระสัจจะ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ศาลรัฐธรรมนูญ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="mongkol_surasajja" target="nacc">
+  <data key="d6">mongkol_surasajja__nacc__b1366d</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">มงคล สุระสัจจะ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.</data>
+</edge>
+<edge source="mongkol_surasajja" target="itthiporn_boonpracong">
+  <data key="d6">mongkol_surasajja__itthiporn_boonpracong__e8e0b5</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">มงคล สุระสัจจะ และ อิทธิพร บุญประคอง มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">", "มงคล สุระสัจจะ", "เกรียงไกร ศรีรักษ์", "แสวง บุญมี", "อิทธิพร บุญประคอง"]</data>
+</edge>
+<edge source="mongkol_surasajja" target="somchai_sawangkarn">
+  <data key="d6">mongkol_surasajja__somchai_sawangkarn__b1366d</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">มงคล สุระสัจจะ และ สมชาย แสวงการ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.</data>
+</edge>
+<edge source="sawaeng_boonmee" target="yingcheep_atchanont">
+  <data key="d6">sawaeng_boonmee__yingcheep_atchanont__a2c415</data>
+  <data key="d7">LEGAL_ACTION</data>
+  <data key="d8">กระบวนการทางกฎหมาย/ตรวจสอบระหว่าง แสวง บุญมี และ ยิ่งชีพ อัชฌานนท์</data>
+  <data key="d9">-0.6</data>
   <data key="d10">2026-08-28</data>
   <data key="d11">1</data>
-  <data key="d12">) แต่ไม่ประสบความสำเร็จ จนกระทั่งเกิดการเรียกร้องให้มีการจัดทำรัฐธรรมนูญฉบับปี 2540 แนวคิดในเรื่องนี้จึงเข้าไปอยู่ในกฎหมายสูงสุดเป็นครั้งแรก มีศาลรัฐธรรมนูญ ศาลปกครอง คณะกรรมการการเลือกตั้ง(กกต</data>
+  <data key="d12">อ.มุนินทร์ งง เหตุผลกกต.ฟ้องไอลอว์ คือไม่มั่นใจตัวเองโปร่งใส เลยให้ตำรวจสอบอีกชั้น?</data>
+</edge>
+<edge source="sawaeng_boonmee" target="election_commission">
+  <data key="d6">sawaeng_boonmee__election_commission__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="sawaeng_boonmee" target="senate_thailand">
+  <data key="d6">sawaeng_boonmee__senate_thailand__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ วุฒิสภา (สว.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="sawaeng_boonmee" target="peoples_party">
+  <data key="d6">sawaeng_boonmee__peoples_party__5cc0db</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แสวง บุญมี และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">ด้านสำนักข่าว BBC ไทย รายงานสถานการณ์ล่าสุดเมื่อวันที่ 28 สิงหาคมว่า ยอดผู้เสียชีวิตจากเหตุการณ์นี้ในฝั่งเนปาลและทิเบตพุ่งสูงกว่า 400 คนแล้ว ขณะที่ยอดผู้สูญหายรวมกันทะลุ 1,000 คน ซึ่งในจำนวนผู้เคราะห์ร้ายมีทั้งประชาชนในพื้นที่ รวมถึงนักท่องเที่ยวและผ</data>
+</edge>
+<edge source="sawaeng_boonmee" target="constitutional_court">
+  <data key="d6">sawaeng_boonmee__constitutional_court__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">แสวง บุญมี วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ ศาลรัฐธรรมนูญ</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="sawaeng_boonmee" target="nacc">
+  <data key="d6">sawaeng_boonmee__nacc__b1366d</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แสวง บุญมี และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.</data>
+</edge>
+<edge source="sawaeng_boonmee" target="somchai_sawangkarn">
+  <data key="d6">sawaeng_boonmee__somchai_sawangkarn__fb6726</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">แสวง บุญมี และ สมชาย แสวงการ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว</data>
+</edge>
+<edge source="constitutional_court" target="election_commission">
+  <data key="d6">constitutional_court__election_commission__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ศาลรัฐธรรมนูญ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
 </edge>
 <edge source="constitutional_court" target="nacc">
-  <data key="d6">constitutional_court__nacc__72cf15</data>
-  <data key="d7">OPPOSITION</data>
-  <data key="d8">ศาลรัฐธรรมนูญ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
-  <data key="d9">-0.2</data>
-  <data key="d10">2026-08-28</data>
+  <data key="d6">constitutional_court__nacc__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ศาลรัฐธรรมนูญ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
   <data key="d11">1</data>
-  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
 </edge>
 <edge source="constitutional_court" target="senate_thailand">
-  <data key="d6">constitutional_court__senate_thailand__72cf15</data>
-  <data key="d7">OPPOSITION</data>
-  <data key="d8">ศาลรัฐธรรมนูญ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
-  <data key="d9">-0.2</data>
-  <data key="d10">2026-08-28</data>
+  <data key="d6">constitutional_court__senate_thailand__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">ศาลรัฐธรรมนูญ วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ วุฒิสภา (สว.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
   <data key="d11">1</data>
-  <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
 </edge>
 <edge source="constitutional_court" target="constitution_amendment">
   <data key="d6">constitutional_court__constitution_amendment__72cf15</data>
@@ -832,5 +1291,230 @@
   <data key="d10">2026-08-28</data>
   <data key="d11">1</data>
   <data key="d12">อภิสิทธิ์ ชี้ องค์กรอิสระวิกฤต ถูกแทรกแซงครบวงจร มองแก้รธน. เป็นโอกาสทอง รื้อที่มา ‘องค์กรอิสระ-สว.’</data>
+</edge>
+<edge source="nanthana_nanthavaropas" target="yingcheep_atchanont">
+  <data key="d6">nanthana_nanthavaropas__yingcheep_atchanont__08edfd</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">นันทนา นันทวโรภาส และ ยิ่งชีพ อัชฌานนท์ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">tags: ["ยิ่งชีพ อัชฌานนท์", "iLaw", "มงคล สุระสัจจะ", "นันทนา นันทวโรภาส", "กกต</data>
+</edge>
+<edge source="nanthana_nanthavaropas" target="peoples_party">
+  <data key="d6">nanthana_nanthavaropas__peoples_party__1189cd</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">นันทนา นันทวโรภาส และ พรรคประชาชน มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง</data>
+</edge>
+<edge source="nanthana_nanthavaropas" target="election_commission">
+  <data key="d6">nanthana_nanthavaropas__election_commission__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">นันทนา นันทวโรภาส วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการการเลือกตั้ง (กกต.)</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="nanthana_nanthavaropas" target="senate_thailand">
+  <data key="d6">nanthana_nanthavaropas__senate_thailand__1189cd</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">นันทนา นันทวโรภาส และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">iLaw โดย ยิ่งชีพ อัชฌานนท์ เปิดรายงานสถิติบล็อกโหวต ชี้เครือข่ายฮั้วเลือก สว.67 คุมสภาสูง</data>
+</edge>
+<edge source="nanthana_nanthavaropas" target="tewarit_maneechay">
+  <data key="d6">nanthana_nanthavaropas__tewarit_maneechay__b530e2</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">นันทนา นันทวโรภาส และ เทวฤทธิ์ มณีฉาย มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">tags: ["นันทนา นันทวโรภาส", "เทวฤทธิ์ มณีฉาย", "มงคล สุระสัจจะ", "กกต</data>
+</edge>
+<edge source="nanthana_nanthavaropas" target="sawaeng_boonmee">
+  <data key="d6">nanthana_nanthavaropas__sawaeng_boonmee__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">นันทนา นันทวโรภาส วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ แสวง บุญมี</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="nanthana_nanthavaropas" target="constitutional_court">
+  <data key="d6">nanthana_nanthavaropas__constitutional_court__e1f5bf</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">นันทนา นันทวโรภาส และ ศาลรัฐธรรมนูญ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา ระบุว่า การโหวตรับรองกรรมการองค์กรอิสระ อาทิ ตุลาการศาลรัฐธรรมนูญ และ ป</data>
+</edge>
+<edge source="nanthana_nanthavaropas" target="nacc">
+  <data key="d6">nanthana_nanthavaropas__nacc__cca656</data>
+  <data key="d7">CRITICISM</data>
+  <data key="d8">นันทนา นันทวโรภาส วิพากษ์วิจารณ์/ตรวจสอบท่าทีของ คณะกรรมการ ป.ป.ช.</data>
+  <data key="d9">-0.7</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นันทนา นันทวโรภาส และ สว.พันธุ์ใหม่ จี้ 229 สว. เอี่ยวคดีฮั้วหยุดปฏิบัติหน้าที่</data>
+</edge>
+<edge source="kriangkrai_srirak" target="boonsong_noisophon">
+  <data key="d6">kriangkrai_srirak__boonsong_noisophon__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พล.อ.เกรียงไกร ศรีรักษ์ และ บุญส่ง น้อยโสภณ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
+</edge>
+<edge source="kriangkrai_srirak" target="bhumjaithai_party">
+  <data key="d6">kriangkrai_srirak__bhumjaithai_party__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พล.อ.เกรียงไกร ศรีรักษ์ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
+</edge>
+<edge source="kriangkrai_srirak" target="election_commission">
+  <data key="d6">kriangkrai_srirak__election_commission__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พล.อ.เกรียงไกร ศรีรักษ์ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
+</edge>
+<edge source="kriangkrai_srirak" target="senate_thailand">
+  <data key="d6">kriangkrai_srirak__senate_thailand__2370eb</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พล.อ.เกรียงไกร ศรีรักษ์ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">tags: ["มงคล สุระสัจจะ", "เกรียงไกร ศรีรักษ์", "อนุทิน ชาญวีรกูล", "วุฒิสภา", "กกต</data>
+</edge>
+<edge source="kriangkrai_srirak" target="itthiporn_boonpracong">
+  <data key="d6">kriangkrai_srirak__itthiporn_boonpracong__e8e0b5</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พล.อ.เกรียงไกร ศรีรักษ์ และ อิทธิพร บุญประคอง มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">", "มงคล สุระสัจจะ", "เกรียงไกร ศรีรักษ์", "แสวง บุญมี", "อิทธิพร บุญประคอง"]</data>
+</edge>
+<edge source="kriangkrai_srirak" target="sawaeng_boonmee">
+  <data key="d6">kriangkrai_srirak__sawaeng_boonmee__e8e0b5</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">พล.อ.เกรียงไกร ศรีรักษ์ และ แสวง บุญมี มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">", "มงคล สุระสัจจะ", "เกรียงไกร ศรีรักษ์", "แสวง บุญมี", "อิทธิพร บุญประคอง"]</data>
+</edge>
+<edge source="boonsong_noisophon" target="bhumjaithai_party">
+  <data key="d6">boonsong_noisophon__bhumjaithai_party__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">บุญส่ง น้อยโสภณ และ พรรคภูมิใจไทย มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
+</edge>
+<edge source="boonsong_noisophon" target="election_commission">
+  <data key="d6">boonsong_noisophon__election_commission__f7cc28</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">บุญส่ง น้อยโสภณ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">มงคล สุระสัจจะ และ เกรียงไกร ศรีรักษ์ เข้าแจง กกต. ยันเลือก สว. โปร่งใส ไร้จัดตั้ง</data>
+</edge>
+<edge source="boonsong_noisophon" target="senate_thailand">
+  <data key="d6">boonsong_noisophon__senate_thailand__c41d63</data>
+  <data key="d7">ALLIANCE</data>
+  <data key="d8">บุญส่ง น้อยโสภณ และ วุฒิสภา (สว.) ร่วมมือทางการเมือง/พรรคร่วมรัฐบาล</data>
+  <data key="d9">0.8</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">ทุกท่านมีความเป็นอิสระตามรัฐธรรมนูญ ขณะที่นายบุญส่ง น้อยโสภณ รองประธานวุฒิสภา คนที่ 2 ระบุว่าวุฒิสภายังคงเดินหน้าทำหน้าที่พิจารณาร่างกฎหมายและเห็นชอบองค์กรอิสระตามปกติ</data>
+</edge>
+<edge source="itthiporn_boonpracong" target="sawaeng_boonmee">
+  <data key="d6">itthiporn_boonpracong__sawaeng_boonmee__e8e0b5</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อิทธิพร บุญประคอง และ แสวง บุญมี มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">", "มงคล สุระสัจจะ", "เกรียงไกร ศรีรักษ์", "แสวง บุญมี", "อิทธิพร บุญประคอง"]</data>
+</edge>
+<edge source="itthiporn_boonpracong" target="election_commission">
+  <data key="d6">itthiporn_boonpracong__election_commission__3be15c</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อิทธิพร บุญประคอง และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">กกต. เดินหน้าสอบคดีฮั้ว สว. 229 รายชื่อ นัดลงมติชี้ชะตาสอย สว. สายสีน้ำเงิน</data>
+</edge>
+<edge source="itthiporn_boonpracong" target="senate_thailand">
+  <data key="d6">itthiporn_boonpracong__senate_thailand__3be15c</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อิทธิพร บุญประคอง และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">2</data>
+  <data key="d12">กกต. เดินหน้าสอบคดีฮั้ว สว. 229 รายชื่อ นัดลงมติชี้ชะตาสอย สว. สายสีน้ำเงิน</data>
+</edge>
+<edge source="itthiporn_boonpracong" target="somchai_sawangkarn">
+  <data key="d6">itthiporn_boonpracong__somchai_sawangkarn__a0aeff</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อิทธิพร บุญประคอง และ สมชาย แสวงการ มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นายสมชาย แสวงการ อดีตสมาชิกวุฒิสภา ได้นำเอกสารหลักฐานชุดใหม่เข้ายื่นต่อนายอิทธิพร บุญประคอง ประธาน กกต</data>
+</edge>
+<edge source="itthiporn_boonpracong" target="nacc">
+  <data key="d6">itthiporn_boonpracong__nacc__b1366d</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">อิทธิพร บุญประคอง และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.</data>
+</edge>
+<edge source="somchai_sawangkarn" target="election_commission">
+  <data key="d6">somchai_sawangkarn__election_commission__b1366d</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">สมชาย แสวงการ และ คณะกรรมการการเลือกตั้ง (กกต.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.</data>
+</edge>
+<edge source="somchai_sawangkarn" target="nacc">
+  <data key="d6">somchai_sawangkarn__nacc__b1366d</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">สมชาย แสวงการ และ คณะกรรมการ ป.ป.ช. มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">สมชาย แสวงการ ส่งหลักฐานเส้นทางการเงิน-โพยจัดตั้ง ฮั้วเลือก สว. ให้ กกต. และ ป.ป.ช.</data>
+</edge>
+<edge source="somchai_sawangkarn" target="senate_thailand">
+  <data key="d6">somchai_sawangkarn__senate_thailand__a0aeff</data>
+  <data key="d7">OPPOSITION</data>
+  <data key="d8">สมชาย แสวงการ และ วุฒิสภา (สว.) มีปฏิสัมพันธ์ในประเด็นการเมือง</data>
+  <data key="d9">-0.2</data>
+  <data key="d10">2026-08-29</data>
+  <data key="d11">1</data>
+  <data key="d12">นายสมชาย แสวงการ อดีตสมาชิกวุฒิสภา ได้นำเอกสารหลักฐานชุดใหม่เข้ายื่นต่อนายอิทธิพร บุญประคอง ประธาน กกต</data>
 </edge>
 </graph></graphml>
