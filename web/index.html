@@ -2,13 +2,14 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Thai Politics Semantic Graph — 30-Day Intelligence Network</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="web/styles.css">
 </head>
 <body>
 
@@ -17,33 +18,48 @@
     <div class="brand">
       <div class="brand-icon">🌐</div>
       <div>
-        <h1>Thai Politics Semantic Network</h1>
-        <span>โครงข่ายความสัมพันธ์และขั้วอำนาจการเมืองไทย (ย้อนหลัง 30 วัน)</span>
+        <h1>Thai Politics Graph</h1>
+        <span class="sub-title">โครงข่ายความสัมพันธ์การเมืองไทย 30 วัน</span>
       </div>
     </div>
     
-    <div class="header-stats">
-      <div class="stat-badge">
-        <span>ตัวละคร (Nodes):</span>
-        <span id="stat-nodes" class="stat-value">0</span>
+    <div class="header-actions">
+      <div class="header-stats">
+        <div class="stat-badge">
+          <span>Nodes:</span>
+          <span id="stat-nodes" class="stat-value">0</span>
+        </div>
+        <div class="stat-badge">
+          <span>Edges:</span>
+          <span id="stat-edges" class="stat-value">0</span>
+        </div>
+        <div class="stat-badge stat-badge-desktop">
+          <span>ข่าว:</span>
+          <span id="stat-articles" class="stat-value">0</span>
+        </div>
       </div>
-      <div class="stat-badge">
-        <span>ความสัมพันธ์ (Edges):</span>
-        <span id="stat-edges" class="stat-value">0</span>
-      </div>
-      <div class="stat-badge">
-        <span>ข่าวที่วิเคราะห์:</span>
-        <span id="stat-articles" class="stat-value">0</span>
-      </div>
+      
+      <!-- Mobile Filter Button -->
+      <button id="btn-toggle-sidebar" class="mobile-toggle-btn" aria-label="เปิดเมนูกรอง">
+        <span>⚙️ กรอง & ค้นหา</span>
+      </button>
     </div>
   </header>
 
   <!-- Main Workspace -->
   <div class="main-container">
 
-    <!-- Left Controls Sidebar -->
-    <aside class="sidebar">
+    <!-- Backdrop Overlay for Mobile -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <!-- Left Controls Sidebar (Responsive Drawer on Mobile) -->
+    <aside id="main-sidebar" class="sidebar">
       
+      <div class="sidebar-header-mobile">
+        <h3>ตัวกรอง & ค้นหา</h3>
+        <button id="btn-close-sidebar" class="close-btn">&times;</button>
+      </div>
+
       <!-- Search Box -->
       <div class="search-box">
         <h3>ค้นหาตัวละคร / ประเด็น</h3>
@@ -63,22 +79,22 @@
 
       <!-- Coalitions / Parties Filter -->
       <div>
-        <h3>ขั้วการเมือง / สังกัด (Coalitions)</h3>
+        <h3>ขั้วการเมือง / สังกัด</h3>
         <div class="filter-group" id="party-filters">
           <button class="filter-btn active" data-filter="all">
             <span>ทั้งหมด (Show All)</span>
             <span class="filter-pill" style="background:#fff;"></span>
           </button>
           <button class="filter-btn" data-filter="Government">
-            <span>พรรคร่วมรัฐบาล (Government)</span>
+            <span>🔴 พรรคร่วมรัฐบาล (Government)</span>
             <span class="filter-pill" style="background:var(--color-pheu-thai);"></span>
           </button>
           <button class="filter-btn" data-filter="Opposition">
-            <span>พรรคฝ่ายค้าน (Opposition)</span>
+            <span>🟠 พรรคฝ่ายค้าน (Opposition)</span>
             <span class="filter-pill" style="background:var(--color-peoples-party);"></span>
           </button>
           <button class="filter-btn" data-filter="Independent">
-            <span>องค์กรอิสระ / วุฒิสภา</span>
+            <span>🟣 องค์กรอิสระ / วุฒิสภา</span>
             <span class="filter-pill" style="background:var(--color-institution);"></span>
           </button>
         </div>
@@ -86,7 +102,7 @@
 
       <!-- Relation Types Filter -->
       <div>
-        <h3>ประเภทความสัมพันธ์ (Relations)</h3>
+        <h3>ประเภทความสัมพันธ์</h3>
         <div class="filter-group" id="relation-filters">
           <button class="filter-btn active" data-rel="ALL">
             <span>ทั้งหมด (All Relations)</span>
@@ -118,6 +134,10 @@
         </button>
       </div>
 
+      <div style="margin-top:auto; padding-top:16px; font-size:0.75rem; color:var(--text-muted); text-align:center;">
+        Thai Politics Intelligence Graph
+      </div>
+
     </aside>
 
     <!-- Graph Visualization Canvas -->
@@ -125,8 +145,9 @@
 
     <!-- Floating Tool Buttons -->
     <div class="floating-tools">
-      <button id="btn-fit" class="tool-btn" title="จัดกราฟให้อยู่กึ่งกลาง">🎯 Reset View</button>
-      <button id="btn-refresh" class="tool-btn" title="โหลดข้อมูลใหม่">🔄 Reload Data</button>
+      <button id="btn-fit" class="tool-btn" title="จัดกราฟให้อยู่กึ่งกลาง">🎯 Reset</button>
+      <button id="btn-mobile-filter" class="tool-btn tool-btn-mobile-only" title="เปิดตัวกรอง">⚙️ Filter</button>
+      <button id="btn-refresh" class="tool-btn" title="โหลดข้อมูลใหม่">🔄 Reload</button>
     </div>
 
     <!-- Side Evidence Drawer -->
@@ -137,7 +158,7 @@
       </div>
       <div class="drawer-content" id="drawer-body">
         <div class="dossier-card">
-          <p style="color:var(--text-muted);">คลิกเลือก Node หรือ เส้นความสัมพันธ์ เพื่อดูข้อมูลเจาะลึกและหลักฐานข่าวอ้างอิง</p>
+          <p style="color:var(--text-muted);">แตะเลือกตัวละครหรือเส้นความสัมพันธ์บนกราฟเพื่อดูข้อมูลเจาะลึกและหลักฐานข่าวอ้างอิง</p>
         </div>
       </div>
     </aside>
@@ -145,5 +166,12 @@
   </div>
 
   <script src="app.js"></script>
+  <script>
+    if (typeof initDashboard === 'undefined') {
+      const s = document.createElement('script');
+      s.src = 'web/app.js';
+      document.body.appendChild(s);
+    }
+  </script>
 </body>
 </html>

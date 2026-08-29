@@ -43,6 +43,7 @@ async function initDashboard() {
       'data/graph_data.json',
       './data/graph_data.json',
       '../data/graph_data.json',
+      'web/data/graph_data.json',
       '/Political/data/graph_data.json',
       '/data/graph_data.json'
     ];
@@ -298,7 +299,7 @@ function showNodeDossier(node) {
         <span class="stat-badge" style="font-size:0.75rem;">ขั้ว: ${node.coalition || '-'}</span>
         <span class="stat-badge" style="font-size:0.75rem;">ปรากฏในข่าว: <strong style="color:var(--accent-primary); margin-left:4px;">${node.mention_count}</strong> ครั้ง</span>
       </div>
-      ${node.wiki_link ? `<div style="margin-top:10px; font-size:0.8rem;"><a href="../wiki/entities/${node.id}.md" target="_blank" style="color:var(--accent-primary);">📖 ดูเอกสารสรุปใน LLM-Wiki</a></div>` : ''}
+      ${node.wiki_link ? `<div style="margin-top:10px; font-size:0.8rem;"><a href="wiki/entities/${node.id}.md" target="_blank" style="color:var(--accent-primary);">📖 ดูเอกสารสรุปใน LLM-Wiki</a></div>` : ''}
     </div>
 
     <h3 style="font-size:0.9rem; margin-top:8px;">โครงข่ายความสัมพันธ์ที่เกี่ยวข้อง (${connectedEdges.length})</h3>
@@ -346,11 +347,57 @@ function showEdgeDossier(edge) {
   drawer.classList.add('open');
 }
 
+function toggleMobileSidebar(open = null) {
+  const sidebar = document.getElementById('main-sidebar');
+  const overlay = document.getElementById('sidebar-overlay');
+  const isOpen = sidebar.classList.contains('mobile-open');
+  const shouldOpen = open !== null ? open : !isOpen;
+
+  if (shouldOpen) {
+    sidebar.classList.add('mobile-open');
+    overlay.classList.add('active');
+  } else {
+    sidebar.classList.remove('mobile-open');
+    overlay.classList.remove('active');
+  }
+}
+
 function setupEventListeners() {
-  // Close drawer
+  // Mobile Sidebar Toggle
+  const toggleBtn = document.getElementById('btn-toggle-sidebar');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => toggleMobileSidebar(true));
+  }
+
+  const mobileFilterBtn = document.getElementById('btn-mobile-filter');
+  if (mobileFilterBtn) {
+    mobileFilterBtn.addEventListener('click', () => toggleMobileSidebar(true));
+  }
+
+  const closeSidebarBtn = document.getElementById('btn-close-sidebar');
+  if (closeSidebarBtn) {
+    closeSidebarBtn.addEventListener('click', () => toggleMobileSidebar(false));
+  }
+
+  const overlay = document.getElementById('sidebar-overlay');
+  if (overlay) {
+    overlay.addEventListener('click', () => toggleMobileSidebar(false));
+  }
+
+  // Close evidence drawer
   document.getElementById('drawer-close').addEventListener('click', () => {
     document.getElementById('evidence-drawer').classList.remove('open');
   });
+
+  // Timeline Slider
+  const slider = document.getElementById('timeline-slider');
+  if (slider) {
+    slider.addEventListener('input', (e) => {
+      currentTimelineDays = parseInt(e.target.value, 10);
+      document.getElementById('timeline-current').textContent = currentTimelineDays === 30 ? 'ปัจจุบัน (ทั้งเดือน)' : `ย้อนหลัง ${currentTimelineDays} วัน`;
+      renderGraph();
+    });
+  }
 
   // Party Filter Buttons
   document.querySelectorAll('#party-filters .filter-btn').forEach(btn => {
@@ -359,6 +406,9 @@ function setupEventListeners() {
       btn.classList.add('active');
       currentPartyFilter = btn.getAttribute('data-filter');
       renderGraph();
+      if (window.innerWidth <= 768) {
+        toggleMobileSidebar(false);
+      }
     });
   });
 
@@ -369,6 +419,9 @@ function setupEventListeners() {
       btn.classList.add('active');
       currentRelFilter = btn.getAttribute('data-rel');
       renderGraph();
+      if (window.innerWidth <= 768) {
+        toggleMobileSidebar(false);
+      }
     });
   });
 
@@ -389,6 +442,9 @@ function setupEventListeners() {
       });
       network.selectNodes([matched.id]);
       showNodeDossier(matched);
+      if (window.innerWidth <= 768) {
+        toggleMobileSidebar(false);
+      }
     }
   });
 
