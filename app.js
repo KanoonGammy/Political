@@ -102,14 +102,39 @@ function getNodeColor(node) {
   return { bg: "#3b82f6", border: "#1d4ed8", highlight: "#60a5fa" };
 }
 
-function getFallbackAvatar(node) {
+function getFallbackPersonAvatar(node) {
   const color = (getNodeColor(node) || {}).bg || "#3b82f6";
   const initial = (node.name || '?').charAt(0);
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-    <circle cx="50" cy="50" r="48" fill="${color}" stroke="#ffffff" stroke-width="4"/>
-    <text x="50%" y="54%" font-size="44" font-weight="bold" fill="#ffffff" font-family="Noto Sans Thai, sans-serif" text-anchor="middle" dominant-baseline="middle">${initial}</text>
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+      <linearGradient id="pgrad_${node.id}" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="${color}" stop-opacity="0.9"/>
+        <stop offset="100%" stop-color="#111827" stop-opacity="1"/>
+      </linearGradient>
+    </defs>
+    <circle cx="60" cy="60" r="58" fill="url(#pgrad_${node.id})" stroke="#ffffff" stroke-width="4"/>
+    <circle cx="60" cy="46" r="22" fill="#ffffff" opacity="0.9"/>
+    <path d="M 28 102 C 28 78, 92 78, 92 102 Z" fill="#ffffff" opacity="0.9"/>
+    <text x="60" y="52" font-size="20" font-weight="bold" fill="${color}" font-family="Noto Sans Thai, sans-serif" text-anchor="middle">${initial}</text>
   </svg>`;
   return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+}
+
+function getFallbackPartyAvatar(node) {
+  const color = (getNodeColor(node) || {}).bg || "#3b82f6";
+  const sym = node.party_symbol || '🏛️';
+  const initial = (node.name || '?').replace('พรรค', '').substring(0, 3);
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <circle cx="60" cy="60" r="58" fill="#ffffff" stroke="${color}" stroke-width="6"/>
+    <circle cx="60" cy="60" r="50" fill="${color}" opacity="0.15"/>
+    <text x="60" y="55" font-size="34" text-anchor="middle" dominant-baseline="middle">${sym}</text>
+    <text x="60" y="88" font-size="14" font-weight="bold" fill="${color}" font-family="Noto Sans Thai, sans-serif" text-anchor="middle">${initial}</text>
+  </svg>`;
+  return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+}
+
+function getFallbackAvatar(node) {
+  return node.type === 'PERSON' ? getFallbackPersonAvatar(node) : getFallbackPartyAvatar(node);
 }
 
 function renderGraph() {
@@ -130,15 +155,25 @@ function renderGraph() {
     return true;
   });
 
-  // Prepare Vis.js datasets with Personal Circular Images and Party Symbols
+  // Prepare Vis.js datasets: Persons use Real Photos, Parties use Official Logo Symbols
   const visNodes = filteredNodes.map(node => {
+    const isPerson = node.type === 'PERSON';
+    const isParty = node.type === 'PARTY';
+    const isInst = node.type === 'INSTITUTION';
     const colorStyle = getNodeColor(node);
-    const size = Math.min(50, Math.max(26, 22 + (node.mention_count || 1) * 1.4));
+    
+    // Sizing: Party hubs are large & prominent, Persons are clear portraits
+    let size = isParty ? Math.min(65, Math.max(48, 42 + (node.mention_count || 1) * 1.6))
+                       : isInst ? 54
+                       : Math.min(52, Math.max(30, 26 + (node.mention_count || 1) * 1.3));
+
     const fallbackImg = getFallbackAvatar(node);
-    const imgUrl = node.image_url || fallbackImg;
+    // Person uses image_url, Party uses party_logo_url or image_url
+    const imgUrl = (isPerson ? node.image_url : (node.party_logo_url || node.image_url)) || fallbackImg;
+
     const partySymbol = node.party_symbol || '';
     const shortParty = node.party ? node.party.replace('พรรค', '').trim() : '';
-    const partyLabelBadge = node.type === 'PERSON' && node.party ? `\n${partySymbol} ${shortParty}` : (node.type === 'PARTY' ? `\n${partySymbol}` : '');
+    const partyLabelBadge = isPerson && node.party ? `\n[${partySymbol} ${shortParty}]` : (isParty ? `\n[${partySymbol} พรรค]` : isInst ? `\n[${partySymbol}]` : '');
 
     return {
       id: node.id,
@@ -149,22 +184,23 @@ function renderGraph() {
       brokenImage: fallbackImg,
       size: size,
       color: {
-        background: colorStyle.bg,
-        border: colorStyle.border,
+        background: isParty || isInst ? '#ffffff' : colorStyle.bg,
+        border: isParty ? colorStyle.bg : colorStyle.border,
         highlight: {
-          background: colorStyle.highlight,
+          background: isParty || isInst ? '#ffffff' : colorStyle.highlight,
           border: "#ffffff"
         }
       },
       font: {
         color: '#ffffff',
-        size: 13,
+        size: isParty ? 14 : 12,
         face: 'Noto Sans Thai, Inter',
         strokeWidth: 3,
-        strokeColor: '#0b0f19'
+        strokeColor: '#0b0f19',
+        bold: isParty
       },
-      borderWidth: 3,
-      shadow: { enabled: true, color: 'rgba(0,0,0,0.6)', size: 8, x: 2, y: 2 },
+      borderWidth: isParty ? 4 : 3,
+      shadow: { enabled: true, color: 'rgba(0,0,0,0.6)', size: 9, x: 2, y: 2 },
       raw: node
     };
   });
