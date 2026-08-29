@@ -7,13 +7,13 @@ party_symbol: "🛡️"
 role: "ประธานคณะกรรมการการเลือกตั้ง (กกต.)"
 coalition: "Independent"
 mentions: 2
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Itthiporn_Boonpracong.jpg/500px-Itthiporn_Boonpracong.jpg"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+image_url: "images/avatars/itthiporn_boonpracong.jpg"
+party_logo_url: "images/logos/election_commission.jpg"
 ---
 
 # อิทธิพร บุญประคอง
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Itthiporn_Boonpracong.jpg/500px-Itthiporn_Boonpracong.jpg" alt="อิทธิพร บุญประคอง" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/itthiporn_boonpracong.jpg" alt="อิทธิพร บุญประคอง" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🛡️ องค์กรอิสระ (กกต.) | **บทบาท**: ประธานคณะกรรมการการเลือกตั้ง (กกต.) | **ขั้วการเมือง**: Independent
 

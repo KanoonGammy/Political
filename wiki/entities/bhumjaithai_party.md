@@ -8,7 +8,7 @@ role: "พรรคร่วมรัฐบาล"
 coalition: "Government"
 mentions: 31
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png"
+party_logo_url: "images/logos/bhumjaithai_party.jpg"
 ---
 
 # พรรคภูมิใจไทย

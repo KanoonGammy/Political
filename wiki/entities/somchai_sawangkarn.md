@@ -7,13 +7,13 @@ party_symbol: "🔍"
 role: "อดีต สว. / ผู้ยื่นหลักฐานเส้นทางการเงินและโพยฮั้ว สว."
 coalition: "Independent"
 mentions: 1
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+image_url: "images/avatars/somchai_sawangkarn.jpg"
+party_logo_url: "images/logos/senate_thailand.jpg"
 ---
 
 # สมชาย แสวงการ
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png" alt="สมชาย แสวงการ" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/somchai_sawangkarn.jpg" alt="สมชาย แสวงการ" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🔍 อดีตวุฒิสภา / ผู้ร้องเรียน | **บทบาท**: อดีต สว. / ผู้ยื่นหลักฐานเส้นทางการเงินและโพยฮั้ว สว. | **ขั้วการเมือง**: Independent
 

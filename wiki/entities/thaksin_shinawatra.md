@@ -7,13 +7,13 @@ party_symbol: "🔴"
 role: "อดีตนายกรัฐมนตรี"
 coalition: "Government"
 mentions: 1
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Thaksin_Shinawatra_2003_%28cropped%29.jpg/440px-Thaksin_Shinawatra_2003_%28cropped%29.jpg"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
+image_url: "images/avatars/thaksin_shinawatra.jpg"
+party_logo_url: "images/logos/pheu_thai_party.jpg"
 ---
 
 # ทักษิณ ชินวัตร
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Thaksin_Shinawatra_2003_%28cropped%29.jpg/440px-Thaksin_Shinawatra_2003_%28cropped%29.jpg" alt="ทักษิณ ชินวัตร" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/thaksin_shinawatra.jpg" alt="ทักษิณ ชินวัตร" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🔴 พรรคเพื่อไทย | **บทบาท**: อดีตนายกรัฐมนตรี | **ขั้วการเมือง**: Government
 

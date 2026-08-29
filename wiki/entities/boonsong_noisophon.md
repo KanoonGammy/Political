@@ -7,13 +7,13 @@ party_symbol: "🏛️"
 role: "รองประธานวุฒิสภา คนที่ 2 / อดีต กกต."
 coalition: "Independent"
 mentions: 1
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+image_url: "images/avatars/boonsong_noisophon.jpg"
+party_logo_url: "images/logos/senate_thailand.jpg"
 ---
 
 # บุญส่ง น้อยโสภณ
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png" alt="บุญส่ง น้อยโสภณ" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/boonsong_noisophon.jpg" alt="บุญส่ง น้อยโสภณ" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🏛️ วุฒิสภา | **บทบาท**: รองประธานวุฒิสภา คนที่ 2 / อดีต กกต. | **ขั้วการเมือง**: Independent
 

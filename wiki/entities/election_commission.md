@@ -8,7 +8,7 @@ role: "องค์กรควบคุมการเลือกตั้ง�
 coalition: "Independent"
 mentions: 31
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+party_logo_url: "images/logos/election_commission.jpg"
 ---
 
 # คณะกรรมการการเลือกตั้ง (กกต.)

@@ -7,13 +7,13 @@ party_symbol: "🏛️🔵"
 role: "ประธานวุฒิสภา / ผู้ถูกกล่าวหาคดีฮั้ว สว. 229 ราย"
 coalition: "Senate-Blue"
 mentions: 8
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Mongkol_Surasajja_%28cropped%29.jpg/500px-Mongkol_Surasajja_%28cropped%29.jpg"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+image_url: "images/avatars/mongkol_surasajja.jpg"
+party_logo_url: "images/logos/senate_thailand.jpg"
 ---
 
 # มงคล สุระสัจจะ
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Mongkol_Surasajja_%28cropped%29.jpg/500px-Mongkol_Surasajja_%28cropped%29.jpg" alt="มงคล สุระสัจจะ" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/mongkol_surasajja.jpg" alt="มงคล สุระสัจจะ" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🏛️🔵 วุฒิสภา (สายสีน้ำเงิน) | **บทบาท**: ประธานวุฒิสภา / ผู้ถูกกล่าวหาคดีฮั้ว สว. 229 ราย | **ขั้วการเมือง**: Senate-Blue
 

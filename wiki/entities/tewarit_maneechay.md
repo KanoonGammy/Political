@@ -7,13 +7,13 @@ party_symbol: "🏛️🌱"
 role: "สมาชิกวุฒิสภา / โฆษก สว. กลุ่มพันธุ์ใหม่"
 coalition: "Senate-NewBreed"
 mentions: 2
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+image_url: "images/avatars/tewarit_maneechay.jpg"
+party_logo_url: "images/logos/senate_thailand.jpg"
 ---
 
 # เทวฤทธิ์ มณีฉาย
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png" alt="เทวฤทธิ์ มณีฉาย" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/tewarit_maneechay.jpg" alt="เทวฤทธิ์ มณีฉาย" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🏛️🌱 วุฒิสภา (กลุ่มพันธุ์ใหม่) | **บทบาท**: สมาชิกวุฒิสภา / โฆษก สว. กลุ่มพันธุ์ใหม่ | **ขั้วการเมือง**: Senate-NewBreed
 

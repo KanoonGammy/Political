@@ -7,13 +7,13 @@ party_symbol: "👁️"
 role: "ผู้จัดการ iLaw / ผู้เปิดโปงสถิติบล็อกโหวต สว.67"
 coalition: "Independent"
 mentions: 8
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Yingcheep_Atchanont.jpg/500px-Yingcheep_Atchanont.jpg"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+image_url: "images/avatars/yingcheep_atchanont.jpg"
+party_logo_url: "images/logos/senate_thailand.jpg"
 ---
 
 # ยิ่งชีพ อัชฌานนท์
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Yingcheep_Atchanont.jpg/500px-Yingcheep_Atchanont.jpg" alt="ยิ่งชีพ อัชฌานนท์" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/yingcheep_atchanont.jpg" alt="ยิ่งชีพ อัชฌานนท์" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 👁️ ภาคประชาสังคม (iLaw) | **บทบาท**: ผู้จัดการ iLaw / ผู้เปิดโปงสถิติบล็อกโหวต สว.67 | **ขั้วการเมือง**: Independent
 

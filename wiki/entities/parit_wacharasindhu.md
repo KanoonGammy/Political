@@ -7,13 +7,13 @@ party_symbol: "🟠"
 role: "โฆษกพรรคประชาชน"
 coalition: "Opposition"
 mentions: 8
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Parit_Wacharasindhu_2023.jpg/440px-Parit_Wacharasindhu_2023.jpg"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png"
+image_url: "images/avatars/parit_wacharasindhu.jpg"
+party_logo_url: "images/logos/peoples_party.jpg"
 ---
 
 # พริษฐ์ วัชรสินธุ
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Parit_Wacharasindhu_2023.jpg/440px-Parit_Wacharasindhu_2023.jpg" alt="พริษฐ์ วัชรสินธุ" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/parit_wacharasindhu.jpg" alt="พริษฐ์ วัชรสินธุ" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🟠 พรรคประชาชน | **บทบาท**: โฆษกพรรคประชาชน | **ขั้วการเมือง**: Opposition
 

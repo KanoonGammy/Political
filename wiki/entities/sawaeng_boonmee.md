@@ -7,13 +7,13 @@ party_symbol: "🛡️"
 role: "เลขาธิการ กกต. (ผู้รับผิดชอบสำนวนคดีฮั้ว สว.)"
 coalition: "Independent"
 mentions: 7
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+image_url: "images/avatars/sawaeng_boonmee.jpg"
+party_logo_url: "images/logos/election_commission.jpg"
 ---
 
 # แสวง บุญมี
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png" alt="แสวง บุญมี" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/sawaeng_boonmee.jpg" alt="แสวง บุญมี" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🛡️ องค์กรอิสระ (กกต.) | **บทบาท**: เลขาธิการ กกต. (ผู้รับผิดชอบสำนวนคดีฮั้ว สว.) | **ขั้วการเมือง**: Independent
 

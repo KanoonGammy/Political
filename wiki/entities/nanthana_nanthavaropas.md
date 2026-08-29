@@ -7,13 +7,13 @@ party_symbol: "🏛️🌱"
 role: "สมาชิกวุฒิสภา / แกนนำ สว. กลุ่มพันธุ์ใหม่ (ฝ่ายตรวจสอบ)"
 coalition: "Senate-NewBreed"
 mentions: 2
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Nanthana_Nanthavaropas.jpg/500px-Nanthana_Nanthavaropas.jpg"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+image_url: "images/avatars/nanthana_nanthavaropas.jpg"
+party_logo_url: "images/logos/senate_thailand.jpg"
 ---
 
 # นันทนา นันทวโรภาส
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Nanthana_Nanthavaropas.jpg/500px-Nanthana_Nanthavaropas.jpg" alt="นันทนา นันทวโรภาส" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/nanthana_nanthavaropas.jpg" alt="นันทนา นันทวโรภาส" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🏛️🌱 วุฒิสภา (กลุ่มพันธุ์ใหม่) | **บทบาท**: สมาชิกวุฒิสภา / แกนนำ สว. กลุ่มพันธุ์ใหม่ (ฝ่ายตรวจสอบ) | **ขั้วการเมือง**: Senate-NewBreed
 

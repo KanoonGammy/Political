@@ -8,7 +8,7 @@ role: "ศาลสูงสุดด้านรัฐธรรมนูญ"
 coalition: "Judicial"
 mentions: 3
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
+party_logo_url: "images/logos/constitutional_court.jpg"
 ---
 
 # ศาลรัฐธรรมนูญ

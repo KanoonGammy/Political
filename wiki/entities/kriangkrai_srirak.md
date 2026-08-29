@@ -7,13 +7,13 @@ party_symbol: "🏛️🔵"
 role: "รองประธานวุฒิสภา คนที่ 1 / แกนนำ สว. สายสีน้ำเงิน"
 coalition: "Senate-Blue"
 mentions: 2
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kriangkrai_Srirak.jpg/500px-Kriangkrai_Srirak.jpg"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+image_url: "images/avatars/kriangkrai_srirak.jpg"
+party_logo_url: "images/logos/senate_thailand.jpg"
 ---
 
 # พล.อ.เกรียงไกร ศรีรักษ์
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kriangkrai_Srirak.jpg/500px-Kriangkrai_Srirak.jpg" alt="พล.อ.เกรียงไกร ศรีรักษ์" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/avatars/kriangkrai_srirak.jpg" alt="พล.อ.เกรียงไกร ศรีรักษ์" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🏛️🔵 วุฒิสภา (สายสีน้ำเงิน) | **บทบาท**: รองประธานวุฒิสภา คนที่ 1 / แกนนำ สว. สายสีน้ำเงิน | **ขั้วการเมือง**: Senate-Blue
 

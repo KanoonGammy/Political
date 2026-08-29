@@ -9,7 +9,7 @@ from src.extract.schema import EntityType, RelationType, EntityNode, RelationEdg
 
 # Master Thai Political Entity Registry with metadata
 KNOWN_ENTITIES: Dict[str, Dict] = {
-    # Politicians
+    # Key Politicians (Persons) - Real Verified Portrait Photos
     "paetongtarn_shinawatra": {
         "name": "แพทองธาร ชินวัตร",
         "type": EntityType.PERSON,
@@ -17,7 +17,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "นายกรัฐมนตรี",
         "coalition": "Government",
         "aliases": ["แพทองธาร", "อิ๊งค์", "อุ๊งอิ๊งค์", "นายกรัฐมนตรี", "นายกฯ"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Paetongtarn_Shinawatra_2024.jpg/440px-Paetongtarn_Shinawatra_2024.jpg"
+        "image_url": "images/avatars/paetongtarn_shinawatra.jpg"
     },
     "natthaphong_ruengpanyawut": {
         "name": "ณัฐพงษ์ เรืองปัญญาวุฒิ",
@@ -26,7 +26,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "ผู้นำฝ่ายค้านในสภาฯ / หัวหน้าพรรคประชาชน",
         "coalition": "Opposition",
         "aliases": ["ณัฐพงษ์", "เท้ง", "หัวหน้าพรรคประชาชน", "ผู้นำฝ่ายค้าน"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Natthaphong_Ruengpanyawut_2024.jpg/440px-Natthaphong_Ruengpanyawut_2024.jpg"
+        "image_url": "images/avatars/natthaphong_ruengpanyawut.jpg"
     },
     "anutin_charnvirakul": {
         "name": "อนุทิน ชาญวีรกูล",
@@ -35,7 +35,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "รองนายกรัฐมนตรี และ รมว.มหาดไทย",
         "coalition": "Government",
         "aliases": ["อนุทิน", "เสี่ยหนู", "หัวหน้าพรรคภูมิใจไทย", "มท.1"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Anutin_Charnvirakul_in_2023.jpg/440px-Anutin_Charnvirakul_in_2023.jpg"
+        "image_url": "images/avatars/anutin_charnvirakul.jpg"
     },
     "pirapan_salerathavibhaga": {
         "name": "พีระพันธุ์ สาลีรัฐวิภาค",
@@ -44,7 +44,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "รองนายกรัฐมนตรี และ รมว.พลังงาน",
         "coalition": "Government",
         "aliases": ["พีระพันธุ์", "หัวหน้าพรรครวมไทยสร้างชาติ"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pirapan_Salirathavibhaga_2023.jpg/440px-Pirapan_Salirathavibhaga_2023.jpg"
+        "image_url": "images/avatars/pirapan_salerathavibhaga.jpg"
     },
     "thaksin_shinawatra": {
         "name": "ทักษิณ ชินวัตร",
@@ -53,7 +53,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "อดีตนายกรัฐมนตรี",
         "coalition": "Government",
         "aliases": ["ทักษิณ", "อดีตนายกฯ ทักษิณ", "ทักษิณ ชินวัตร"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Thaksin_Shinawatra_2003_%28cropped%29.jpg/440px-Thaksin_Shinawatra_2003_%28cropped%29.jpg"
+        "image_url": "images/avatars/thaksin_shinawatra.jpg"
     },
     "chalermchai_sri_on": {
         "name": "เฉลิมชัย ศรีอ่อน",
@@ -62,7 +62,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "รมว.ทรัพยากรธรรมชาติฯ / หัวหน้าพรรคประชาธิปัตย์",
         "coalition": "Government",
         "aliases": ["เฉลิมชัย", "เฉลิมชัย ศรีอ่อน"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chalermchai_Sri-on_in_2023.jpg/440px-Chalermchai_Sri-on_in_2023.jpg"
+        "image_url": "images/avatars/chalermchai_sri_on.jpg"
     },
     "sirikanya_tansakun": {
         "name": "ศิริกัญญา ตันสกุล",
@@ -71,7 +71,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "รองหัวหน้าพรรคประชาชน",
         "coalition": "Opposition",
         "aliases": ["ศิริกัญญา", "ไหม ศิริกัญญา"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sirikanya_Tansakun_2023.jpg/440px-Sirikanya_Tansakun_2023.jpg"
+        "image_url": "images/avatars/sirikanya_tansakun.jpg"
     },
     "rangsiman_rome": {
         "name": "รังสิมันต์ โรม",
@@ -80,7 +80,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "ประธาน กมธ. ความมั่นคงฯ / สส. พรรคประชาชน",
         "coalition": "Opposition",
         "aliases": ["รังสิมันต์ โรม", "รังสิมันต์", "โรม"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Rangsiman_Rome_2023.jpg/440px-Rangsiman_Rome_2023.jpg"
+        "image_url": "images/avatars/rangsiman_rome.jpg"
     },
     "prawit_wongsuwan": {
         "name": "พล.อ.ประวิตร วงษ์สุวรรณ",
@@ -89,7 +89,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "หัวหน้าพรรคพลังประชารัฐ",
         "coalition": "Opposition",
         "aliases": ["ประวิตร", "บิ๊กป้อม", "พล.อ.ประวิตร", "พลเอกประวิตร"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Prawit_Wongsuwan_2019.jpg/440px-Prawit_Wongsuwan_2019.jpg"
+        "image_url": "images/avatars/prawit_wongsuwan.jpg"
     },
     "thammanat_prompow": {
         "name": "ร.อ.ธรรมนัส พรหมเผ่า",
@@ -98,7 +98,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "อดีต รมว.เกษตรฯ / แกนนำกลุ่มการเมือง",
         "coalition": "Government",
         "aliases": ["ธรรมนัส", "ผู้กองธรรมนัส", "ร.อ.ธรรมนัส"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Thammanat_Prompow_2023.jpg/440px-Thammanat_Prompow_2023.jpg"
+        "image_url": "images/avatars/thammanat_prompow.jpg"
     },
     "parit_wacharasindhu": {
         "name": "พริษฐ์ วัชรสินธุ",
@@ -107,7 +107,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "โฆษกพรรคประชาชน",
         "coalition": "Opposition",
         "aliases": ["พริษฐ์", "ไอติม พริษฐ์", "พริษฐ์ วัชรสินธุ"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Parit_Wacharasindhu_2023.jpg/440px-Parit_Wacharasindhu_2023.jpg"
+        "image_url": "images/avatars/parit_wacharasindhu.jpg"
     },
     "raknok_srinork": {
         "name": "รักชนก ศรีนอก",
@@ -116,7 +116,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "สส.กทม. พรรคประชาชน",
         "coalition": "Opposition",
         "aliases": ["รักชนก", "ไอซ์ รักชนก"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Rukchanok_Srinork_2023.jpg/440px-Rukchanok_Srinork_2023.jpg"
+        "image_url": "images/avatars/raknok_srinork.jpg"
     },
 
     # --- Senate Collusion & Investigation Key Figures (คดีฮั้ว สว.) ---
@@ -127,7 +127,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "ประธานวุฒิสภา / ผู้ถูกกล่าวหาคดีฮั้ว สว. 229 ราย",
         "coalition": "Senate-Blue",
         "aliases": ["มงคล สุระสัจจะ", "มงคล", "ประธานวุฒิสภา", "ประธาน สว."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Mongkol_Surasajja_%28cropped%29.jpg/500px-Mongkol_Surasajja_%28cropped%29.jpg"
+        "image_url": "images/avatars/mongkol_surasajja.jpg"
     },
     "kriangkrai_srirak": {
         "name": "พล.อ.เกรียงไกร ศรีรักษ์",
@@ -136,7 +136,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "รองประธานวุฒิสภา คนที่ 1 / แกนนำ สว. สายสีน้ำเงิน",
         "coalition": "Senate-Blue",
         "aliases": ["เกรียงไกร ศรีรักษ์", "พล.อ.เกรียงไกร", "บิ๊กเกรียง", "รองประธานวุฒิสภา คนที่ 1"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kriangkrai_Srirak.jpg/500px-Kriangkrai_Srirak.jpg"
+        "image_url": "images/avatars/kriangkrai_srirak.jpg"
     },
     "nanthana_nanthavaropas": {
         "name": "นันทนา นันทวโรภาส",
@@ -145,7 +145,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "สมาชิกวุฒิสภา / แกนนำ สว. กลุ่มพันธุ์ใหม่ (ฝ่ายตรวจสอบ)",
         "coalition": "Senate-NewBreed",
         "aliases": ["นันทนา นันทวโรภาส", "นันทนา", "ดร.นันทนา", "สว.นันทนา"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Nanthana_Nanthavaropas.jpg/500px-Nanthana_Nanthavaropas.jpg"
+        "image_url": "images/avatars/nanthana_nanthavaropas.jpg"
     },
     "tewarit_maneechay": {
         "name": "เทวฤทธิ์ มณีฉาย",
@@ -154,7 +154,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "สมาชิกวุฒิสภา / โฆษก สว. กลุ่มพันธุ์ใหม่",
         "coalition": "Senate-NewBreed",
         "aliases": ["เทวฤทธิ์ มณีฉาย", "เทวฤทธิ์", "สว.เทวฤทธิ์"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "image_url": "images/avatars/tewarit_maneechay.jpg"
     },
     "boonsong_noisophon": {
         "name": "บุญส่ง น้อยโสภณ",
@@ -163,7 +163,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "รองประธานวุฒิสภา คนที่ 2 / อดีต กกต.",
         "coalition": "Independent",
         "aliases": ["บุญส่ง น้อยโสภณ", "บุญส่ง", "รองประธานวุฒิสภา คนที่ 2"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "image_url": "images/avatars/boonsong_noisophon.jpg"
     },
     "itthiporn_boonpracong": {
         "name": "อิทธิพร บุญประคอง",
@@ -172,7 +172,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "ประธานคณะกรรมการการเลือกตั้ง (กกต.)",
         "coalition": "Independent",
         "aliases": ["อิทธิพร บุญประคอง", "อิทธิพร", "ประธาน กกต."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Itthiporn_Boonpracong.jpg/500px-Itthiporn_Boonpracong.jpg"
+        "image_url": "images/avatars/itthiporn_boonpracong.jpg"
     },
     "sawaeng_boonmee": {
         "name": "แสวง บุญมี",
@@ -181,7 +181,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "เลขาธิการ กกต. (ผู้รับผิดชอบสำนวนคดีฮั้ว สว.)",
         "coalition": "Independent",
         "aliases": ["แสวง บุญมี", "แสวง", "เลขาธิการ กกต."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+        "image_url": "images/avatars/sawaeng_boonmee.jpg"
     },
     "somchai_sawangkarn": {
         "name": "สมชาย แสวงการ",
@@ -190,7 +190,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "อดีต สว. / ผู้ยื่นหลักฐานเส้นทางการเงินและโพยฮั้ว สว.",
         "coalition": "Independent",
         "aliases": ["สมชาย แสวงการ", "สมชาย"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "image_url": "images/avatars/somchai_sawangkarn.jpg"
     },
     "yingcheep_atchanont": {
         "name": "ยิ่งชีพ อัชฌานนท์",
@@ -199,10 +199,10 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "ผู้จัดการ iLaw / ผู้เปิดโปงสถิติบล็อกโหวต สว.67",
         "coalition": "Independent",
         "aliases": ["ยิ่งชีพ อัชฌานนท์", "ยิ่งชีพ", "เป๋า ยิ่งชีพ", "iLaw"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Yingcheep_Atchanont.jpg/500px-Yingcheep_Atchanont.jpg"
+        "image_url": "images/avatars/yingcheep_atchanont.jpg"
     },
 
-    # Political Parties
+    # Political Parties (Official Logos)
     "pheu_thai_party": {
         "name": "พรรคเพื่อไทย",
         "type": EntityType.PARTY,
@@ -364,71 +364,71 @@ def classify_relation(source_meta: Dict, target_meta: Dict, sentence: str) -> Tu
 PARTY_METADATA: Dict[str, Dict] = {
     "พรรคเพื่อไทย": {
         "symbol": "🔴",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
+        "logo_url": "images/logos/pheu_thai_party.jpg"
     },
     "พรรคประชาชน": {
         "symbol": "🟠",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png"
+        "logo_url": "images/logos/peoples_party.jpg"
     },
     "พรรคภูมิใจไทย": {
         "symbol": "🔵",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png"
+        "logo_url": "images/logos/bhumjaithai_party.jpg"
     },
     "พรรครวมไทยสร้างชาติ": {
         "symbol": "🔷",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United_Thai_Nation_Party_logo.svg/500px-United_Thai_Nation_Party_logo.svg.png"
+        "logo_url": "images/logos/united_thai_nation_party.jpg"
     },
     "พรรคประชาธิปัตย์": {
         "symbol": "🟦",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png"
+        "logo_url": "images/logos/democrat_party.jpg"
     },
     "พรรคพลังประชารัฐ": {
         "symbol": "🟢",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Palang_Pracharath_Party_logo.svg/500px-Palang_Pracharath_Party_logo.svg.png"
+        "logo_url": "images/logos/palang_pracharath_party.jpg"
     },
     "พรรคพลังประชารัฐ (กลุ่มธรรมนัส)": {
         "symbol": "🟢",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Palang_Pracharath_Party_logo.svg/500px-Palang_Pracharath_Party_logo.svg.png"
+        "logo_url": "images/logos/palang_pracharath_party.jpg"
     },
     "ตุลาการ": {
         "symbol": "⚖️",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
+        "logo_url": "images/logos/constitutional_court.jpg"
     },
     "องค์กรอิสระ": {
         "symbol": "🛡️",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+        "logo_url": "images/logos/election_commission.jpg"
     },
     "องค์กรอิสระ (กกต.)": {
         "symbol": "🛡️",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+        "logo_url": "images/logos/election_commission.jpg"
     },
     "สถาบันนิติบัญญัติ": {
         "symbol": "🏛️",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "logo_url": "images/logos/senate_thailand.jpg"
     },
     "วุฒิสภา": {
         "symbol": "🏛️",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "logo_url": "images/logos/senate_thailand.jpg"
     },
     "วุฒิสภา (สายสีน้ำเงิน)": {
         "symbol": "🏛️🔵",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "logo_url": "images/logos/senate_thailand.jpg"
     },
     "วุฒิสภา (กลุ่มพันธุ์ใหม่)": {
         "symbol": "🏛️🌱",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "logo_url": "images/logos/senate_thailand.jpg"
     },
     "อดีตวุฒิสภา / ผู้ร้องเรียน": {
         "symbol": "🔍",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "logo_url": "images/logos/senate_thailand.jpg"
     },
     "ภาคประชาสังคม (iLaw)": {
         "symbol": "👁️",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "logo_url": "images/logos/senate_thailand.jpg"
     },
     "รัฐสภา": {
         "symbol": "📜",
-        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "logo_url": "images/logos/senate_thailand.jpg"
     }
 }
 

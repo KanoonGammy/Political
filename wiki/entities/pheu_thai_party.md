@@ -8,7 +8,7 @@ role: "แกนนำพรรคร่วมรัฐบาล"
 coalition: "Government"
 mentions: 15
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
+party_logo_url: "images/logos/pheu_thai_party.jpg"
 ---
 
 # พรรคเพื่อไทย

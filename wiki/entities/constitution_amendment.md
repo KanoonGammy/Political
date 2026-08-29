@@ -8,7 +8,7 @@ role: "วาระการปฏิรูปกติกาการเมื�
 coalition: "Cross-Party"
 mentions: 5
 image_url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80"
-party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+party_logo_url: "images/logos/senate_thailand.jpg"
 ---
 
 # การแก้ไขรัฐธรรมนูญ

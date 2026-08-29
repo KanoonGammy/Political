@@ -14,8 +14,8 @@
       ],
       "mention_count": 2,
       "wiki_link": "[[entities/tewarit_maneechay]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "image_url": "images/avatars/tewarit_maneechay.jpg",
+      "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "🏛️🌱"
     },
     {
@@ -33,8 +33,8 @@
       ],
       "mention_count": 8,
       "wiki_link": "[[entities/yingcheep_atchanont]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Yingcheep_Atchanont.jpg/500px-Yingcheep_Atchanont.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "image_url": "images/avatars/yingcheep_atchanont.jpg",
+      "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "👁️"
     },
     {
@@ -53,7 +53,7 @@
       "mention_count": 39,
       "wiki_link": "[[entities/senate_thailand]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "🏛️"
     },
     {
@@ -72,8 +72,8 @@
       ],
       "mention_count": 41,
       "wiki_link": "[[entities/paetongtarn_shinawatra]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Paetongtarn_Shinawatra_2024.jpg/440px-Paetongtarn_Shinawatra_2024.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png",
+      "image_url": "images/avatars/paetongtarn_shinawatra.jpg",
+      "party_logo_url": "images/logos/pheu_thai_party.jpg",
       "party_symbol": "🔴"
     },
     {
@@ -91,8 +91,8 @@
       ],
       "mention_count": 36,
       "wiki_link": "[[entities/anutin_charnvirakul]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Anutin_Charnvirakul_in_2023.jpg/440px-Anutin_Charnvirakul_in_2023.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png",
+      "image_url": "images/avatars/anutin_charnvirakul.jpg",
+      "party_logo_url": "images/logos/bhumjaithai_party.jpg",
       "party_symbol": "🔵"
     },
     {
@@ -108,8 +108,8 @@
       ],
       "mention_count": 5,
       "wiki_link": "[[entities/raknok_srinork]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Rukchanok_Srinork_2023.jpg/440px-Rukchanok_Srinork_2023.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png",
+      "image_url": "images/avatars/raknok_srinork.jpg",
+      "party_logo_url": "images/logos/peoples_party.jpg",
       "party_symbol": "🟠"
     },
     {
@@ -126,8 +126,8 @@
       ],
       "mention_count": 8,
       "wiki_link": "[[entities/parit_wacharasindhu]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Parit_Wacharasindhu_2023.jpg/440px-Parit_Wacharasindhu_2023.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png",
+      "image_url": "images/avatars/parit_wacharasindhu.jpg",
+      "party_logo_url": "images/logos/peoples_party.jpg",
       "party_symbol": "🟠"
     },
     {
@@ -146,7 +146,7 @@
       "mention_count": 126,
       "wiki_link": "[[entities/peoples_party]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png",
+      "party_logo_url": "images/logos/peoples_party.jpg",
       "party_symbol": "🟠"
     },
     {
@@ -164,7 +164,7 @@
       "mention_count": 31,
       "wiki_link": "[[entities/election_commission]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
+      "party_logo_url": "images/logos/election_commission.jpg",
       "party_symbol": "🛡️"
     },
     {
@@ -183,7 +183,7 @@
       "mention_count": 31,
       "wiki_link": "[[entities/bhumjaithai_party]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png",
+      "party_logo_url": "images/logos/bhumjaithai_party.jpg",
       "party_symbol": "🔵"
     },
     {
@@ -201,7 +201,7 @@
       "mention_count": 15,
       "wiki_link": "[[entities/pheu_thai_party]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png",
+      "party_logo_url": "images/logos/pheu_thai_party.jpg",
       "party_symbol": "🔴"
     },
     {
@@ -219,7 +219,7 @@
       "mention_count": 7,
       "wiki_link": "[[entities/democrat_party]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png",
+      "party_logo_url": "images/logos/democrat_party.jpg",
       "party_symbol": "🟦"
     },
     {
@@ -237,7 +237,7 @@
       "mention_count": 15,
       "wiki_link": "[[entities/nacc]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg/500px-Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
+      "party_logo_url": "images/logos/election_commission.jpg",
       "party_symbol": "🛡️"
     },
     {
@@ -253,8 +253,8 @@
       ],
       "mention_count": 1,
       "wiki_link": "[[entities/sirikanya_tansakun]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sirikanya_Tansakun_2023.jpg/440px-Sirikanya_Tansakun_2023.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png",
+      "image_url": "images/avatars/sirikanya_tansakun.jpg",
+      "party_logo_url": "images/logos/peoples_party.jpg",
       "party_symbol": "🟠"
     },
     {
@@ -272,8 +272,8 @@
       ],
       "mention_count": 27,
       "wiki_link": "[[entities/natthaphong_ruengpanyawut]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Natthaphong_Ruengpanyawut_2024.jpg/440px-Natthaphong_Ruengpanyawut_2024.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png",
+      "image_url": "images/avatars/natthaphong_ruengpanyawut.jpg",
+      "party_logo_url": "images/logos/peoples_party.jpg",
       "party_symbol": "🟠"
     },
     {
@@ -290,8 +290,8 @@
       ],
       "mention_count": 1,
       "wiki_link": "[[entities/thaksin_shinawatra]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Thaksin_Shinawatra_2003_%28cropped%29.jpg/440px-Thaksin_Shinawatra_2003_%28cropped%29.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png",
+      "image_url": "images/avatars/thaksin_shinawatra.jpg",
+      "party_logo_url": "images/logos/pheu_thai_party.jpg",
       "party_symbol": "🔴"
     },
     {
@@ -309,8 +309,8 @@
       ],
       "mention_count": 8,
       "wiki_link": "[[entities/mongkol_surasajja]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Mongkol_Surasajja_%28cropped%29.jpg/500px-Mongkol_Surasajja_%28cropped%29.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "image_url": "images/avatars/mongkol_surasajja.jpg",
+      "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "🏛️🔵"
     },
     {
@@ -329,7 +329,7 @@
       "mention_count": 5,
       "wiki_link": "[[entities/constitution_amendment]]",
       "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "📜"
     },
     {
@@ -346,8 +346,8 @@
       ],
       "mention_count": 7,
       "wiki_link": "[[entities/sawaeng_boonmee]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
+      "image_url": "images/avatars/sawaeng_boonmee.jpg",
+      "party_logo_url": "images/logos/election_commission.jpg",
       "party_symbol": "🛡️"
     },
     {
@@ -364,7 +364,7 @@
       "mention_count": 3,
       "wiki_link": "[[entities/constitutional_court]]",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png",
+      "party_logo_url": "images/logos/constitutional_court.jpg",
       "party_symbol": "⚖️"
     },
     {
@@ -382,8 +382,8 @@
       ],
       "mention_count": 2,
       "wiki_link": "[[entities/nanthana_nanthavaropas]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Nanthana_Nanthavaropas.jpg/500px-Nanthana_Nanthavaropas.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "image_url": "images/avatars/nanthana_nanthavaropas.jpg",
+      "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "🏛️🌱"
     },
     {
@@ -401,8 +401,8 @@
       ],
       "mention_count": 2,
       "wiki_link": "[[entities/kriangkrai_srirak]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kriangkrai_Srirak.jpg/500px-Kriangkrai_Srirak.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "image_url": "images/avatars/kriangkrai_srirak.jpg",
+      "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "🏛️🔵"
     },
     {
@@ -419,8 +419,8 @@
       ],
       "mention_count": 1,
       "wiki_link": "[[entities/boonsong_noisophon]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "image_url": "images/avatars/boonsong_noisophon.jpg",
+      "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "🏛️"
     },
     {
@@ -437,8 +437,8 @@
       ],
       "mention_count": 2,
       "wiki_link": "[[entities/itthiporn_boonpracong]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Itthiporn_Boonpracong.jpg/500px-Itthiporn_Boonpracong.jpg",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
+      "image_url": "images/avatars/itthiporn_boonpracong.jpg",
+      "party_logo_url": "images/logos/election_commission.jpg",
       "party_symbol": "🛡️"
     },
     {
@@ -454,8 +454,8 @@
       ],
       "mention_count": 1,
       "wiki_link": "[[entities/somchai_sawangkarn]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
-      "party_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "image_url": "images/avatars/somchai_sawangkarn.jpg",
+      "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "🔍"
     }
   ],
@@ -3330,7 +3330,7 @@
     }
   ],
   "metadata": {
-    "generated_at": "2026-08-29T04:18:01.164517+00:00",
+    "generated_at": "2026-08-29T04:21:45.346098+00:00",
     "total_nodes": 25,
     "total_edges": 239,
     "articles_analyzed": 238,
