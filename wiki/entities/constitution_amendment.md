@@ -7,13 +7,13 @@ party_symbol: "📜"
 role: "วาระการปฏิรูปกติกาการเมืองและหมวดจริยธรรม"
 coalition: "Cross-Party"
 mentions: 5
-image_url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80"
+image_url: "images/logos/constitution_amendment.jpg"
 party_logo_url: "images/logos/senate_thailand.jpg"
 ---
 
 # การแก้ไขรัฐธรรมนูญ
 
-<img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80" alt="การแก้ไขรัฐธรรมนูญ" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/logos/constitution_amendment.jpg" alt="การแก้ไขรัฐธรรมนูญ" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 📜 รัฐสภา | **บทบาท**: วาระการปฏิรูปกติกาการเมืองและหมวดจริยธรรม | **ขั้วการเมือง**: Cross-Party
 

@@ -7,13 +7,13 @@ party_symbol: "🟦"
 role: "พรรคร่วมรัฐบาล"
 coalition: "Government"
 mentions: 7
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png"
+image_url: "images/logos/democrat_party.jpg"
 party_logo_url: "images/logos/democrat_party.jpg"
 ---
 
 # พรรคประชาธิปัตย์
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png" alt="พรรคประชาธิปัตย์" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/logos/democrat_party.jpg" alt="พรรคประชาธิปัตย์" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🟦 พรรคประชาธิปัตย์ | **บทบาท**: พรรคร่วมรัฐบาล | **ขั้วการเมือง**: Government
 

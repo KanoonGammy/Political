@@ -210,7 +210,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "แกนนำพรรคร่วมรัฐบาล",
         "coalition": "Government",
         "aliases": ["พรรคเพื่อไทย", "เพื่อไทย", "พท."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
+        "image_url": "images/logos/pheu_thai_party.jpg"
     },
     "peoples_party": {
         "name": "พรรคประชาชน",
@@ -219,7 +219,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "พรรคแกนนำฝ่ายค้าน",
         "coalition": "Opposition",
         "aliases": ["พรรคประชาชน", "ประชาชน", "พรรคส้ม", "ค่ายส้ม"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png"
+        "image_url": "images/logos/peoples_party.jpg"
     },
     "bhumjaithai_party": {
         "name": "พรรคภูมิใจไทย",
@@ -228,7 +228,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "พรรคร่วมรัฐบาล",
         "coalition": "Government",
         "aliases": ["พรรคภูมิใจไทย", "ภูมิใจไทย", "ภท.", "ค่ายน้ำเงิน"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png"
+        "image_url": "images/logos/bhumjaithai_party.jpg"
     },
     "united_thai_nation_party": {
         "name": "พรรครวมไทยสร้างชาติ",
@@ -237,7 +237,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "พรรคร่วมรัฐบาล",
         "coalition": "Government",
         "aliases": ["พรรครวมไทยสร้างชาติ", "รวมไทยสร้างชาติ", "รทสช."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United_Thai_Nation_Party_logo.svg/500px-United_Thai_Nation_Party_logo.svg.png"
+        "image_url": "images/logos/united_thai_nation_party.jpg"
     },
     "democrat_party": {
         "name": "พรรคประชาธิปัตย์",
@@ -246,7 +246,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "พรรคร่วมรัฐบาล",
         "coalition": "Government",
         "aliases": ["พรรคประชาธิปัตย์", "ประชาธิปัตย์", "ปชป."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png"
+        "image_url": "images/logos/democrat_party.jpg"
     },
     "palang_pracharath_party": {
         "name": "พรรคพลังประชารัฐ",
@@ -255,7 +255,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "พรรคการเมืองฝ่ายค้าน / แตกขั้ว",
         "coalition": "Opposition",
         "aliases": ["พรรคพลังประชารัฐ", "พลังประชารัฐ", "พปชร."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Palang_Pracharath_Party_logo.svg/500px-Palang_Pracharath_Party_logo.svg.png"
+        "image_url": "images/logos/palang_pracharath_party.jpg"
     },
 
     # State & Judicial Institutions
@@ -266,7 +266,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "ศาลสูงสุดด้านรัฐธรรมนูญ",
         "coalition": "Judicial",
         "aliases": ["ศาลรัฐธรรมนูญ", "ศาล รธน."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
+        "image_url": "images/logos/constitutional_court.jpg"
     },
     "election_commission": {
         "name": "คณะกรรมการการเลือกตั้ง (กกต.)",
@@ -275,7 +275,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง",
         "coalition": "Independent",
         "aliases": ["กกต.", "คณะกรรมการการเลือกตั้ง", "สำนักงาน กกต."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+        "image_url": "images/logos/election_commission.jpg"
     },
     "nacc": {
         "name": "คณะกรรมการ ป.ป.ช.",
@@ -284,7 +284,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ",
         "coalition": "Independent",
         "aliases": ["ป.ป.ช.", "คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ", "สำนักงาน ป.ป.ช."],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg/500px-Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg.png"
+        "image_url": "images/logos/nacc.jpg"
     },
     "senate_thailand": {
         "name": "วุฒิสภา (สว.)",
@@ -293,7 +293,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "สภาสูง / กลั่นกรองกฎหมายและแต่งตั้งองค์กรอิสระ",
         "coalition": "Independent",
         "aliases": ["วุฒิสภา", "สว.", "สมาชิกวุฒิสภา", "สภาสูง"],
-        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+        "image_url": "images/logos/senate_thailand.jpg"
     },
 
     # Key Policies & Events
@@ -304,7 +304,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "นโยบายเรือธงกระตุ้นเศรษฐกิจ",
         "coalition": "Government",
         "aliases": ["ดิจิทัลวอลเล็ต", "แจกเงินหมื่น", "เงิน 10,000 บาท", "ดิจิทัลวอลเล็ต 10,000 บาท"],
-        "image_url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400&auto=format&fit=crop&q=80"
+        "image_url": "images/logos/digital_wallet_policy.jpg"
     },
     "constitution_amendment": {
         "name": "การแก้ไขรัฐธรรมนูญ",
@@ -313,7 +313,7 @@ KNOWN_ENTITIES: Dict[str, Dict] = {
         "role": "วาระการปฏิรูปกติกาการเมืองและหมวดจริยธรรม",
         "coalition": "Cross-Party",
         "aliases": ["แก้รัฐธรรมนูญ", "แก้ไขรัฐธรรมนูญ", "แก้ รธน.", "แก้มาตรฐานจริยธรรม"],
-        "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80"
+        "image_url": "images/logos/constitution_amendment.jpg"
     }
 }
 

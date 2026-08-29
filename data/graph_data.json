@@ -52,7 +52,7 @@
       ],
       "mention_count": 39,
       "wiki_link": "[[entities/senate_thailand]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png",
+      "image_url": "images/logos/senate_thailand.jpg",
       "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "🏛️"
     },
@@ -145,7 +145,7 @@
       ],
       "mention_count": 126,
       "wiki_link": "[[entities/peoples_party]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png",
+      "image_url": "images/logos/peoples_party.jpg",
       "party_logo_url": "images/logos/peoples_party.jpg",
       "party_symbol": "🟠"
     },
@@ -163,7 +163,7 @@
       ],
       "mention_count": 31,
       "wiki_link": "[[entities/election_commission]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png",
+      "image_url": "images/logos/election_commission.jpg",
       "party_logo_url": "images/logos/election_commission.jpg",
       "party_symbol": "🛡️"
     },
@@ -182,7 +182,7 @@
       ],
       "mention_count": 31,
       "wiki_link": "[[entities/bhumjaithai_party]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png",
+      "image_url": "images/logos/bhumjaithai_party.jpg",
       "party_logo_url": "images/logos/bhumjaithai_party.jpg",
       "party_symbol": "🔵"
     },
@@ -200,7 +200,7 @@
       ],
       "mention_count": 15,
       "wiki_link": "[[entities/pheu_thai_party]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png",
+      "image_url": "images/logos/pheu_thai_party.jpg",
       "party_logo_url": "images/logos/pheu_thai_party.jpg",
       "party_symbol": "🔴"
     },
@@ -218,7 +218,7 @@
       ],
       "mention_count": 7,
       "wiki_link": "[[entities/democrat_party]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png",
+      "image_url": "images/logos/democrat_party.jpg",
       "party_logo_url": "images/logos/democrat_party.jpg",
       "party_symbol": "🟦"
     },
@@ -236,7 +236,7 @@
       ],
       "mention_count": 15,
       "wiki_link": "[[entities/nacc]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg/500px-Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg.png",
+      "image_url": "images/logos/nacc.jpg",
       "party_logo_url": "images/logos/election_commission.jpg",
       "party_symbol": "🛡️"
     },
@@ -328,7 +328,7 @@
       ],
       "mention_count": 5,
       "wiki_link": "[[entities/constitution_amendment]]",
-      "image_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80",
+      "image_url": "images/logos/constitution_amendment.jpg",
       "party_logo_url": "images/logos/senate_thailand.jpg",
       "party_symbol": "📜"
     },
@@ -363,7 +363,7 @@
       ],
       "mention_count": 3,
       "wiki_link": "[[entities/constitutional_court]]",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png",
+      "image_url": "images/logos/constitutional_court.jpg",
       "party_logo_url": "images/logos/constitutional_court.jpg",
       "party_symbol": "⚖️"
     },
@@ -3330,7 +3330,7 @@
     }
   ],
   "metadata": {
-    "generated_at": "2026-08-29T04:21:45.346098+00:00",
+    "generated_at": "2026-08-29T04:33:38.525267+00:00",
     "total_nodes": 25,
     "total_edges": 239,
     "articles_analyzed": 238,

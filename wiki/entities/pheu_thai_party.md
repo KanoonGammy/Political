@@ -7,13 +7,13 @@ party_symbol: "🔴"
 role: "แกนนำพรรคร่วมรัฐบาล"
 coalition: "Government"
 mentions: 15
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
+image_url: "images/logos/pheu_thai_party.jpg"
 party_logo_url: "images/logos/pheu_thai_party.jpg"
 ---
 
 # พรรคเพื่อไทย
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png" alt="พรรคเพื่อไทย" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/logos/pheu_thai_party.jpg" alt="พรรคเพื่อไทย" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🔴 พรรคเพื่อไทย | **บทบาท**: แกนนำพรรคร่วมรัฐบาล | **ขั้วการเมือง**: Government
 

@@ -7,13 +7,13 @@ party_symbol: "🟠"
 role: "พรรคแกนนำฝ่ายค้าน"
 coalition: "Opposition"
 mentions: 126
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png"
+image_url: "images/logos/peoples_party.jpg"
 party_logo_url: "images/logos/peoples_party.jpg"
 ---
 
 # พรรคประชาชน
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png" alt="พรรคประชาชน" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/logos/peoples_party.jpg" alt="พรรคประชาชน" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🟠 พรรคประชาชน | **บทบาท**: พรรคแกนนำฝ่ายค้าน | **ขั้วการเมือง**: Opposition
 

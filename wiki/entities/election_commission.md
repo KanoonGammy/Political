@@ -7,13 +7,13 @@ party_symbol: "🛡️"
 role: "องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง"
 coalition: "Independent"
 mentions: 31
-image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+image_url: "images/logos/election_commission.jpg"
 party_logo_url: "images/logos/election_commission.jpg"
 ---
 
 # คณะกรรมการการเลือกตั้ง (กกต.)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png" alt="คณะกรรมการการเลือกตั้ง (กกต.)" width="120" style="border-radius:50%; margin-bottom:12px;" />
+<img src="images/logos/election_commission.jpg" alt="คณะกรรมการการเลือกตั้ง (กกต.)" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
 > **สังกัด**: 🛡️ องค์กรอิสระ | **บทบาท**: องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง | **ขั้วการเมือง**: Independent
 
