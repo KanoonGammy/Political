@@ -11,8 +11,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
-def run():
-    port = int(sys.argv[1]) if len(sys.argv) > 1 else PORT
+def run(port: int = None):
+    if port is None:
+        port = int(sys.argv[1]) if len(sys.argv) > 1 else PORT
     url = f"http://localhost:{port}"
     
     # Allow socket address reuse to prevent 'Address already in use' errors
@@ -20,10 +21,10 @@ def run():
     
     with socketserver.TCPServer(("", port), Handler) as httpd:
         print(f"===========================================================")
-        print(f" 🌐 Thai Politics Semantic Graph Dashboard")
-        print(f" 🚀 Running live on: {url}")
-        print(f" 📂 Serving directory: {DIRECTORY}")
-        print(f" 🛑 Press Ctrl+C to stop the server")
+        print(f" [*] Thai Politics Semantic Graph Dashboard")
+        print(f" [*] Running live on: {url}")
+        print(f" [*] Serving directory: {DIRECTORY}")
+        print(f" [*] Press Ctrl+C to stop the server")
         print(f"===========================================================")
         try:
             httpd.serve_forever()
