@@ -3,17 +3,19 @@ id: "sirikanya_tansakun"
 title: "ศิริกัญญา ตันสกุล"
 type: "PERSON"
 party: "พรรคประชาชน"
+party_symbol: "🟠"
 role: "รองหัวหน้าพรรคประชาชน"
 coalition: "Opposition"
 mentions: 1
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sirikanya_Tansakun_2023.jpg/440px-Sirikanya_Tansakun_2023.jpg"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png"
 ---
 
 # ศิริกัญญา ตันสกุล
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sirikanya_Tansakun_2023.jpg/440px-Sirikanya_Tansakun_2023.jpg" alt="ศิริกัญญา ตันสกุล" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: พรรคประชาชน | **บทบาท**: รองหัวหน้าพรรคประชาชน | **ขั้วการเมือง**: Opposition
+> **สังกัด**: 🟠 พรรคประชาชน | **บทบาท**: รองหัวหน้าพรรคประชาชน | **ขั้วการเมือง**: Opposition
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 1 ครั้ง

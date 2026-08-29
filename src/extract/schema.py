@@ -29,6 +29,8 @@ class EntityNode(BaseModel):
     mention_count: int = 1
     wiki_link: Optional[str] = None
     image_url: Optional[str] = None
+    party_logo_url: Optional[str] = None
+    party_symbol: Optional[str] = None
 
 class RelationEdge(BaseModel):
     id: str

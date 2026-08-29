@@ -3,17 +3,19 @@ id: "paetongtarn_shinawatra"
 title: "แพทองธาร ชินวัตร"
 type: "PERSON"
 party: "พรรคเพื่อไทย"
+party_symbol: "🔴"
 role: "นายกรัฐมนตรี"
 coalition: "Government"
 mentions: 40
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Paetongtarn_Shinawatra_2024.jpg/440px-Paetongtarn_Shinawatra_2024.jpg"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
 ---
 
 # แพทองธาร ชินวัตร
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Paetongtarn_Shinawatra_2024.jpg/440px-Paetongtarn_Shinawatra_2024.jpg" alt="แพทองธาร ชินวัตร" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: พรรคเพื่อไทย | **บทบาท**: นายกรัฐมนตรี | **ขั้วการเมือง**: Government
+> **สังกัด**: 🔴 พรรคเพื่อไทย | **บทบาท**: นายกรัฐมนตรี | **ขั้วการเมือง**: Government
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 40 ครั้ง

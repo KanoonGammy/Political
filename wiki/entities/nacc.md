@@ -3,17 +3,19 @@ id: "nacc"
 title: "คณะกรรมการ ป.ป.ช."
 type: "INSTITUTION"
 party: "องค์กรอิสระ"
+party_symbol: "🛡️"
 role: "องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ"
 coalition: "Independent"
 mentions: 13
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg/500px-Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg.png"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
 ---
 
 # คณะกรรมการ ป.ป.ช.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg/500px-Seal_of_the_National_Anti-Corruption_Commission_of_Thailand.svg.png" alt="คณะกรรมการ ป.ป.ช." width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: องค์กรอิสระ | **บทบาท**: องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ | **ขั้วการเมือง**: Independent
+> **สังกัด**: 🛡️ องค์กรอิสระ | **บทบาท**: องค์กรป้องกันและปราบปรามการทุจริตแห่งชาติ | **ขั้วการเมือง**: Independent
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 13 ครั้ง

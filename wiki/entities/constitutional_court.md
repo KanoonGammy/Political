@@ -3,17 +3,19 @@ id: "constitutional_court"
 title: "ศาลรัฐธรรมนูญ"
 type: "INSTITUTION"
 party: "ตุลาการ"
+party_symbol: "⚖️"
 role: "ศาลสูงสุดด้านรัฐธรรมนูญ"
 coalition: "Judicial"
 mentions: 2
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
 ---
 
 # ศาลรัฐธรรมนูญ
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png" alt="ศาลรัฐธรรมนูญ" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: ตุลาการ | **บทบาท**: ศาลสูงสุดด้านรัฐธรรมนูญ | **ขั้วการเมือง**: Judicial
+> **สังกัด**: ⚖️ ตุลาการ | **บทบาท**: ศาลสูงสุดด้านรัฐธรรมนูญ | **ขั้วการเมือง**: Judicial
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 2 ครั้ง

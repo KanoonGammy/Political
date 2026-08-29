@@ -3,17 +3,19 @@ id: "pheu_thai_party"
 title: "พรรคเพื่อไทย"
 type: "PARTY"
 party: "พรรคเพื่อไทย"
+party_symbol: "🔴"
 role: "แกนนำพรรคร่วมรัฐบาล"
 coalition: "Government"
 mentions: 15
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
 ---
 
 # พรรคเพื่อไทย
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png" alt="พรรคเพื่อไทย" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: พรรคเพื่อไทย | **บทบาท**: แกนนำพรรคร่วมรัฐบาล | **ขั้วการเมือง**: Government
+> **สังกัด**: 🔴 พรรคเพื่อไทย | **บทบาท**: แกนนำพรรคร่วมรัฐบาล | **ขั้วการเมือง**: Government
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 15 ครั้ง

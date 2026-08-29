@@ -3,17 +3,19 @@ id: "constitution_amendment"
 title: "การแก้ไขรัฐธรรมนูญ"
 type: "POLICY"
 party: "รัฐสภา"
+party_symbol: "📜"
 role: "วาระการปฏิรูปกติกาการเมืองและหมวดจริยธรรม"
 coalition: "Cross-Party"
 mentions: 5
 image_url: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
 ---
 
 # การแก้ไขรัฐธรรมนูญ
 
 <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&auto=format&fit=crop&q=80" alt="การแก้ไขรัฐธรรมนูญ" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: รัฐสภา | **บทบาท**: วาระการปฏิรูปกติกาการเมืองและหมวดจริยธรรม | **ขั้วการเมือง**: Cross-Party
+> **สังกัด**: 📜 รัฐสภา | **บทบาท**: วาระการปฏิรูปกติกาการเมืองและหมวดจริยธรรม | **ขั้วการเมือง**: Cross-Party
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 5 ครั้ง

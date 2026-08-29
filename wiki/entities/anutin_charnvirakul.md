@@ -3,17 +3,19 @@ id: "anutin_charnvirakul"
 title: "อนุทิน ชาญวีรกูล"
 type: "PERSON"
 party: "พรรคภูมิใจไทย"
+party_symbol: "🔵"
 role: "รองนายกรัฐมนตรี และ รมว.มหาดไทย"
 coalition: "Government"
 mentions: 35
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Anutin_Charnvirakul_in_2023.jpg/440px-Anutin_Charnvirakul_in_2023.jpg"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png"
 ---
 
 # อนุทิน ชาญวีรกูล
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Anutin_Charnvirakul_in_2023.jpg/440px-Anutin_Charnvirakul_in_2023.jpg" alt="อนุทิน ชาญวีรกูล" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: พรรคภูมิใจไทย | **บทบาท**: รองนายกรัฐมนตรี และ รมว.มหาดไทย | **ขั้วการเมือง**: Government
+> **สังกัด**: 🔵 พรรคภูมิใจไทย | **บทบาท**: รองนายกรัฐมนตรี และ รมว.มหาดไทย | **ขั้วการเมือง**: Government
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 35 ครั้ง

@@ -287,6 +287,53 @@ def classify_relation(source_meta: Dict, target_meta: Dict, sentence: str) -> Tu
     else:
         return RelationType.OPPOSITION, f"{s_name} และ {t_name} มีปฏิสัมพันธ์ในประเด็นการเมือง", -0.2
 
+PARTY_METADATA: Dict[str, Dict] = {
+    "พรรคเพื่อไทย": {
+        "symbol": "🔴",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
+    },
+    "พรรคประชาชน": {
+        "symbol": "🟠",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png"
+    },
+    "พรรคภูมิใจไทย": {
+        "symbol": "🔵",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bhumjaithai_Party_logo.svg/500px-Bhumjaithai_Party_logo.svg.png"
+    },
+    "พรรครวมไทยสร้างชาติ": {
+        "symbol": "🔷",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United_Thai_Nation_Party_logo.svg/500px-United_Thai_Nation_Party_logo.svg.png"
+    },
+    "พรรคประชาธิปัตย์": {
+        "symbol": "🟦",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png"
+    },
+    "พรรคพลังประชารัฐ": {
+        "symbol": "🟢",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Palang_Pracharath_Party_logo.svg/500px-Palang_Pracharath_Party_logo.svg.png"
+    },
+    "พรรคพลังประชารัฐ (กลุ่มธรรมนัส)": {
+        "symbol": "🟢",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Palang_Pracharath_Party_logo.svg/500px-Palang_Pracharath_Party_logo.svg.png"
+    },
+    "ตุลาการ": {
+        "symbol": "⚖️",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
+    },
+    "องค์กรอิสระ": {
+        "symbol": "🛡️",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+    },
+    "สถาบันนิติบัญญัติ": {
+        "symbol": "🏛️",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Emblem_of_the_Senate_of_Thailand.svg/500px-Emblem_of_the_Senate_of_Thailand.svg.png"
+    },
+    "รัฐสภา": {
+        "symbol": "📜",
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Emblem_of_the_Constitutional_Court_of_Thailand.svg/500px-Emblem_of_the_Constitutional_Court_of_Thailand.svg.png"
+    }
+}
+
 def extract_entities_and_relations_from_text(
     text: str,
     title: str,
@@ -299,17 +346,24 @@ def extract_entities_and_relations_from_text(
     
     nodes: List[EntityNode] = []
     for ent_id, meta in found_entities:
+        party_name = meta.get("party")
+        p_meta = PARTY_METADATA.get(party_name, {})
+        party_sym = p_meta.get("symbol")
+        party_logo = p_meta.get("logo_url") or meta.get("image_url") if meta.get("type") == EntityType.PARTY else p_meta.get("logo_url")
+
         node = EntityNode(
             id=ent_id,
             name=meta["name"],
             type=meta["type"],
-            party=meta.get("party"),
+            party=party_name,
             role=meta.get("role"),
             coalition=meta.get("coalition"),
             aliases=meta.get("aliases", []),
             mention_count=1,
             wiki_link=f"[[entities/{ent_id}]]",
-            image_url=meta.get("image_url")
+            image_url=meta.get("image_url"),
+            party_logo_url=party_logo,
+            party_symbol=party_sym
         )
         nodes.append(node)
 

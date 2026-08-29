@@ -3,17 +3,19 @@ id: "thaksin_shinawatra"
 title: "ทักษิณ ชินวัตร"
 type: "PERSON"
 party: "พรรคเพื่อไทย"
+party_symbol: "🔴"
 role: "อดีตนายกรัฐมนตรี"
 coalition: "Government"
 mentions: 1
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Thaksin_Shinawatra_2003_%28cropped%29.jpg/440px-Thaksin_Shinawatra_2003_%28cropped%29.jpg"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pheu_Thai_Party_logo.svg/500px-Pheu_Thai_Party_logo.svg.png"
 ---
 
 # ทักษิณ ชินวัตร
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Thaksin_Shinawatra_2003_%28cropped%29.jpg/440px-Thaksin_Shinawatra_2003_%28cropped%29.jpg" alt="ทักษิณ ชินวัตร" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: พรรคเพื่อไทย | **บทบาท**: อดีตนายกรัฐมนตรี | **ขั้วการเมือง**: Government
+> **สังกัด**: 🔴 พรรคเพื่อไทย | **บทบาท**: อดีตนายกรัฐมนตรี | **ขั้วการเมือง**: Government
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 1 ครั้ง

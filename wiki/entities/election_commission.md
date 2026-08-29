@@ -3,17 +3,19 @@ id: "election_commission"
 title: "คณะกรรมการการเลือกตั้ง (กกต.)"
 type: "INSTITUTION"
 party: "องค์กรอิสระ"
+party_symbol: "🛡️"
 role: "องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง"
 coalition: "Independent"
 mentions: 26
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png"
 ---
 
 # คณะกรรมการการเลือกตั้ง (กกต.)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Election_Commission_of_Thailand.svg/500px-Seal_of_the_Election_Commission_of_Thailand.svg.png" alt="คณะกรรมการการเลือกตั้ง (กกต.)" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: องค์กรอิสระ | **บทบาท**: องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง | **ขั้วการเมือง**: Independent
+> **สังกัด**: 🛡️ องค์กรอิสระ | **บทบาท**: องค์กรควบคุมการเลือกตั้งและตรวจสอบพรรคการเมือง | **ขั้วการเมือง**: Independent
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 26 ครั้ง

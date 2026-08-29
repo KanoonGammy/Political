@@ -3,17 +3,19 @@ id: "democrat_party"
 title: "พรรคประชาธิปัตย์"
 type: "PARTY"
 party: "พรรคประชาธิปัตย์"
+party_symbol: "🟦"
 role: "พรรคร่วมรัฐบาล"
 coalition: "Government"
 mentions: 7
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png"
 ---
 
 # พรรคประชาธิปัตย์
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Democrat_Party_%28Thailand%29_logo.svg/500px-Democrat_Party_%28Thailand%29_logo.svg.png" alt="พรรคประชาธิปัตย์" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: พรรคประชาธิปัตย์ | **บทบาท**: พรรคร่วมรัฐบาล | **ขั้วการเมือง**: Government
+> **สังกัด**: 🟦 พรรคประชาธิปัตย์ | **บทบาท**: พรรคร่วมรัฐบาล | **ขั้วการเมือง**: Government
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 7 ครั้ง

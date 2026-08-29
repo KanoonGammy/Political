@@ -121,17 +121,20 @@ function renderGraph() {
     return true;
   });
 
-  // Prepare Vis.js datasets with Personal Circular Images
+  // Prepare Vis.js datasets with Personal Circular Images and Party Symbols
   const visNodes = filteredNodes.map(node => {
     const colorStyle = getNodeColor(node);
-    const size = Math.min(48, Math.max(26, 22 + (node.mention_count || 1) * 1.4));
+    const size = Math.min(50, Math.max(26, 22 + (node.mention_count || 1) * 1.4));
     const fallbackImg = getFallbackAvatar(node);
     const imgUrl = node.image_url || fallbackImg;
+    const partySymbol = node.party_symbol || '';
+    const shortParty = node.party ? node.party.replace('พรรค', '').trim() : '';
+    const partyLabelBadge = node.type === 'PERSON' && node.party ? `\n${partySymbol} ${shortParty}` : (node.type === 'PARTY' ? `\n${partySymbol}` : '');
 
     return {
       id: node.id,
-      label: node.name,
-      title: `${node.name}\nตำแหน่ง: ${node.role || '-'}\nสังกัด: ${node.party || '-'}\nปรากฏในข่าว: ${node.mention_count} ครั้ง`,
+      label: `${node.name}${partyLabelBadge}`,
+      title: `${node.name}\n${partySymbol} สังกัด: ${node.party || '-'}\nตำแหน่ง: ${node.role || '-'}\nขั้ว: ${node.coalition || '-'}\nปรากฏในข่าว: ${node.mention_count} ครั้ง`,
       shape: 'circularImage',
       image: imgUrl,
       brokenImage: fallbackImg,
@@ -276,15 +279,23 @@ function showNodeDossier(node) {
 
   const fallbackImg = getFallbackAvatar(node);
   const imgUrl = node.image_url || fallbackImg;
+  const partyLogo = node.party_logo_url;
+  const partySym = node.party_symbol || '🏛️';
 
   body.innerHTML = `
     <div class="dossier-card">
       <div class="dossier-profile">
-        <img src="${imgUrl}" alt="${node.name}" class="dossier-avatar" onerror="this.src='${fallbackImg}'" />
+        <div class="dossier-avatar-container">
+          <img src="${imgUrl}" alt="${node.name}" class="dossier-avatar" onerror="this.src='${fallbackImg}'" />
+          ${partyLogo ? `<img src="${partyLogo}" alt="${node.party}" class="dossier-party-badge" title="${node.party}" />` : ''}
+        </div>
         <div>
           <div style="font-size:0.8rem; text-transform:uppercase; color:var(--text-muted);">บทบาท / ตำแหน่ง</div>
           <div style="font-size:1.05rem; font-weight:600; margin-top:2px;">${node.role || 'ไม่มีระบุ'}</div>
-          <div style="margin-top:4px; font-size:0.85rem; color:var(--accent-primary); font-weight:500;">${node.party || 'อิสระ'}</div>
+          <div class="party-tag">
+            <span>${partySym}</span>
+            <span>${node.party || 'อิสระ'}</span>
+          </div>
         </div>
       </div>
       <div style="margin-top:8px; display:flex; gap:8px;">

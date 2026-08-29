@@ -3,17 +3,19 @@ id: "raknok_srinork"
 title: "รักชนก ศรีนอก"
 type: "PERSON"
 party: "พรรคประชาชน"
+party_symbol: "🟠"
 role: "สส.กทม. พรรคประชาชน"
 coalition: "Opposition"
 mentions: 5
 image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Rukchanok_Srinork_2023.jpg/440px-Rukchanok_Srinork_2023.jpg"
+party_logo_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Peoples_Party_%28Thailand%29_logo.svg/500px-Peoples_Party_%28Thailand%29_logo.svg.png"
 ---
 
 # รักชนก ศรีนอก
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Rukchanok_Srinork_2023.jpg/440px-Rukchanok_Srinork_2023.jpg" alt="รักชนก ศรีนอก" width="120" style="border-radius:50%; margin-bottom:12px;" />
 
-> **สังกัด**: พรรคประชาชน | **บทบาท**: สส.กทม. พรรคประชาชน | **ขั้วการเมือง**: Opposition
+> **สังกัด**: 🟠 พรรคประชาชน | **บทบาท**: สส.กทม. พรรคประชาชน | **ขั้วการเมือง**: Opposition
 
 ## 📊 ข้อมูลสังเขป & สถิติ
 - **การปรากฏในข่าว 30 วันล่าสุด**: 5 ครั้ง
